@@ -1,0 +1,1963 @@
+{
+  "records": [
+    {
+      "slug": "facetime-macos-ai-agent",
+      "name": "FaceTimeOS: AI Mac Agent",
+      "oneLiner": "FaceTime your Mac and an agent executes tasks while talking back on the call — virtual audio devices hijack FaceTime's stream.",
+      "description": "Have you ever gone to the gym and forgotten to train your Hugging Face model? Have you ever wanted to show a friend your most recent Fortnite clip, but the file was stuck on your Mac? We've all been there. In today's remote-first world, we're often physically separated from our most powerful tool: our personal computer. We're stuck on the go, desperately needing a local file, a specific app, or the ability to run a complex script that only exists on our Mac. Current remote desktop solutions are clunky, slow, and built for visual control, not quick, conversational commands. We were inspired to bridge this gap.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/901/909/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/zN96RdE0OSg",
+      "devpostUrl": "https://devpost.com/software/facetime-macos-ai-agent",
+      "githubUrl": "https://github.com/ThePickleGawd/calhacks-25",
+      "award": "1st Place Overall — 1st of 699",
+      "hackathon": "Cal Hacks 12.0",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Dylan Lu",
+          "devpostProfileUrl": "https://devpost.com/dylanelu"
+        },
+        {
+          "name": "Calvin Lu",
+          "devpostProfileUrl": "https://devpost.com/Cow-Van"
+        },
+        {
+          "name": "Davyn Paringkoan",
+          "devpostProfileUrl": "https://devpost.com/davyn-par"
+        }
+      ],
+      "featuredRank": 1
+    },
+    {
+      "slug": "raising-cane",
+      "name": "Shepherd",
+      "oneLiner": "Motorized white cane that physically steers blind users at 1/20 commercial cost — steer toward maximum clearance, not away from obstacles.",
+      "description": "1.7 million Americans are legally blind. While canes tell you something is there, they don't tell you where to go. Smart canes actively steer you around obstacles, but they’re prohibitively expensive and inaccessible. We wanted to create a cheaper, intelligent alternative. Shepherd is a motorized smart cane that uses iPhone LiDAR and computer vision to detect obstacles and physically guide the user away from them in real time, and is also able to navigate users using GPS with an interactive voice interface. A small motor on the cane applies lateral force, nudging the cane left or right, so the user feels which direction is clear without needing audio cues or screen interaction.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/330/049/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/nJ5YjK1-0c0",
+      "devpostUrl": "https://devpost.com/software/raising-cane",
+      "githubUrl": "https://github.com/tonywangs/shepherd",
+      "award": "Grand Prize",
+      "hackathon": "TreeHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "social-good",
+        "dev-tools"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Tony Wang",
+          "devpostProfileUrl": "https://devpost.com/tony-wang"
+        },
+        {
+          "name": "Arjun Oberoi",
+          "devpostProfileUrl": "https://devpost.com/Gymnast544"
+        },
+        {
+          "name": "Shane Mion",
+          "devpostProfileUrl": "https://devpost.com/shanemion"
+        },
+        {
+          "name": "Anthony Chukhlov",
+          "devpostProfileUrl": "https://devpost.com/AnthChukh"
+        }
+      ],
+      "featuredRank": 2
+    },
+    {
+      "slug": "freak-in-the-sheets-7jl542",
+      "name": "Freak in the Sheets",
+      "oneLiner": "A real LLVM backend that compiles C to a Google Sheet — 16,666 ints per cell via Unicode memory packing.",
+      "description": "LLVM is the world's most advanced compiler. It probably built the software you're using to read this. Under the hood, LLVM compiles a program using a \"frontend\" (converting C or Rust into an intermediate representation ) and a \"backend\" (converting the intermediate representation into code that can be run on a specific computer). We invented a novel instruction set, 2D memory architecture, and encoding system that is able to execute arbitrary code within the limitations of a spreadsheet. We then wrote an LLVM backend that is able to output directly to that ISA, enabling arbitrary code in any programming language to be run in Google Sheets. The compiled source code is stored in memory alongside its data and executed in real time .",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/328/600/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/5Sb-QcEFHwg",
+      "devpostUrl": "https://devpost.com/software/freak-in-the-sheets-7jl542",
+      "githubUrl": "https://github.com/kognise/freak-in-the-sheets/",
+      "award": "Most Technically Complex",
+      "hackathon": "TreeHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "dev-tools"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Lexi Mattick",
+          "devpostProfileUrl": "https://devpost.com/kognise"
+        },
+        {
+          "name": "Thomas Breydo",
+          "devpostProfileUrl": "https://devpost.com/thomasbreydo"
+        },
+        {
+          "name": "Kevin Liu",
+          "devpostProfileUrl": "https://devpost.com/_admin"
+        }
+      ],
+      "featuredRank": 3
+    },
+    {
+      "slug": "temp-sqyptg",
+      "name": "Identity Matrix",
+      "oneLiner": "Multiplayer pixel world where your avatar becomes a persistent AI agent with your personality when you log off.",
+      "description": "What if your “online presence” didn’t stop when you closed your laptop? Identity Matrix is a real-time multiplayer simulation where your avatar transforms into a stateful agent. When you log off, your AI keeps running: it remembers how you talk, what you care about, who you avoid, and who you keep coming back to. Step 1: upload your identity to the Matrix. Step 2: find out you... We developed a real-time multiplayer virtual world with four core features: Our proudest feature is the Continual Learning loop we developed. The model iteratively learns from your mannerisms and interactions, storing this into our custom memory bank , optimized to remember both important things and minor details.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/173/716/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/AGGb7Qv4gY4",
+      "devpostUrl": "https://devpost.com/software/temp-sqyptg",
+      "githubUrl": "https://github.com/qiuethan/UofTHacks-Project",
+      "award": "1st Place Overall",
+      "hackathon": "UofTHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "fintech",
+        "games"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Alvina Yang",
+          "devpostProfileUrl": "https://devpost.com/alvina-yang"
+        },
+        {
+          "name": "Ethan Qiu",
+          "devpostProfileUrl": "https://devpost.com/ethanqiu"
+        },
+        {
+          "name": "William Bo",
+          "devpostProfileUrl": "https://devpost.com/Williamzhibo"
+        },
+        {
+          "name": "Zachary Tang",
+          "devpostProfileUrl": "https://devpost.com/e-ndorfin"
+        }
+      ],
+      "featuredRank": 4
+    },
+    {
+      "slug": "quota-fg4pzi",
+      "name": "Quota",
+      "oneLiner": "A linter for your budget: flags expensive API calls as you type via tree-sitter AST parsing.",
+      "description": "Innovation shouldn't come with a surprise bill. As developers rushing to build the next big thing, we often treat AI as a magic wand. But unlike memory or CPU cycles, AI API calls cost real money—and those costs are currently invisible until the invoice arrives. We realized that to truly innovate sustainably, engineers need financial intuition built directly into their tools. Whether you're a bootstrapper protecting your runway or an enterprise scaling a unicorn, you can't afford to be blind to your burn rate. Quota was born to make cost a first-class citizen in the development lifecycle, bridging the gap between \"move fast\" and \"don't go broke.\" Quota is a real-time financial intelligence suite for modern engineering.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/152/743/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/SUyDS37U6A0",
+      "devpostUrl": "https://devpost.com/software/quota-fg4pzi",
+      "githubUrl": "https://github.com/dwseoh/Quota",
+      "award": "1st Place Overall",
+      "hackathon": "DeltaHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "fintech",
+        "social-good",
+        "dev-tools",
+        "sustainability"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Jamie Seoh",
+          "devpostProfileUrl": "https://devpost.com/dwseoh"
+        },
+        {
+          "name": "Ricky Tang",
+          "devpostProfileUrl": "https://devpost.com/rickytang"
+        },
+        {
+          "name": "Hetarth Parikh",
+          "devpostProfileUrl": "https://devpost.com/hetarthparikh"
+        },
+        {
+          "name": "benjamin wen",
+          "devpostProfileUrl": "https://devpost.com/benrek-2019"
+        }
+      ],
+      "featuredRank": 5
+    },
+    {
+      "slug": "dial-4rqzc3",
+      "name": "DIAL(*)",
+      "oneLiner": "Stranded without housing, they built voice agents that phoned 100+ real hotels and negotiated a luxury room down to $158.",
+      "description": "We were stranded in San Francisco on Saturday night without housing, and decided to let a fleet of AI agents find us a room. What started as a quick experiment turned into a full-stack system for autonomous negotiation, data-driven decision making, and natural communication. DIAL (*) is an optimized customer service agent designed for data-heavy use cases. It makes phone calls, speaks naturally, queries live databases, and learns from every conversation to improve future performance. Building a robust state machine that avoided hallucinations while staying conversational was hard. Integrating ElevenLabs’ voice with live Twilio calls also required solving real-time latency issues.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/899/639/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/32DSdO1V-z0",
+      "devpostUrl": "https://devpost.com/software/dial-4rqzc3",
+      "award": "Winner",
+      "hackathon": "Cal Hacks 12.0",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "John Connell",
+          "devpostProfileUrl": "https://devpost.com/JohnConnellCS"
+        },
+        {
+          "name": "Sophia Sharif",
+          "devpostProfileUrl": "https://devpost.com/sophiasharif146"
+        },
+        {
+          "name": "Tom Binford",
+          "devpostProfileUrl": "https://devpost.com/tombinford"
+        },
+        {
+          "name": "Shubham Kumar",
+          "devpostProfileUrl": "https://devpost.com/altruisticnarcissist"
+        }
+      ],
+      "featuredRank": 6
+    },
+    {
+      "slug": "longshot",
+      "name": "Longshot",
+      "oneLiner": "200+ parallel coding agents built Minecraft from one prompt — peak 1,200 commits/hour, $5,500 of compute.",
+      "description": "AI has already transformed the digital world by translating language to code with autonomous coding agents, but this requires human intervention. Longshot changes that by orchestrating swarms of autonomous agents. Each agent observes, interprets, and acts in real time, working in parallel while staying aligned to the project’s goal. Longshot is our architectural system curated towards spawning swarms of carefully managed long-running agents that code an end product start to finish. Most agentic coding today like Claude and OpenClaw are iterative loops where you either supervise step by step or let a single agent run in a loop.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/325/504/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/5oxXfazBcaQ",
+      "devpostUrl": "https://devpost.com/software/longshot",
+      "githubUrl": "https://github.com/andrewcai8/agentswarm",
+      "award": "Modal Challenge Winner",
+      "hackathon": "TreeHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "games"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Legasse Remon",
+          "devpostProfileUrl": "https://devpost.com/legasseahs1"
+        },
+        {
+          "name": "Matthew Chow",
+          "devpostProfileUrl": "https://devpost.com/matthewchow03"
+        },
+        {
+          "name": "Andrew Cai",
+          "devpostProfileUrl": "https://devpost.com/andrewcai8"
+        },
+        {
+          "name": "Rami Maalouf",
+          "devpostProfileUrl": "https://devpost.com/ramim66809"
+        }
+      ],
+      "featuredRank": 8
+    },
+    {
+      "slug": "orca-4po0nm",
+      "name": "Orca",
+      "oneLiner": "Hum or beatbox plus spoken instructions become editable multi-instrument MIDI — the LLM orchestrates deterministic tools.",
+      "description": "We're living in the golden age of creation. AI tools are unlocking creative potential like never before, but there's this massive gap: millions of enthusiast musicians and producers have incredible musical ideas stuck in their heads. You know that melody you hum in the shower? That beat you tap on your desk? Most people have no way to actually turn those into real music. We wanted to fix that. Our goal was simple: give musical enthusiasts the power to bring those fleeting melodies to life. Build something that keeps the artist in control while making the whole experience feel seamless and natural. Orca takes your voice and turns it into actual music.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/262/015/datas/medium.png",
+      "demoVideoUrl": "https://player.vimeo.com/video/1162996077",
+      "devpostUrl": "https://devpost.com/software/orca-4po0nm",
+      "githubUrl": "https://github.com/Beebdoles/qhacks-2026/tree/main",
+      "award": "1st Place Overall",
+      "hackathon": "QHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Marshall Yao",
+          "devpostProfileUrl": "https://devpost.com/beebdoles132435"
+        },
+        {
+          "name": "Robert Yin",
+          "devpostProfileUrl": "https://devpost.com/RupertChin"
+        },
+        {
+          "name": "Chloe Houvardas",
+          "devpostProfileUrl": "https://devpost.com/ToastDuck"
+        }
+      ],
+      "featuredRank": 9
+    },
+    {
+      "slug": "we-use-nix",
+      "name": "Robosurge",
+      "oneLiner": "Language-controlled surgical robot whose trajectories are formally verified in Lean to stay within safe physical bounds.",
+      "description": "The United States is facing a growing shortage of surgical specialists, projected to reach nearly 20,000 by 2036. Additionally, operating rooms cost roughly $2,200 per hour per surgeon. Today’s robotic surgical robots greatly improve precision by scaling and filtering human motion. But they do not automate surgical tasks. This is due to a lack of reliable AI spatial vision understanding and AI robot communication. Instead of making surgeries more accessible, current robots only make them more complex and costly. Robosurge is a remotely controlled integrated surgery platform. It allows for a single surgeon to perform entire complex procedures autonomously from anywhere in the world.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/332/227/datas/medium.jpg",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/hmrBUtiqueg",
+      "devpostUrl": "https://devpost.com/software/we-use-nix",
+      "githubUrl": "https://github.com/quantum9Innovation/treehacks2026",
+      "award": "2nd Place Overall",
+      "hackathon": "TreeHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "health",
+        "social-good",
+        "ar-vr"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Edward Li",
+          "devpostProfileUrl": "https://devpost.com/EdwardJXLi"
+        },
+        {
+          "name": "Justin Peng",
+          "devpostProfileUrl": "https://devpost.com/justinpeng2002"
+        },
+        {
+          "name": "Jason Zhao",
+          "devpostProfileUrl": "https://devpost.com/itb"
+        },
+        {
+          "name": "Ananth Venkatesh",
+          "devpostProfileUrl": "https://devpost.com/quantum9Innovation"
+        }
+      ],
+      "featuredRank": 10
+    },
+    {
+      "slug": "artificial-sandwich-intelligence",
+      "name": "Artificial Sandwich Intelligence",
+      "oneLiner": "Imitation-learning sandwich robot trained from 4 hours of teleop on $200 arms — robot learning is now weekend-scale.",
+      "description": "Imitation-learning sandwich robot trained from 4 hours of teleop on $200 arms — robot learning is now weekend-scale.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/794/185/datas/medium.jpeg",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/46MQk3qE6fI",
+      "devpostUrl": "https://devpost.com/software/artificial-sandwich-intelligence",
+      "award": "Grand Award",
+      "hackathon": "MHacks",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Elvis Xiang",
+          "devpostProfileUrl": "https://devpost.com/ekx"
+        }
+      ]
+    },
+    {
+      "slug": "chessmate-nwygvq",
+      "name": "ChessMate",
+      "oneLiner": "Gantry + electromagnet chessboard for playing family abroad — physical and digital state stay in sync.",
+      "description": "Gantry + electromagnet chessboard for playing family abroad — physical and digital state stay in sync.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/741/850/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/JDlEdZKH69k",
+      "devpostUrl": "https://devpost.com/software/chessmate-nwygvq",
+      "githubUrl": "https://github.com/o-bm/ChessMate",
+      "award": "Finalist",
+      "hackathon": "Hack the North",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Joshua Xue",
+          "devpostProfileUrl": "https://devpost.com/xuej41"
+        },
+        {
+          "name": "Omar Khamis",
+          "devpostProfileUrl": "https://devpost.com/iiobm127"
+        },
+        {
+          "name": "Juan Reyes",
+          "devpostProfileUrl": "https://devpost.com/reyesj20703"
+        },
+        {
+          "name": "Neel Patel",
+          "devpostProfileUrl": "https://devpost.com/neelnimesh2005"
+        }
+      ]
+    },
+    {
+      "slug": "heartstart",
+      "name": "HeartStart",
+      "oneLiner": "Autonomous robot that detects cardiac arrest, drives to you, and performs CPR — single camera with AprilTag lock-on.",
+      "description": "Every year, more than 350,000 people in the US experience cardiac arrest outside of a hospital setting. The difference between life and death often comes down to those critical minutes before emergency services arrive—minutes where CPR must be performed continuously, consistently, and correctly. But bystanders freeze, panic, or simply don't know how to administer CPR properly. First responders face impossible response times. And even trained individuals grow fatigued, their compressions becoming shallow and ineffective after just two minutes. In fact, according to the American Heart Association, the survival rate drops by 7–10% for every minute without CPR. After just 10 minutes, survival is nearly zero.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/339/034/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/8B98pMV5k1o",
+      "devpostUrl": "https://devpost.com/software/heartstart",
+      "githubUrl": "https://github.com/nicolewongbiz/cpr-robot.git",
+      "award": "Best Beginner Hack",
+      "hackathon": "TreeHacks",
+      "year": 2026,
+      "domainTags": [
+        "health",
+        "dev-tools"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Cristiano Da Silva",
+          "devpostProfileUrl": "https://devpost.com/cristianofilipe-d"
+        },
+        {
+          "name": "Chiling Han",
+          "devpostProfileUrl": "https://devpost.com/chilinghan"
+        },
+        {
+          "name": "Maha Nawaz",
+          "devpostProfileUrl": "https://devpost.com/maha77"
+        },
+        {
+          "name": "Nicole Wong",
+          "devpostProfileUrl": "https://devpost.com/nicolewongbiz"
+        }
+      ]
+    },
+    {
+      "slug": "park-e-rmejf2",
+      "name": "Telebuddy",
+      "oneLiner": "Teleoperated soldering arm that Kalman-filters your hand tremor out — ctrl-z for soldering.",
+      "description": "Tagline: Precision soldering, without the human shake. The idea was born from burnt fingers and ruined PCBs. We’ve all been there: it’s 3 AM at a hackathon, you’ve had too much caffeine, and you’re trying to solder a 0402 resistor or a fine-pitch header. Your hands are shaking just enough to bridge the pins, and suddenly your project goes up in smoke. We realized that while software has become incredibly accessible, hardware hacking still has a massive physical barrier to entry. Fine motor skills take years to develop, and physical tremors (whether from biology, coffee, or anxiety) can make electronics frustratingly inaccessible.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/272/495/datas/medium.jpg",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/07r5suWyt0k",
+      "devpostUrl": "https://devpost.com/software/park-e-rmejf2",
+      "githubUrl": "https://github.com/PotatoPeaSea/TeleBuddy",
+      "award": "Winner",
+      "hackathon": "Hack the Coast",
+      "year": 2026,
+      "domainTags": [
+        "social-good"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Joshua Wu",
+          "devpostProfileUrl": "https://devpost.com/JoshuaWu7"
+        },
+        {
+          "name": "Shenghua Jin",
+          "devpostProfileUrl": "https://devpost.com/sjin2986"
+        },
+        {
+          "name": "Jihee Ryu",
+          "devpostProfileUrl": "https://devpost.com/jihee-ryuu"
+        },
+        {
+          "name": "Matthew Lin",
+          "devpostProfileUrl": "https://devpost.com/matthewmoxuanlin"
+        }
+      ]
+    },
+    {
+      "slug": "dose-ebmo9z",
+      "name": "Dose",
+      "oneLiner": "Load-cell pill bottle inferring adherence from weight deltas — a simple sensor and clean dashboard beat flashier AI.",
+      "description": "Medication non-adherence is a silent but massive issue. Studies show that 30–50% of patients with chronic conditions fail to follow their prescribed regimens, and nearly half of study participants intentionally skip doses. The impact is staggering: non-adherence costs the U.S. healthcare system an estimated $100–$300 billion annually in avoidable expenses. Dose was born from the need for a smarter, scalable solution to address this challenge. Dose is a smart medication adherence system that pairs a sensor-enabled pill bottle with an interactive web dashboard. The pill bottle uses a load cell sensor to detect pill movements in real time, producing an accurate, tamper-resistant record of medication usage.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/789/681/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/j7cSnyq9Vn8",
+      "devpostUrl": "https://devpost.com/software/dose-ebmo9z",
+      "githubUrl": "https://github.com/dawsonp2003/HackGT12-Dose",
+      "award": "Best Overall",
+      "hackathon": "HackGT",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml",
+        "health"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "David Serrao",
+          "devpostProfileUrl": "https://devpost.com/davidserrao"
+        },
+        {
+          "name": "James Li",
+          "devpostProfileUrl": "https://devpost.com/jamesli2024"
+        },
+        {
+          "name": "Ojas Mediratta",
+          "devpostProfileUrl": "https://devpost.com/ojas-mediratta"
+        },
+        {
+          "name": "Dawson P",
+          "devpostProfileUrl": "https://devpost.com/dawson1203"
+        }
+      ]
+    },
+    {
+      "slug": "diffuji",
+      "name": "diffuji",
+      "oneLiner": "Instant camera that prints diffusion-warped photos on thermal paper — won on Bayer dithering for receipt paper.",
+      "description": "The world needs a bit more silliness. Instant cams are fun, and there’s something special about memorializing a moment through physical media. But what if these moments were … part dream, part hallucination of reality? Introducing Diffuji - a diffusion-powered instant camera that turns half-real, half-dreamed moments into physical prints. You can take a picture and choose from a range of filters to apply to your image. However, these filters aren’t your typical color grades, but can completely reimagine the context the photo was taken in - whether turning back time to the 19th century, having the best six-pack you’ve never had, or simply becoming a duck.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/332/642/datas/medium.gif",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/JiRth1HCIag",
+      "devpostUrl": "https://devpost.com/software/diffuji",
+      "githubUrl": "http://github.com/alexkranias/dispo",
+      "award": "Most Creative Hack",
+      "hackathon": "TreeHacks",
+      "year": 2026,
+      "domainTags": [],
+      "form": "both",
+      "team": [
+        {
+          "name": "Pranav Tadepalli",
+          "devpostProfileUrl": "https://devpost.com/whackamadoodle3000"
+        },
+        {
+          "name": "Lainey Leslie",
+          "devpostProfileUrl": "https://devpost.com/adelaine"
+        },
+        {
+          "name": "Alexander Kranias",
+          "devpostProfileUrl": "https://devpost.com/alexander-kranias"
+        },
+        {
+          "name": "Nathan Barry",
+          "devpostProfileUrl": "https://devpost.com/nathanbarry474"
+        }
+      ]
+    },
+    {
+      "slug": "drip-6ao9m2",
+      "name": "Drip",
+      "oneLiner": "AI wastes water, ours makes it: edge-inference waste heat drives membrane-distillation desalination.",
+      "description": "We’re from Florida, a state currently facing severe drought conditions. Seeing this crisis pushed us to ask how we, as tech students, could build something that gives back to the planet. Traditional evaporative cooling systems depend on clean freshwater and often waste it in the process. As AI infrastructure continues to grow rapidly, we wanted to rethink that tradeoff. Instead of letting AI consume more water, our goal is to use its waste heat to help generate it. Our project, Drip, combines edge computing with custom chemistry hardware to transform AI waste heat into clean water. Software & Compute : We built a prototype using a Raspberry Pi 5 for easy, one-click user deployments.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/611/351/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/DB41xmDUDtY",
+      "devpostUrl": "https://devpost.com/software/drip-6ao9m2",
+      "githubUrl": "https://github.com/Lewin-B/lahacks2026",
+      "award": "Track Winner",
+      "hackathon": "LA Hacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "dev-tools",
+        "sustainability"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Jhoon Yi",
+          "devpostProfileUrl": "https://devpost.com/jhoonericyi"
+        },
+        {
+          "name": "Kalyan Castro de Oliveira",
+          "devpostProfileUrl": "https://devpost.com/kalyan-coliveira"
+        },
+        {
+          "name": "Lewin Bobda",
+          "devpostProfileUrl": "https://devpost.com/Lewin-B"
+        }
+      ]
+    },
+    {
+      "slug": "flappga",
+      "name": "FlapPGA",
+      "oneLiner": "Flappy Bird entirely in SystemVerilog with no CPU — even the autopilot is combinational logic.",
+      "description": "FlaPGA started with a simple but ambitious goal: to build a complete game entirely in hardware. For the Ross Video Hackathon, we wanted to push ourselves outside of our comfort zone and work with technologies we had little prior experience with, especially SystemVerilog, FPGA design, and real-time video generation. Coming mostly from a software background, we were used to having graphics, timing, and input handling done for us. Ross Video's focus on real-time and low-latency systems encouraged us to think closer to the hardware and understand how visuals are actually produced at the signal level. We chose Flappy Bird because it looks simple on the surface, but becomes surprisingly challenging when built without a CPU or GPU.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/176/756/datas/medium.jpg",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/JJIZYiCTWA8",
+      "devpostUrl": "https://devpost.com/software/flappga",
+      "githubUrl": "https://github.com/Bou6-mohamed/ross-UottaHack-NTL",
+      "award": "Winner",
+      "hackathon": "uOttaHack",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "games",
+        "dev-tools"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Brunel Ahlonsou",
+          "devpostProfileUrl": "https://devpost.com/Bruno025"
+        },
+        {
+          "name": "Zachary Pelletier",
+          "devpostProfileUrl": "https://devpost.com/zpell057"
+        },
+        {
+          "name": "mohamed boustta",
+          "devpostProfileUrl": "https://devpost.com/mohamedboustta18"
+        },
+        {
+          "name": "Yvan Loic Kouongueng",
+          "devpostProfileUrl": "https://devpost.com/ylk442"
+        }
+      ]
+    },
+    {
+      "slug": "rehabify-y2f5mu",
+      "name": "Rehabify",
+      "oneLiner": "CV physical-therapy coach with sub-second voice corrections — MediaPipe-in-WASM keeps all video in the browser.",
+      "description": "After spending $8K on physio bills, waiting 3 weeks for my first appointment, and only getting seen once every 2 weeks for a herniated disc, I realized the broken part of physical therapy isn't the clinic, it's what happens at home. Only 35% of patients complete their prescribed exercises because they're unsure about their form and have zero supervision between visits. Physiotherapists (PTs) have no visibility into whether patients are doing exercises correctly, incorrectly, or at all. We built Rehabify with a focus on security and privacy to make quality PT accessible to everyone and enhance patient outcomes. Rehabify is an AI-powered physical therapy coach that provides real-time form correction using just a webcam.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/183/147/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/gXh_Ct_AQGU",
+      "devpostUrl": "https://devpost.com/software/rehabify-y2f5mu",
+      "githubUrl": "https://github.com/obro79/Rehabify",
+      "award": "1st Place Overall",
+      "hackathon": "nwHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "health",
+        "social-good"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Eric Ding",
+          "devpostProfileUrl": "https://devpost.com/ericding555"
+        },
+        {
+          "name": "obro79 Fisher",
+          "devpostProfileUrl": "https://devpost.com/obro79"
+        },
+        {
+          "name": "Andy L",
+          "devpostProfileUrl": "https://devpost.com/AndyJLi0"
+        },
+        {
+          "name": "Jessica Zhou",
+          "devpostProfileUrl": "https://devpost.com/jjczy"
+        }
+      ]
+    },
+    {
+      "slug": "freak-cha",
+      "name": "freak-cha",
+      "oneLiner": "A CAPTCHA deepfakes can't pass: answer with tongue flicks, via custom-trained YOLOv8 on hand-labeled tongue positions.",
+      "description": "In the age of SORA 2 and Google Veo 3, deepfakes have blurred the line between human and AI-generated faces. Our inspiration for Freak-cha came from iOS 26’s accessibility tongue-scrolling feature — an innovative way to interact with technology using subtle gestures. We wanted to take that idea further by designing a verification system that AI simply couldn’t replicate. Freak-cha is a tongue-based biometric authentication system that challenges users to prove their humanity through facial expressions and tongue gestures, turning security into a playful, interactive experience. We built Freak-cha as a CAPTCHA process with multiple stages.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/814/028/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/wssGfKUIxzw",
+      "devpostUrl": "https://devpost.com/software/freak-cha",
+      "githubUrl": "https://github.com/anselmlong/hackharvard",
+      "award": "Winner",
+      "hackathon": "HackHarvard",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml",
+        "social-good"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Anselm Long",
+          "devpostProfileUrl": "https://devpost.com/anselmlong"
+        },
+        {
+          "name": "Jensen Huang",
+          "devpostProfileUrl": "https://devpost.com/jensen88"
+        },
+        {
+          "name": "Junjie Junjie",
+          "devpostProfileUrl": "https://devpost.com/GrassHeadd"
+        },
+        {
+          "name": "Isabel Wang",
+          "devpostProfileUrl": "https://devpost.com/isabelwang13"
+        }
+      ]
+    },
+    {
+      "slug": "ghostdiedie",
+      "name": "GhostDieDie",
+      "oneLiner": "Webcam multiplayer 3D fighting game — splits WebSocket combat from WebRTC video for ~65ms latency.",
+      "description": "Ghostdiedie turns the laptop webcam everyone already has into a real-time controller for competitive multiplayer fighting. The name reflects exactly what the game feels like. Ghost means your opponent is not physically standing in front of you. You are looking at a screen and throwing punches and kicks into empty space. Die die comes from the Korean slang 다이다이 , which refers to a one-on-one fight, face to face. Put together, Ghostdiedie means fighting someone who is not present in your real space while still facing them directly in a one-on-one match. That is exactly the feeling the game creates.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/553/227/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/Ay273uz5BpE",
+      "devpostUrl": "https://devpost.com/software/ghostdiedie",
+      "award": "Winner",
+      "hackathon": "Bitcamp",
+      "year": 2026,
+      "domainTags": [
+        "games"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "minsooku Ku",
+          "devpostProfileUrl": "https://devpost.com/minsooku"
+        },
+        {
+          "name": "Wonjae Kim",
+          "devpostProfileUrl": "https://devpost.com/kwj0011288"
+        },
+        {
+          "name": "Joonhyung Park",
+          "devpostProfileUrl": "https://devpost.com/0314pjh"
+        },
+        {
+          "name": "Junho Choi",
+          "devpostProfileUrl": "https://devpost.com/jchoi120"
+        }
+      ]
+    },
+    {
+      "slug": "67-ranked",
+      "name": "67Ranked",
+      "oneLiner": "Sub-minute body-controlled game with real anti-cheat — embraces brainrot instead of fighting it.",
+      "description": "Everyone’s a little brainrotted now. Infinite scroll, zero patience, constant stimulation. We wanted to build something that embraces that reality instead of fighting it. 67Ranked turns short attention spans into a shared, physical, competitive experience that anyone can jump into instantly. 67Ranked is a camera-based web game where your body is the controller . Players compete to complete fast “67” hand-movement reps across multiple modes, submit their score or time, and instantly see how they rank on a global leaderboard. No accounts, no downloads, no instructions, just start 67ing. You can share your score with friends to challenge them to beat you, but best of all...",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/179/423/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/K9MtppuQD4k",
+      "devpostUrl": "https://devpost.com/software/67-ranked",
+      "award": "Winner",
+      "hackathon": "UofTHacks",
+      "year": 2026,
+      "domainTags": [
+        "games"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Yang Yang Zhang",
+          "devpostProfileUrl": "https://devpost.com/YYZ-CR"
+        }
+      ]
+    },
+    {
+      "slug": "wand-drawing",
+      "name": "Picture Pitch",
+      "oneLiner": "Your phone is the pen — accelerometer integration via a physics-lab app, and Gemini judges your drawing.",
+      "description": "Right before the hackathon we were brainstorming ideas but eventually we got bored. And so, a laptop gets pulled out, new Youtube tab is opened, and we start watching a 2 hour long Full Game Walkthrough of WarioWare: Get it Together. We discovered that WarioWare: Get it Together is not just one game but rather an assortment of minigames. With barely a dozen hours total to complete our project, we realized something of similar scope to a single WarioWare game was our best shot. After watching “ WarioWare: Get it Together - Full Game Walkthrough “ for 10 minutes, one of our teammates pulled out their phone and one app caught our eyes.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/149/894/datas/medium.png",
+      "devpostUrl": "https://devpost.com/software/wand-drawing",
+      "githubUrl": "https://github.com/digcheese/JourneyHacks2026",
+      "award": "Winner",
+      "hackathon": "JourneyHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "games"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Johnny Han",
+          "devpostProfileUrl": "https://devpost.com/YnnhojandtheYnnhojs"
+        },
+        {
+          "name": "Jeffrey Xue",
+          "devpostProfileUrl": "https://devpost.com/digcheese"
+        },
+        {
+          "name": "panyongpin Jin",
+          "devpostProfileUrl": "https://devpost.com/panyongpin"
+        }
+      ]
+    },
+    {
+      "slug": "codebreaker-la",
+      "name": "codebreaker",
+      "oneLiner": "Built the benchmark (real CVEs), the harness, and the remediation agent — reads like a research artifact.",
+      "description": "Cyberattacks on software — particularly the open-source supply chain — have accelerated sharply in the past few years in both frequency and scale. Software and software teams were not built for a world in which malicious actors have access to more capable and more available agent intelligence than ever before. In the past year alone, over 60% of US businesses and millions of machines were affected by some form of software supply chain attack. In the worst cases, major businesses like Mercor suffered extreme data leaks with incidents propagating through supply chains like NPM. Current solutions were not built with agents in mind, neither offensively nor defensively.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/628/398/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/CIyWH6rkN9c",
+      "devpostUrl": "https://devpost.com/software/codebreaker-la",
+      "githubUrl": "https://github.com/KevinWu098/codebreaker",
+      "award": "1st Place Overall",
+      "hackathon": "LA Hacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "dev-tools"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Jay Wu",
+          "devpostProfileUrl": "https://devpost.com/jayqwu"
+        },
+        {
+          "name": "Kevin Wu",
+          "devpostProfileUrl": "https://devpost.com/kevinwu098"
+        }
+      ]
+    },
+    {
+      "slug": "autopsy-zq5d84",
+      "name": "Autopsy",
+      "oneLiner": "NTSB for coding agents: a failure knowledge graph (Run → Symptom → FailureMode → FixPattern) with temporal decay scoring.",
+      "description": "NTSB for coding agents: a failure knowledge graph (Run → Symptom → FailureMode → FixPattern) with temporal decay scoring.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/609/516/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/2bgq8hvJ32s",
+      "devpostUrl": "https://devpost.com/software/autopsy-zq5d84",
+      "githubUrl": "https://github.com/balebbae/Autopsy",
+      "award": "3rd Place Overall",
+      "hackathon": "LA Hacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Alan Roybal",
+          "devpostProfileUrl": "https://devpost.com/AlanRoybal"
+        },
+        {
+          "name": "Adarsh Goura",
+          "devpostProfileUrl": "https://devpost.com/adarshgoura5"
+        },
+        {
+          "name": "Ryan Polasky",
+          "devpostProfileUrl": "https://devpost.com/ryanpolasky"
+        },
+        {
+          "name": "Caleb Bae",
+          "devpostProfileUrl": "https://devpost.com/baecal000"
+        }
+      ]
+    },
+    {
+      "slug": "agent-gauntlet",
+      "name": "Agent Gauntlet",
+      "oneLiner": "Red-team agent injects attacks into pages during load, so a browser agent can't distinguish them from legit DOM.",
+      "description": "Browser agents are getting really good at doing things on the web — booking flights, searching products, filling out forms. But we kept asking ourselves: what happens when the website tries to trick them? We were inspired by adversarial security research and wanted to bring that same thinking to browser agents. If an agent can be fooled by a fake \"Sign in to continue\" popup or a hidden instruction buried in a FAQ, it doesn't matter how capable it is — it's a risk. The web is full of persuasive, misleading, and sometimes outright malicious content. A good browser agent needs to do more than click the right button. It needs to stay on task, ignore manipulation, and recover when something feels off.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/482/225/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/wku8NOyvt9A",
+      "devpostUrl": "https://devpost.com/software/agent-gauntlet",
+      "githubUrl": "https://github.com/abhimaddi/agent-gauntlet",
+      "award": "2nd Place Overall",
+      "hackathon": "HooHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Naveenchandra Nallamothu",
+          "devpostProfileUrl": "https://devpost.com/chandy1738"
+        },
+        {
+          "name": "Abhinav Maddi",
+          "devpostProfileUrl": "https://devpost.com/abhimaddi98"
+        },
+        {
+          "name": "Sai Vinjamuri",
+          "devpostProfileUrl": "https://devpost.com/s-shreyas-vinjamuri"
+        }
+      ]
+    },
+    {
+      "slug": "sentinel-c8ki50",
+      "name": "Sentinel",
+      "oneLiner": "Coding agents for bare-metal firmware, closed-loop via a custom FPGA logic analyzer — generated a Pi OS from scratch.",
+      "description": "We love bare-metal embedded systems programming. Our team has shipped a DOOM port, hacked bootloaders, remote shells, logic analyzers, bare-metal GPU programs, and more — all starting from a blank SD card and no OS. But this domain is notoriously difficult for AI. Embedded programming means scouring datasheets for device-specific register addresses instead of applying universal principles. Feedback is nearly nonexistent: no print statements, no debugger, nothing you didn't write yourself. And unlike software, hardware isn't contained within a virtual environment: an agent can't power-cycle a hung chip or probe a GPIO rail with an oscilloscope.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/331/953/datas/medium.jpg",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/78Ju-rZE8rI",
+      "devpostUrl": "https://devpost.com/software/sentinel-c8ki50",
+      "githubUrl": "https://github.com/apple-314/treehacks26",
+      "award": "Best Hardware Hack",
+      "hackathon": "TreeHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "dev-tools",
+        "sustainability"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "James Yu-tang Chen",
+          "devpostProfileUrl": "https://devpost.com/jamesc27"
+        },
+        {
+          "name": "Sai Konkimalla",
+          "devpostProfileUrl": "https://devpost.com/saik450"
+        },
+        {
+          "name": "Aarav Wattal",
+          "devpostProfileUrl": "https://devpost.com/aaravwattal"
+        },
+        {
+          "name": "Andrea Giuri",
+          "devpostProfileUrl": "https://devpost.com/andgiuri"
+        }
+      ]
+    },
+    {
+      "slug": "stitch-30p6ly",
+      "name": "Stitch",
+      "oneLiner": "AI video editor where the agent executes edits on a real timeline — every action flows through undo/redo commands.",
+      "description": "Stitch started from a simple frustration: video editing is powerful, but it’s still unnecessarily hard to use. Even modern editors expect users to think in timelines, tracks, shortcuts, and effects panels. For beginners, that learning curve is intimidating, and for experienced creators, it often interrupts creative flow. We wanted to explore what video editing would look like if creators could work the same way they communicate with another person—by simply describing what they want to happen. Stitch is a web-based AI-powered video editing platform that combines a traditional timeline editor with a natural language assistant called Lilo Agent.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/175/337/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/W8hKYKRYeJ4",
+      "devpostUrl": "https://devpost.com/software/stitch-30p6ly",
+      "githubUrl": "https://github.com/Phalanyx/stitch",
+      "award": "Winner",
+      "hackathon": "UofTHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Albert Huynh",
+          "devpostProfileUrl": "https://devpost.com/huynhalb"
+        },
+        {
+          "name": "Joshua z",
+          "devpostProfileUrl": "https://devpost.com/joshuazhou744"
+        },
+        {
+          "name": "William Jin",
+          "devpostProfileUrl": "https://devpost.com/jinwilliam-jin"
+        },
+        {
+          "name": "dawei9982",
+          "devpostProfileUrl": "https://devpost.com/dawei9982"
+        }
+      ]
+    },
+    {
+      "slug": "superhuman",
+      "name": "Superhuman",
+      "oneLiner": "20+ parallel agents over CCTV for cold cases — video inpainting for occluded frames, with an honest ethical self-critique.",
+      "description": "When lives are on the line, time is the enemy . Surveillance networks generate terabytes of footage, yet investigators are forced to review it clip by clip, camera by camera. By the time evidence is pieced together, the suspect is gone. Manual workflows are too slow, they cannot keep up with the scale and urgency of modern security. We built Superhuman because surveillance needs to move at machine speed, not human speed. Superhuman is a multi-agent orchestration platform that transforms fragmented CCTV footage into an intelligence system. Instead of a single investigator spending hours on video review, we deploy a swarm of 20+ AI agents in parallel using the Agents-SDK by OpenAI (previously known as Swarm).",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/761/438/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/VQMPn5WmAOI",
+      "devpostUrl": "https://devpost.com/software/superhuman",
+      "githubUrl": "https://github.com/Harpith2/superhuman",
+      "award": "Winner",
+      "hackathon": "PennApps XXVI",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml",
+        "fintech",
+        "dev-tools"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Harpith Pandian",
+          "devpostProfileUrl": "https://devpost.com/harpith"
+        },
+        {
+          "name": "Harpita Pandian",
+          "devpostProfileUrl": "https://devpost.com/harpita-p"
+        }
+      ]
+    },
+    {
+      "slug": "working-memory",
+      "name": "Working Memory",
+      "oneLiner": "MCP server that passively watches coding sessions and rebuilds lost context via vector search.",
+      "description": "As students who juggle between coding projects for classes, clubs, research, or personal work, we often face the problem of constantly switching between contexts. Every time we switch, we lose fragments of our working memory, which encompasses the reasoning behind decisions, pending tasks we may have, and the overall mental model of the code. For this reason, we created Working Memory , an agentic workflow that passively observes your work and automatically reconstructs context, enabling seamless re-entry into any project. Working Memory connects your VS Code workspace to an AI-powered backend that continuously records and interprets your development sessions.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/965/245/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/fH2SZUy-B5s",
+      "devpostUrl": "https://devpost.com/software/working-memory",
+      "githubUrl": "https://github.com/Mihirz/HackUTDProject",
+      "award": "Winner",
+      "hackathon": "HackUTD",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml",
+        "health"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Gary Sun",
+          "devpostProfileUrl": "https://devpost.com/garysun"
+        },
+        {
+          "name": "Mihir Sharma",
+          "devpostProfileUrl": "https://devpost.com/Mihirz"
+        }
+      ]
+    },
+    {
+      "slug": "pulse-ql3gok",
+      "name": "Pulse",
+      "oneLiner": "Ambulance-to-ER vitals: a webcam pointed at the existing monitor plus vision LLM replaces the device-integration problem.",
+      "description": "Emergency departments often learn what’s coming only when the ambulance pulls in—and paramedics lose time typing vitals. We wanted hospitals to see real patient data before arrival. Pulse connects an EMS webcam to an ER dashboard: you point the camera at a monitor or vitals screen, AI reads it, and the hospital gets live vitals, risk scores, and ETAs instantly. No manual data entry, just aim and stream. This not only allows hospital staff to better identify issues, but to better allocate resources onto incoming patients. We used Claude Vision (and Gemini as a fallback) to extract vitals from images, Node + Socket.IO for real-time updates, and simple HTML/JS for both sides.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/486/007/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/GyY3zzWV5p0",
+      "devpostUrl": "https://devpost.com/software/pulse-ql3gok",
+      "award": "1st Place Overall",
+      "hackathon": "ProduHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "health"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Jordan Lo",
+          "devpostProfileUrl": "https://devpost.com/Whal0s"
+        },
+        {
+          "name": "selima yang",
+          "devpostProfileUrl": "https://devpost.com/selimayang19"
+        },
+        {
+          "name": "Angelo Giustino",
+          "devpostProfileUrl": "https://devpost.com/angelogiu"
+        },
+        {
+          "name": "Jenise Yang",
+          "devpostProfileUrl": "https://devpost.com/jenisezyang"
+        }
+      ]
+    },
+    {
+      "slug": "screwyouikea",
+      "name": "ScrewYouIKEA.com",
+      "oneLiner": "Furniture manual PDF → interactive 3D assembly animation — Gemini emits Scene JSON executed by a Three.js renderer.",
+      "description": "Furniture manual PDF → interactive 3D assembly animation — Gemini emits Scene JSON executed by a Three.js renderer.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/815/644/datas/medium.png",
+      "demoVideoUrl": "https://player.vimeo.com/video/1124554736",
+      "devpostUrl": "https://devpost.com/software/screwyouikea",
+      "githubUrl": "https://github.com/donaragalstyan/ScrewYouIkea",
+      "award": "Winner",
+      "hackathon": "HackHarvard",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Senan Gaffori",
+          "devpostProfileUrl": "https://devpost.com/SenanG"
+        },
+        {
+          "name": "Donara Galstyan",
+          "devpostProfileUrl": "https://devpost.com/donna-galstyan-31"
+        },
+        {
+          "name": "Liam Marcovitz",
+          "devpostProfileUrl": "https://devpost.com/liam-marcovitz"
+        }
+      ]
+    },
+    {
+      "slug": "vril",
+      "name": "Vril",
+      "oneLiner": "Text → editable parametric 3D models, plus print-ready packaging.",
+      "description": "People have ideas for physical products but lack the 3D modeling skills or time to design them. Even simple items like mugs or boxes require specialized tools, long iteration cycles, and expensive designers. We wanted to make product design something anyone could do. Like how Lovable makes coding accessible for non-technical people. Vril lets users create and edit full 3D product models and packaging by describing what they want in plain English or uploading a reference. It also includes an editor where users can iterate the shape, materials, and packaging with AI. Generates editable 3D models from text or reference images. Includes a prompt-driven editor similar to Cursor for adjusting geometry and materials.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/027/985/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/pGwVC0TzbDQ",
+      "devpostUrl": "https://devpost.com/software/vril",
+      "githubUrl": "https://github.com/akuwuh/Vril",
+      "award": "1st Place Overall",
+      "hackathon": "Hack Western",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml",
+        "social-good"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Eric Lee",
+          "devpostProfileUrl": "https://devpost.com/eric-pungho-lee"
+        },
+        {
+          "name": "Joseph Zhang",
+          "devpostProfileUrl": "https://devpost.com/Yoz-hang"
+        },
+        {
+          "name": "Isaac Nguyen",
+          "devpostProfileUrl": "https://devpost.com/akuwuh"
+        },
+        {
+          "name": "Otis Lau",
+          "devpostProfileUrl": "https://devpost.com/otishlau"
+        }
+      ]
+    },
+    {
+      "slug": "zeta-jwq9te",
+      "name": "Zeta",
+      "oneLiner": "Grammarly for Math: LaTeX proofs → Lean4 with a compile-error repair loop. Won a guaranteed YC interview.",
+      "description": "As math and computer science majors, we’re often spending hours writing proofs in LaTeX, getting lost in paragraphs of LaTeX more times than we can count. Formal correctness is slow: you only find gaps when a TA grades it, often long after you’ve lost context. Instead, we wanted a Grammarly-like experience for proofs: immediate feedback as you write. Recent advances in neural theorem proving and informal-to-formal translation (Polu & Sutskever, 2020; Lewkowycz et al., 2022) indicate that it's possible to close the loop: highlight the exact step that’s wrong, explain why, and suggest a minimal fix in real time. Zeta is a Chrome extension for Overleaf that assists users with proof-writing, essentially acting as Grammarly for formal math.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/325/845/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/RJV8a8PWkxQ",
+      "devpostUrl": "https://devpost.com/software/zeta-jwq9te",
+      "githubUrl": "https://github.com/aryans-15/treehacks-2026",
+      "award": "YC Track Winner",
+      "hackathon": "TreeHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Amirreza Zeinali",
+          "devpostProfileUrl": "https://devpost.com/azeinali"
+        },
+        {
+          "name": "Aryan Sharma",
+          "devpostProfileUrl": "https://devpost.com/aryans-15"
+        },
+        {
+          "name": "Sandeep Sethuraman",
+          "devpostProfileUrl": "https://devpost.com/sundip07"
+        },
+        {
+          "name": "William Feng",
+          "devpostProfileUrl": "https://devpost.com/wsfeng714"
+        }
+      ]
+    },
+    {
+      "slug": "spectra-qbj2gf",
+      "name": "SPECTRA",
+      "oneLiner": "Upsamples the iPhone's sparse LiDAR into dense metric depth with a custom-trained 2MB CoreML model.",
+      "description": "Depth perception is the bottleneck for almost every embodied AI system — robots, AR headsets, accessibility tools, autonomous vehicles. And yet the depth-sensor market is bizarrely bimodal: an industrial Velodyne or Ouster will run you $8,000–$75,000, while the solid-state LiDAR Apple ships in every iPhone Pro since 2020 is $3–$25 in component cost. Same physics, three orders of magnitude in price. The catch is that the iPhone's depth output is sparse — a 192×256 map with a per-pixel confidence flag — and at full camera resolution it looks like a smear. The hardware gap closed years ago; the software gap never did.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/625/215/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/M_QiPFWFkys",
+      "devpostUrl": "https://devpost.com/software/spectra-qbj2gf",
+      "award": "Winner",
+      "hackathon": "LA Hacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "social-good",
+        "ar-vr"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Junfeng Lin",
+          "devpostProfileUrl": "https://devpost.com/Rasklaz"
+        },
+        {
+          "name": "William Wang",
+          "devpostProfileUrl": "https://devpost.com/wwang25"
+        },
+        {
+          "name": "Ajay Shah",
+          "devpostProfileUrl": "https://devpost.com/ajayshah"
+        },
+        {
+          "name": "Benjamin Jiang",
+          "devpostProfileUrl": "https://devpost.com/benjaminjiangyx"
+        }
+      ]
+    },
+    {
+      "slug": "sentinel-nyx3lz",
+      "name": "Sentinel",
+      "oneLiner": "Hardware-aware static analyzer predicting ESP32 RAM/flash within ±3% — calibrated by compiling 100+ real sketches.",
+      "description": "Embedded development is one of the few remaining disciplines where debugging still happens after compilation. You write code, upload it to a microcontroller, and only then discover that a pin was wrong, your I2C address was invalid, you overflowed RAM, or the ESP32 silently rebooted because a strapping pin was misconfigured. This workflow is slow, unclear, and often frustrating—especially for beginners and even more so for production firmware engineers. My inspiration for Sentinel came from a simple question: “Why doesn’t embedded development have real-time diagnostics, the same way modern languages have type checking?” Every other domain has intelligent tooling. Hardware developers still rely on trial and error.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/025/709/datas/medium.png",
+      "devpostUrl": "https://devpost.com/software/sentinel-nyx3lz",
+      "githubUrl": "https://github.com/RishiShah99/Sentinel",
+      "award": "Winner",
+      "hackathon": "Hack Western",
+      "year": 2025,
+      "domainTags": [
+        "health",
+        "dev-tools",
+        "ar-vr"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Rishi Shah",
+          "devpostProfileUrl": "https://devpost.com/RishiShah99"
+        }
+      ]
+    },
+    {
+      "slug": "the-ray-marching-band",
+      "name": "Music March",
+      "oneLiner": "Ray-marched audio-reactive terrain in raw C++/GLSL, optimized from 3fps to 60fps.",
+      "description": "From our curiosity in graphics and interest in electronic music, our idea to make a vivid and interactive 3D audio visualizer was born! Beyond our submission for \"Huawei's challenge 1 - Ray Marching\", we built our visualizer to take in audio from a source, run frequency analysis, and translate the bass, middle range, and treble into a usable coefficient to then amplify the height map of different hilly structures around the user. A user may also choose to navigate through the environment, admiring up close or from afar the beauty of our infinitely generated terrain While we initially based our project on an SDL3 implementation of the Huawei challenge 1 shader, our ambition lead to a complete overhaul in the fragment shader.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/824/501/datas/medium.png",
+      "devpostUrl": "https://devpost.com/software/the-ray-marching-band",
+      "githubUrl": "https://github.com/ErykHalicki/ray_marcher",
+      "award": "Winner",
+      "hackathon": "StormHacks",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml",
+        "sustainability"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Graeme B",
+          "devpostProfileUrl": "https://devpost.com/GraemeIBB"
+        },
+        {
+          "name": "Eryk Halicki",
+          "devpostProfileUrl": "https://devpost.com/Stargor14"
+        },
+        {
+          "name": "Simon Purdon",
+          "devpostProfileUrl": "https://devpost.com/SimonGCP"
+        }
+      ]
+    },
+    {
+      "slug": "atlasic",
+      "name": "Atlasic",
+      "oneLiner": "Codebase dependency-graph VSCode extension — dropped into Rust via NAPI-RS when JS choked on the Linux kernel.",
+      "description": "Have you ever been overwhelmed while trying to keep track of all the relevant dependencies of a codebase? Us too ... ... it can take way longer than it should. The problem is not that you're too slow of a learner or expected to know an entire codebase like the back of your hand. Humans are primarily VISUAL thinkers and learners, but code and documentation is all just a bunch of non-stimulating text! Atlasic is an atlas for your logic . We take your codebase's logic and give you back an interactive atlas of the relationships that matter, so you can navigate the structure of the system faster. This way, you can spend more of your time building solutions instead of figuring out where to start.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/177/320/datas/medium.png",
+      "devpostUrl": "https://devpost.com/software/atlasic",
+      "award": "Finalist",
+      "hackathon": "nwHacks",
+      "year": 2026,
+      "domainTags": [
+        "dev-tools"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Diego Armstrong",
+          "devpostProfileUrl": "https://devpost.com/diegoarmstrong84"
+        },
+        {
+          "name": "Tamzeed Quazi",
+          "devpostProfileUrl": "https://devpost.com/tamzeed-q"
+        }
+      ]
+    },
+    {
+      "slug": "duck-duck-goose-jelxr9",
+      "name": "Duck Duck Goose",
+      "oneLiner": "~1300x DuckDB query speedup (45s → 30ms) via materialized views and query rewriting.",
+      "description": "~1300x DuckDB query speedup (45s → 30ms) via materialized views and query rewriting.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/895/526/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/_QnZ6bNqfr4",
+      "devpostUrl": "https://devpost.com/software/duck-duck-goose-jelxr9",
+      "githubUrl": "https://github.com/KevinL10/applovin-query",
+      "award": "Winner",
+      "hackathon": "Cal Hacks 12.0",
+      "year": 2025,
+      "domainTags": [],
+      "form": "software",
+      "team": [
+        {
+          "name": "Kevin Liu",
+          "devpostProfileUrl": "https://devpost.com/_admin"
+        }
+      ]
+    },
+    {
+      "slug": "heartkey",
+      "name": "HeartKey",
+      "oneLiner": "ECG as a second auth factor — Siamese-network embeddings so raw biometrics never leave the device.",
+      "description": "HeartKey is a drop-in step-up authentication middleware. Apps handle normal login through Auth0, but when a user triggers a high-risk action, HeartKey captures a live ECG reading from a Raspberry Pi sensor, verifies the user's identity, and returns allow, deny, or step_up with confidence scores and reason codes.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/485/588/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/ouhOHsDaVoU",
+      "devpostUrl": "https://devpost.com/software/heartkey",
+      "githubUrl": "https://github.com/Chickenandrice/biometric-auth-middleware",
+      "award": "Best Hardware Hack",
+      "hackathon": "HooHacks",
+      "year": 2026,
+      "domainTags": [
+        "health"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Joey Chen",
+          "devpostProfileUrl": "https://devpost.com/jchen9896"
+        },
+        {
+          "name": "Varun Saxena",
+          "devpostProfileUrl": "https://devpost.com/varunsaxena314"
+        },
+        {
+          "name": "kyle Luong",
+          "devpostProfileUrl": "https://devpost.com/kyleluong2004"
+        },
+        {
+          "name": "raymond Wen",
+          "devpostProfileUrl": "https://devpost.com/raymondwen7"
+        }
+      ]
+    },
+    {
+      "slug": "alleaf",
+      "name": "Alleaf",
+      "oneLiner": "Wrist device that detects stress from optical heart rate and triggers bilateral-stimulation haptic therapy.",
+      "description": "Mental health challenges have become a significant challenge, with rising rates of depression and anxiety often linked to elevated stress levels and a lack of mindfulness. Alleaf was developed to address this by leveraging technology and physiological data to help users maintain a grounded state. Alleaf provides real-time stress detection based on biological and lifestyle indicators, including: This data is processed to deliver automated interventions: Hardware: An ESP32 Bluetooth-enabled device utilizes a red LED sensor to detect RR intervals. These signals trigger the haptic bilateral stimulation hardware.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/357/516/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/N70LVYrQs0g",
+      "devpostUrl": "https://devpost.com/software/alleaf",
+      "githubUrl": "https://github.com/Gustavo-Galvao-e-Silva/Alleaf",
+      "award": "1st Place Overall",
+      "hackathon": "Hacklytics",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "health"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Jhoon Yi",
+          "devpostProfileUrl": "https://devpost.com/jhoonericyi"
+        },
+        {
+          "name": "Gustavo Galvão",
+          "devpostProfileUrl": "https://devpost.com/gustavo-galvaoesilva"
+        },
+        {
+          "name": "Kalyan Castro de Oliveira",
+          "devpostProfileUrl": "https://devpost.com/kalyan-coliveira"
+        },
+        {
+          "name": "Deep Akbari",
+          "devpostProfileUrl": "https://devpost.com/Ackberry"
+        }
+      ]
+    },
+    {
+      "slug": "happynappy",
+      "name": "HappyNappy",
+      "oneLiner": "Nap-optimizing neck pillow — no dataset existed, so they shipped a defensible heuristic: sustained >20% HR drop.",
+      "description": "Nap-optimizing neck pillow — no dataset existed, so they shipped a defensible heuristic: sustained >20% HR drop.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/272/957/datas/medium.jpg",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/NsStgUBY6Wg",
+      "devpostUrl": "https://devpost.com/software/happynappy",
+      "githubUrl": "https://github.com/SpaceFox2050/HackTheCoast2026",
+      "award": "Winner",
+      "hackathon": "Hack the Coast",
+      "year": 2026,
+      "domainTags": [
+        "health"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Jay Wen",
+          "devpostProfileUrl": "https://devpost.com/jaywen728"
+        },
+        {
+          "name": "Si Da Shen",
+          "devpostProfileUrl": "https://devpost.com/TerryShen4"
+        },
+        {
+          "name": "Andy Fan",
+          "devpostProfileUrl": "https://devpost.com/andyfan2050"
+        }
+      ]
+    },
+    {
+      "slug": "steadyscript",
+      "name": "SteadyScript",
+      "oneLiner": "Parkinson's pen whose entire value is one custom metric: jitter perpendicular to intended motion.",
+      "description": "Parkinson’s is the second most common neurodegenerative disorder, affecting more than 110,000 people in Canada alone. It often steals control over one’s own movement: tremors, stiffness, and difficulty writing can make daily tasks overwhelming. And while therapy helps, access is uneven, and progress requires constant, guided practice. The need goes beyond Parkinson’s. Stroke survivors, people with acquired brain injuries, and individuals with motor-development disorders all face similar challenges with fine-motor precision. We want to make therapy more accessible and effective, empowering people to regain control, rebuild confidence, and improve their daily lives.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/183/056/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/QCpoyvr15rE",
+      "devpostUrl": "https://devpost.com/software/steadyscript",
+      "githubUrl": "https://github.com/SteadyScript/SteadyScript",
+      "award": "Best Beginner Hack",
+      "hackathon": "nwHacks",
+      "year": 2026,
+      "domainTags": [
+        "health",
+        "social-good"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Aiko Sumarno",
+          "devpostProfileUrl": "https://devpost.com/aikosumarno"
+        },
+        {
+          "name": "Danish Hakim",
+          "devpostProfileUrl": "https://devpost.com/danishhakim1"
+        },
+        {
+          "name": "Ali-Aryo Otufat-Shamsi",
+          "devpostProfileUrl": "https://devpost.com/Ali-Aryo"
+        },
+        {
+          "name": "Anthony",
+          "devpostProfileUrl": "https://devpost.com/anthonyych4n"
+        }
+      ]
+    },
+    {
+      "slug": "concord-d6txpr",
+      "name": "Embers",
+      "oneLiner": "Offline wildfire-detection mesh: cheap sensors sleep, and a digital nose wakes the camera only on anomaly.",
+      "description": "In 2021, the town of Lytton, BC burned to the ground in just 20 minutes. Current wildfire detection relies on satellites (which are expensive and may not be accessible from everywhere) or cellular IoT (which fails in dead zones). By the time smoke is spotted, the \"Golden Hour\" for suppression is lost. Embers closes this gap. We built a decentralized Mesh network of Edge AI Sentry Nodes and super cheap Relay Nodes that monitor the Wildland-Urban Interface WITHOUT needing the internet. Sentry Nodes: Placed strategically in the forest, environmental sensors detect pre-ignition conditions (Heat/Dryness/VOCs), nodes placed near the forest floor in high-risk areas for immediate flagging.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/187/888/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/cB8B8njMjTA",
+      "devpostUrl": "https://devpost.com/software/concord-d6txpr",
+      "githubUrl": "https://github.com/Mesh-Forest-Fire/api-gateway",
+      "award": "Winner",
+      "hackathon": "nwHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "health",
+        "social-good",
+        "sustainability"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Ikechukwu Okogwu",
+          "devpostProfileUrl": "https://devpost.com/ikechukwuokogwu"
+        },
+        {
+          "name": "arkumar57 Kumar",
+          "devpostProfileUrl": "https://devpost.com/arkumar57"
+        },
+        {
+          "name": "Moncef SAMAI",
+          "devpostProfileUrl": "https://devpost.com/moncef-samai-rol2"
+        },
+        {
+          "name": "Aprameya Aithal",
+          "devpostProfileUrl": "https://devpost.com/aprameyaithal"
+        }
+      ]
+    },
+    {
+      "slug": "hearth-pvngm3",
+      "name": "Hearth",
+      "oneLiner": "On-device translation for shelter workers — the model was chosen for low-resource languages after interviewing a real shelter.",
+      "description": "Emily and Jarny work at the front desk of The Bloom Group, a low-barrier women’s shelter in Vancouver. When we called them, we expected to hear about challenges such as access to shelter housing, mental health counselling, or digital resources. Instead, the most immediate need they identified, and the first thing Emily mentioned when we asked, “what would make your job easier?”, was interpreters. For women in shelters, communication is not just a matter of convenience. It is directly tied to safety and access to care. Many residents are navigating crisis situations such as domestic violence, housing instability, or displacement, often while managing emotional stress, trauma, or caring for children.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/537/243/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/jRIZY1BpHTc",
+      "devpostUrl": "https://devpost.com/software/hearth-pvngm3",
+      "githubUrl": "https://github.com/jasmine-pyz/youCode2026",
+      "award": "1st Place — Community Impact",
+      "hackathon": "youCode",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "health",
+        "social-good"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Stephanie Xue",
+          "devpostProfileUrl": "https://devpost.com/steph-xue"
+        },
+        {
+          "name": "Jianding Bai",
+          "devpostProfileUrl": "https://devpost.com/JiandingBai"
+        },
+        {
+          "name": "Yuko Murayama",
+          "devpostProfileUrl": "https://devpost.com/Lada496"
+        },
+        {
+          "name": "Jasmine Zou",
+          "devpostProfileUrl": "https://devpost.com/jasmine_pyz"
+        }
+      ]
+    },
+    {
+      "slug": "mapd-urban-development-intelligence",
+      "name": "Mapd",
+      "oneLiner": "Vancouver open data → plain-language community impact — the real story is ETL discipline that makes LLM output trustworthy.",
+      "description": "We all see the signs: a new condo, a townhouse complex, a high-rise. Most people walk by with a lingering question: How will this actually impact our community during construction and long after? MapD turns that concern into clarity. MapD is a geospatial storytelling platform that translates fragmented open data into a single, understandable view of an urban project. Drop a pin (or paste a permit address) and MapD: Frontend: Vite + React + Tailwind for a unified, minimalist UI/UX (Mapbox GL for interactive layers). Backend: Python + FastAPI with MongoDB for schema-light ingestion, all containerized via Docker Compose.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/823/743/datas/medium.png",
+      "demoVideoUrl": "https://player.vimeo.com/video/1124641474",
+      "devpostUrl": "https://devpost.com/software/mapd-urban-development-intelligence",
+      "githubUrl": "https://github.com/LMSAIH/StormHacks2025",
+      "award": "3× Award Winner",
+      "hackathon": "StormHacks",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml",
+        "games",
+        "social-good",
+        "ar-vr"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Diego Delgado",
+          "devpostProfileUrl": "https://devpost.com/Diaggio"
+        },
+        {
+          "name": "Velásquez Castañeda Axel Gael",
+          "devpostProfileUrl": "https://devpost.com/yoloax11"
+        },
+        {
+          "name": "Paweł Michalski",
+          "devpostProfileUrl": "https://devpost.com/pawel230401"
+        },
+        {
+          "name": "Elliott Schmechel",
+          "devpostProfileUrl": "https://devpost.com/eschmechel"
+        }
+      ]
+    },
+    {
+      "slug": "wing-cet3o0",
+      "name": "Wing",
+      "oneLiner": "Domestic-violence safety app disguised as a fully functional weather app.",
+      "description": "We were motivated by the number of women who experience intimate partner violence and the aid workers who seek to provide help in secret, providing victims with ways to report their situation without alerting the abuser or raising suspicion. However, we hope that this project can provide help to anyone in an unsafe environment. We built this project to provide aid to individuals in restrictive and unhealthy relationships, providing a private and hidden outlet to chat, find help and respond in emergency situations. The app showcases a fake interface: it would appear as a Weather App to outsiders, but has hidden, protected settings that let the user seek help, find available resources and chat.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/410/100/datas/medium.png",
+      "devpostUrl": "https://devpost.com/software/wing-cet3o0",
+      "githubUrl": "https://github.com/nb488/cmd-f_2026",
+      "award": "3rd Place Overall",
+      "hackathon": "cmd-f",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "health",
+        "social-good",
+        "dev-tools",
+        "sustainability"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Ellen Ren",
+          "devpostProfileUrl": "https://devpost.com/ellen-renn123"
+        },
+        {
+          "name": "Natalia Blanco",
+          "devpostProfileUrl": "https://devpost.com/bnatalia232"
+        },
+        {
+          "name": "Manbeena Sidhu",
+          "devpostProfileUrl": "https://devpost.com/s-manbeena"
+        }
+      ]
+    },
+    {
+      "slug": "yes-or-yes",
+      "name": "YES? or YES!",
+      "oneLiner": "Three live guppies make your life decisions via OpenCV, and a Playwright agent executes the winner.",
+      "description": "We wanted the most unhinged possible use of 36 hours. The premise: take an actual fish tank with three real guppies and put it in charge of a real human's real life — over the phone, in real time, with real consequences on a real MacBook. No prompt, no UI, no off-ramp. The fish decide, your computer obeys. You call a Twilio number. A snarky AI fish picks up. You tell it about something going on in your life — a breakup, a meeting you forgot, the job you just lost. The fish picks two options for you, one slightly bad and one catastrophically bad, and shows them on a TV mounted behind a real fish tank. Three guppies swim around. Whichever side of the tank the majority of fish are on when the countdown ends, that is the option that wins.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/615/217/datas/medium.jpg",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/v2X7dJ6E1E4",
+      "devpostUrl": "https://devpost.com/software/yes-or-yes",
+      "githubUrl": "https://github.com/lukietee/YESorYES",
+      "award": "Winner",
+      "hackathon": "LA Hacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "dev-tools"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "lucas t",
+          "devpostProfileUrl": "https://devpost.com/lukietee"
+        },
+        {
+          "name": "zig chen",
+          "devpostProfileUrl": "https://devpost.com/zigchen"
+        },
+        {
+          "name": "Jason Zeng",
+          "devpostProfileUrl": "https://devpost.com/jasonzzeng"
+        }
+      ]
+    },
+    {
+      "slug": "clipper-ph49un",
+      "name": "Get Clipped!",
+      "oneLiner": "Leave the app mid-study-session and it photographs you and broadcasts it to your friends.",
+      "description": "We all have that one friend who says they’re \"locked in\" on studying, but five minutes later, they’re doomscrolling on TikTok. Nowadays, individual willpower isn't enough to stop the urge to check your phone. We wanted to solve this in a unique and entertaining way. We realized that for some people, the best motivator isn't a productivity graph, but rather is the fear of getting exposed in front of your closest friends. Get Clipped turns a study session into a high-stakes standoff where if one person folds, everyone knows immediately and instantly get a clipped photo of the person who folded. Users log in (via Firebase Auth) and add their friends to a study group.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/182/503/datas/medium.png",
+      "devpostUrl": "https://devpost.com/software/clipper-ph49un",
+      "githubUrl": "https://github.com/daniel-mwj/clipped",
+      "award": "Best Design",
+      "hackathon": "nwHacks",
+      "year": 2026,
+      "domainTags": [],
+      "form": "software",
+      "team": [
+        {
+          "name": "Annie Wu",
+          "devpostProfileUrl": "https://devpost.com/cynthiannie2006"
+        },
+        {
+          "name": "annie w",
+          "devpostProfileUrl": "https://devpost.com/cynthiannie-w"
+        },
+        {
+          "name": "Jade Tao",
+          "devpostProfileUrl": "https://devpost.com/jadetao25"
+        },
+        {
+          "name": "Daniel M",
+          "devpostProfileUrl": "https://devpost.com/cozidan2000"
+        }
+      ]
+    },
+    {
+      "slug": "cramsino",
+      "name": "Cramsino",
+      "oneLiner": "Facial focus-tracking converts verified study time into gacha pulls.",
+      "description": "Studying is hard not because students lack discipline, but because it lacks immediate reward. Games and gambling-style systems, on the other hand, hook users through anticipation, randomness, and visual payoff. Cramsino was inspired by a simple question: what if studying felt as rewarding as pulling a rare card? By leveraging the same dopamine and serotonin loops used in games and gacha systems, Cramsino turns focus into something students actively want to chase. Cramsino is a computer vision–driven study app that rewards real focus with gacha-style card pulls.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/149/789/datas/medium.png",
+      "devpostUrl": "https://devpost.com/software/cramsino",
+      "githubUrl": "https://github.com/emmyfong/Cramsino",
+      "award": "Winner",
+      "hackathon": "JourneyHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "games",
+        "ar-vr"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Ravdeep Aulakh",
+          "devpostProfileUrl": "https://devpost.com/vravdeep"
+        },
+        {
+          "name": "Evan Chen",
+          "devpostProfileUrl": "https://devpost.com/evanchen0609"
+        },
+        {
+          "name": "Emmy Fong",
+          "devpostProfileUrl": "https://devpost.com/emmyfong"
+        },
+        {
+          "name": "Camille Ng",
+          "devpostProfileUrl": "https://devpost.com/camilleng25"
+        }
+      ]
+    },
+    {
+      "slug": "whalebeing-27sj0w",
+      "name": "WhaleBeing",
+      "oneLiner": "Ship routes vs. blue-whale habitats — the collision model is ported from a real ecology paper.",
+      "description": "Up to 20,000 whales per year are killed by ships globally, posing a significant threat to already vulnerable whale populations. The issue of ship strikes is not only an tragedy for marine ecosystems but also an avoidable one: in many cases, reducing ship speeds and rerouting to avoid high-risk areas comes at little to no cost to ship operators. To solve this problem, we built WhaleBeing. WhaleBeing uses a dynamic prediction model to display how ship routes interact with blue whale habitats using a web app.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/214/974/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/EwOxT8YSXnk",
+      "devpostUrl": "https://devpost.com/software/whalebeing-27sj0w",
+      "githubUrl": "https://github.com/lucasliao0403/WhaleBeing",
+      "award": "Winner",
+      "hackathon": "DeltaHacks",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml",
+        "sustainability"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Raphael Lee",
+          "devpostProfileUrl": "https://devpost.com/raphael-64"
+        },
+        {
+          "name": "Lucas Liao",
+          "devpostProfileUrl": "https://devpost.com/lucasliao0403"
+        },
+        {
+          "name": "Gordon Zhang",
+          "devpostProfileUrl": "https://devpost.com/gordonz0913"
+        },
+        {
+          "name": "Nathan Li",
+          "devpostProfileUrl": "https://devpost.com/qiz-li"
+        }
+      ]
+    },
+    {
+      "slug": "dance-cv",
+      "name": "Dance CV",
+      "oneLiner": "Just Dance for any video on the internet: webcam pose scoring plus an AI voice coach — no Wii remote, no song packs.",
+      "description": "We were inspired by years of playing Just Dance on the Wii. It was a great way to combine fun and exercise, but we noticed two main issues. The Wii only scored you based on the position of your Wii remote, and there was no room for customization if you wanted to add your own songs and dances. To try and fix this, we decided to build our own AI dance coach that can teach you any dance in the world, and actually give you real advice that you can use to improve! Dance CV allows the user to upload an .mp4 of any solo dance they want. It will then use AI to chunk the dance into easily learnable movements so the user can spend time perfecting each move.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/183/096/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/AWBrBWU1IzA",
+      "devpostUrl": "https://devpost.com/software/dance-cv",
+      "githubUrl": "https://github.com/douglasichen/DanceCV",
+      "award": "Best Game Project",
+      "hackathon": "nwHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Joseph Deng",
+          "devpostProfileUrl": "https://devpost.com/josephdeng317"
+        },
+        {
+          "name": "Douglas Chen",
+          "devpostProfileUrl": "https://devpost.com/douglas579"
+        }
+      ]
+    },
+    {
+      "slug": "shop-a-sketch",
+      "name": "Shop-A-Sketch",
+      "oneLiner": "Draw what you imagine and search finds it — sketch-first shopping for the things you can't put into words.",
+      "description": "Traditional e-commerce search relies heavily on text. Yet, human thought is often visual, intuitive, and difficult to articulate in words. We were inspired by the gap between how people naturally imagine products and how they are forced to search for them online. Shop-A-Sketch lets users draw what they want to buy, then uses AI to interpret their sketch and search real products via Google Shopping APIs. Results show prices, ratings, and store links, and users can filter by price to refine their search. Users may then click directly into the item to purchase from the merchant. Our drawing canvas is built with React and Tailwind for a clean, responsive UI that works on any device.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/176/652/datas/medium.jpg",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/Rlop_MAxdIY",
+      "devpostUrl": "https://devpost.com/software/shop-a-sketch",
+      "githubUrl": "https://github.com/clairez308/uofthacks26",
+      "award": "3rd Place Overall",
+      "hackathon": "UofTHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "dev-tools"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Madeleine Alexander",
+          "devpostProfileUrl": "https://devpost.com/madeleinea"
+        },
+        {
+          "name": "Claire Zhang",
+          "devpostProfileUrl": "https://devpost.com/clairezhang838"
+        },
+        {
+          "name": "Shen Lei",
+          "devpostProfileUrl": "https://devpost.com/shen-lei2021"
+        }
+      ]
+    },
+    {
+      "slug": "snowy-day-3nfbgm",
+      "name": "Snowy Day",
+      "oneLiner": "Waymo, but for snow plows: reinforcement learning re-routes the city's plows so your street stops losing to the storm.",
+      "description": "Our streets turned into chaos, traffic slowed to a crawl, and snowplows somehow still missed half the roads. We started wondering: why are snowplow routes still basically guesswork? That curiosity turned into Snowy Day — a fun experiment to see how much better snowplowing could be with a little AI help. Snowy Day lets you pick a city and watch snowplows clean it up the smart way. Each snowplow acts like its own little brain, figuring out where to go next so that every road gets cleared with as little overlap and wasted time as possible. You can watch the plows move in real time as they tackle streets, highways, and intersections together.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/172/626/datas/medium.png",
+      "devpostUrl": "https://devpost.com/software/snowy-day-3nfbgm",
+      "githubUrl": "https://github.com/ryushen-tan/uOttaHack8-Maze",
+      "award": "2nd Place Overall",
+      "hackathon": "uOttaHack",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "sustainability"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Stephen Mamosian",
+          "devpostProfileUrl": "https://devpost.com/TheSlenk"
+        },
+        {
+          "name": "Aidan Chow",
+          "devpostProfileUrl": "https://devpost.com/kachowchow"
+        },
+        {
+          "name": "Ryushen Tan",
+          "devpostProfileUrl": "https://devpost.com/ryushen"
+        }
+      ]
+    },
+    {
+      "slug": "scamshield-87rbxe",
+      "name": "ScamShield",
+      "oneLiner": "Listens to grandma's calls in real time and warns her about scams through lights and voice — then texts the family.",
+      "description": "Phone scams targeting older adults are one of those problems that feel invisible until it is too late. Victims are often isolated, trusting, and pressured in the moment, before a family member has any chance to step in. We built ScamShield to act like a silent guardian during those calls: something that can listen in real time, recognize scam patterns, warn the person immediately, and get their family involved before money or personal information is lost. ScamShield is a Raspberry Pi device that listens to calls on speakerphone, detects scam patterns using AI, and instantly alerts both the person on the call and their family. There is no app to install and no major behavior change required.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/483/174/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/z5F1gDdCr84",
+      "devpostUrl": "https://devpost.com/software/scamshield-87rbxe",
+      "githubUrl": "https://github.com/TristanGru/ScamShield",
+      "award": "3rd Place Overall",
+      "hackathon": "HooHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "fintech"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Caleb Wiese",
+          "devpostProfileUrl": "https://devpost.com/calebwiese18"
+        },
+        {
+          "name": "TristanGru Grubbs",
+          "devpostProfileUrl": "https://devpost.com/TristanGru"
+        },
+        {
+          "name": "Alex Clunan",
+          "devpostProfileUrl": "https://devpost.com/alexclunan"
+        }
+      ]
+    },
+    {
+      "slug": "project-horizon-8iodp2",
+      "name": "Project Horizon",
+      "oneLiner": "What does the game look like from Messi's point of view? Identity through perspective — be anyone, see through their eyes.",
+      "description": "Have you ever watched Messi and wondered what the game looks like from his point of view? Project Horizon explores identity through perspective. In sports, a player’s identity is shaped not only by their actions, but by how they perceive the game: positioning, timing, awareness, and decision-making. Reconstructing a first-person POV from third-person footage using novel machine learning techniques, we let viewers momentarily inhabit another identity. Project Horizon is an AI system that converts third-person videos into realistic first-person POV footage. Users can select any player in a soccer video and experience the game exactly as that player would see it.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/173/314/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/CGtGJQ4qxpc",
+      "devpostUrl": "https://devpost.com/software/project-horizon-8iodp2",
+      "award": "2nd Place Overall",
+      "hackathon": "UofTHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "games"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Gordon Zhang",
+          "devpostProfileUrl": "https://devpost.com/gordonz0913"
+        },
+        {
+          "name": "Nathan Li",
+          "devpostProfileUrl": "https://devpost.com/qiz-li"
+        },
+        {
+          "name": "Alan Bui",
+          "devpostProfileUrl": "https://devpost.com/alanb3350"
+        }
+      ]
+    },
+    {
+      "slug": "lifesaver-lnm0tz",
+      "name": "LifeSaver",
+      "oneLiner": "Surgical training scored like a rhythm game: webcam hand tracking and voice-guided anatomy, before you ever touch a patient.",
+      "description": "A medical student spends 4 years in school, then 3-7 years in residency, and for most of that time they're watching not doing. The first time many residents actually hold a laparoscopic instrument and cut tissue, there's a real patient on the table. That's terrifying also Surgical simulation exists, but it costs $100,000+ per machine. Most medical schools have one or two simulators shared across hundreds of students, and you get maybe 30 minutes a semester on them. The rest of the time you're watching YouTube videos of surgeries and hoping you remember the steps when it matters. And it's not just about access it's about feedback.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/505/991/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/W6CaKOtUlmw",
+      "devpostUrl": "https://devpost.com/software/lifesaver-lnm0tz",
+      "githubUrl": "https://github.com/akhilm2223/yale/",
+      "award": "2nd Place Overall",
+      "hackathon": "YHack",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "health",
+        "games"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Surya Newa",
+          "devpostProfileUrl": "https://devpost.com/suryanewa"
+        },
+        {
+          "name": "Akhil Mattaparthi",
+          "devpostProfileUrl": "https://devpost.com/akhilmattaparthi7"
+        },
+        {
+          "name": "Mark Hrytchak",
+          "devpostProfileUrl": "https://devpost.com/mh4605"
+        },
+        {
+          "name": "Sunghoo Jung",
+          "devpostProfileUrl": "https://devpost.com/sunghoojung"
+        }
+      ]
+    },
+    {
+      "slug": "chromachord",
+      "name": "ChromaChord",
+      "oneLiner": "Autocomplete for jazz: real-time chord suggestions from 24-dimensional chroma math — all ~4,000 chords, no neural net.",
+      "description": "The inspiration behind this idea is to have the most extensive overview of music theory, especially in Jazz. Using a physics based approach, we could correctly identify all ~4000 chords in an octave and rank them by dissonance. With the power of LLMs in today's world, it is easier than ever to offload the burden of improvisation to LLMs. However, it was important to us in the beginning of this process to stray away from the LLM models that have little interpretability. This way of constructing the chords and ranking their dissonance from the ground up builds concrete understanding of which chord works well with what.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/330/072/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/niFOu62-IwU",
+      "devpostUrl": "https://devpost.com/software/chromachord",
+      "githubUrl": "https://github.com/J4Joshua/JASS-APP",
+      "award": "3rd Place Overall",
+      "hackathon": "TreeHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "rogeru13 Roger You",
+          "devpostProfileUrl": "https://devpost.com/rogeru13"
+        },
+        {
+          "name": "Joe Liang",
+          "devpostProfileUrl": "https://devpost.com/joe-f-liang"
+        },
+        {
+          "name": "Lucy Wu",
+          "devpostProfileUrl": "https://devpost.com/lucywu12"
+        },
+        {
+          "name": "J4Joshua Tan",
+          "devpostProfileUrl": "https://devpost.com/J4Joshua"
+        }
+      ]
+    },
+    {
+      "slug": "search-and-rescue-2pwlkf",
+      "name": "search-and-rescue-2pwlkf",
+      "oneLiner": "HooHacks 2026 overall winner.",
+      "description": "HooHacks 2026 overall winner.",
+      "devpostUrl": "https://devpost.com/software/search-and-rescue-2pwlkf",
+      "award": "1st Place Overall",
+      "hackathon": "HooHacks",
+      "year": 2026,
+      "domainTags": [],
+      "form": "software",
+      "team": []
+    }
+  ],
+  "patches": [
+    {
+      "slug": "ross-42pnvi",
+      "oneLiner": "Paintings for blind users: a robot draws the artwork on your palm using temperature as the color channel.",
+      "award": "Finalist",
+      "featuredRank": 7
+    },
+    {
+      "slug": "hardware-context-protocol",
+      "oneLiner": "MCP for physical devices: schema-defined interfaces so LLMs control arbitrary hardware in world-frame coordinates.",
+      "award": "Best Hardware Hack"
+    },
+    {
+      "slug": "dum-e-kgx6at",
+      "oneLiner": "Voice-commanded robot arm that skips VLA models entirely: homography bird's-eye view + inverse kinematics, no training.",
+      "award": "Finalist"
+    },
+    {
+      "slug": "lattice-flck7q",
+      "oneLiner": "Star Wars holographic telepresence from three Kinects and a HoloLens at 23fps — a laptop mesh with ICP calibration.",
+      "award": "Finalist"
+    },
+    {
+      "slug": "kinemo",
+      "oneLiner": "Webcam-only party game console — won on signal-processing fundamentals over off-the-shelf pose models.",
+      "award": "1st Place Overall"
+    },
+    {
+      "slug": "mindpad",
+      "oneLiner": "Gesture + voice study canvas — a custom ANN over hand landmarks hits 99% accuracy at sub-200ms.",
+      "award": "Best Overall Hack"
+    },
+    {
+      "slug": "presurg",
+      "oneLiner": "Surgical outcome forecasting from actual finite-element analysis plus physics-informed neural nets."
+    },
+    {
+      "slug": "post-surgery-pillow-psp",
+      "oneLiner": "Ward-wide urgency ranking from a sensor pillow — threshold overrides so averaging can't hide a crashing vital.",
+      "award": "1st Place"
+    },
+    {
+      "slug": "ted-ai-x8537t",
+      "oneLiner": "Emotionally intelligent teddy bear: hug and heart-rate sensor fusion with on-device emotion inference.",
+      "award": "2nd Place"
+    },
+    {
+      "slug": "resqme-jq52al",
+      "oneLiner": "Self-healing ESP32 disaster mesh with offline GPS and messaging when all networks fail.",
+      "award": "2nd Best Overall Hack"
+    }
+  ]
+}

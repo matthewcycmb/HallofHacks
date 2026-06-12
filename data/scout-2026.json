@@ -1,0 +1,460 @@
+[
+  {
+    "slug": "raising-cane",
+    "name": "Shepherd",
+    "event": "TreeHacks 2026",
+    "prizes": [
+      "Treehacks Grand Prize (1st)",
+      "[OpenEvidence] Healthcare Track Grand Prize",
+      "[OpenEvidence] Best Use of Clinical Information (4x Apple Watches)"
+    ],
+    "tagline": "A smart cane that guides indoor and outdoor navigation for blind people, costing ~1/20 of existing devices and providing better guidance.",
+    "desc": "Inspiration 1.7 million Americans are legally blind. While canes tell you something is there, they don't tell you where to go. Smart canes actively steer you around obstacles, but they’re prohibitively expensive and inaccessible. We wanted to create a cheaper, intelligent alternative. What it does Shepherd is a motorized smart cane that uses iPhone",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "accelerate",
+      "arkit",
+      "ble",
+      "combine",
+      "corebluetooth",
+      "corehaptics",
+      "coreml",
+      "deeplabv3",
+      "freertos",
+      "gcp",
+      "swiftui",
+      "vapi",
+      "vision"
+    ]
+  },
+  {
+    "slug": "we-use-nix",
+    "name": "Robosurge",
+    "event": "TreeHacks 2026",
+    "prizes": [
+      "Treehacks Grand Prize (2nd)"
+    ],
+    "tagline": "Cursor for surgery.",
+    "desc": "Inspiration The United States is facing a growing shortage of surgical specialists, projected to reach nearly 20,000 by 2036. Additionally, operating rooms cost roughly $2,200 per hour per surgeon. Today’s robotic surgical robots greatly improve precision by scaling and filtering human motion. But they do not automate surgical tasks. This is due to",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "agent",
+      "lean",
+      "llm",
+      "nix",
+      "robotics",
+      "vr"
+    ]
+  },
+  {
+    "slug": "chromachord",
+    "name": "ChromaChord",
+    "event": "TreeHacks 2026",
+    "prizes": [
+      "Treehacks Grand Prize (3rd)",
+      "[Suno] Best Musical Hack"
+    ],
+    "tagline": "Real-time music chord suggestions based on the elegant theory of 24D chroma vectors, enhanced with track generation features.",
+    "desc": "Inspiration The inspiration behind this idea is to have the most extensive overview of music theory, especially in Jazz. Using a physics based approach, we could correctly identify all ~4000 chords in an octave and rank them by dissonance. With the power of LLMs in today's world, it is easier than ever to offload the burden of improvisation to LLMs",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "claude",
+      "nextjs",
+      "perplexity",
+      "vercel"
+    ]
+  },
+  {
+    "slug": "shadowguard-l6yv7p",
+    "name": "ShadowGuard",
+    "event": "TreeHacks 2026",
+    "prizes": [
+      "[OpenEvidence] Healthcare Track Grand Prize"
+    ],
+    "tagline": "ShadowGuard is a network-layer AI firewall that detects and redacts sensitive patient data in real time, before it ever leaves a hospital network.",
+    "desc": "Inspiration Healthcare is rapidly adopting AI tools, cloud platforms, and smart medical devices. While this improves efficiency and patient outcomes, it also introduces a serious compliance risk: sensitive patient data can leave the hospital network in seconds. A simple AI prompt containing a name, diagnosis, or SSN can unintentionally create a HIP",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "mitmproxy",
+      "openai",
+      "vapi"
+    ]
+  },
+  {
+    "slug": "temp-sqyptg",
+    "name": "Identity Matrix",
+    "event": "UofTHacks 2026",
+    "prizes": [
+      "Overall 1st place",
+      "Best UofT Hack"
+    ],
+    "tagline": ".",
+    "desc": "Inspiration What if your “online presence” didn’t stop when you closed your laptop? Identity Matrix is a real-time multiplayer simulation where your avatar transforms into a stateful agent. When you log off, your AI keeps running: it remembers how you talk, what you care about, who you avoid, and who you keep coming back to. Step 1: upload your ide",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "ai",
+      "fastapi",
+      "grok",
+      "openai",
+      "openrouter",
+      "supabase"
+    ]
+  },
+  {
+    "slug": "project-horizon-8iodp2",
+    "name": "Project Horizon",
+    "event": "UofTHacks 2026",
+    "prizes": [
+      "Overall 2nd place",
+      "Backboard.io: Memory Lane: Adaptive AI Journeys",
+      "TwelveLabs: Build The Future of Video Understanding with TwelveLabs"
+    ],
+    "tagline": "You can be anyone.",
+    "desc": "Inspiration Have you ever watched Messi and wondered what the game looks like from his point of view? Project Horizon explores identity through perspective. In sports, a player’s identity is shaped not only by their actions, but by how they perceive the game: positioning, timing, awareness, and decision-making. Reconstructing a first-person POV fro",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "backboard",
+      "openai"
+    ]
+  },
+  {
+    "slug": "shop-a-sketch",
+    "name": "Shop-A-Sketch",
+    "event": "UofTHacks 2026",
+    "prizes": [
+      "Overall 3rd place"
+    ],
+    "tagline": "Draw what you imagine. Find what matches who you are.",
+    "desc": "Inspiration Traditional e-commerce search relies heavily on text. Yet, human thought is often visual, intuitive, and difficult to articulate in words. We were inspired by the gap between how people naturally imagine products and how they are forced to search for them online. What it does Shop-A-Sketch lets users draw what they want to buy, then use",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "figma",
+      "jsx",
+      "render",
+      "tailwind",
+      "vite"
+    ]
+  },
+  {
+    "slug": "codebreaker-la",
+    "name": "codebreaker",
+    "event": "LA Hacks 2026",
+    "prizes": [
+      "1st Overall",
+      "Cognition Company Challenge"
+    ],
+    "tagline": "AI-Native CyberSec — detect, validate, and fix vulnerabilities with agent intelligence, powered by an open harness and an expansive benchmark",
+    "desc": "Inspiration Cyberattacks on software — particularly the open-source supply chain — have accelerated sharply in the past few years in both frequency and scale. Software and software teams were not built for a world in which malicious actors have access to more capable and more available agent intelligence than ever before. In the past year alone, ov",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "devin",
+      "modal"
+    ]
+  },
+  {
+    "slug": "riis",
+    "name": "RIIS",
+    "event": "LA Hacks 2026",
+    "prizes": [
+      "2nd Overall",
+      "Fetch.ai: Best Use of ASI:One"
+    ],
+    "tagline": "Rapid Incident Intelligence System",
+    "desc": "Inspiration Structural collapses kill survivors not because rescue is impossible, but because care can't reach them in time. In the first hour after a building comes down, survival rates drop sharply with every passing minute, yet the patient is often alive, conscious, and reachable. The barrier isn't medical capability. It's access. We built RIIS ",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "fastapi",
+      "fetch"
+    ]
+  },
+  {
+    "slug": "autopsy-zq5d84",
+    "name": "Autopsy",
+    "event": "LA Hacks 2026",
+    "prizes": [
+      "3rd Overall",
+      "Cognition Company Challenge"
+    ],
+    "tagline": "Autopsy records every action your AI coding agent takes, autopsies the failures, builds a graph of why they happened, and injects into the agent&#39;s next attempt so it doesn&#39;t make mistake again.",
+    "desc": "",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "claude",
+      "codex",
+      "devin",
+      "fastapi",
+      "gemma",
+      "next.js",
+      "opencode",
+      "pgvector",
+      "tailwind"
+    ]
+  },
+  {
+    "slug": "agent-gauntlet",
+    "name": "Agent Gauntlet",
+    "event": "HooHacks 2026",
+    "prizes": [
+      "Best Overall - 2nd Place"
+    ],
+    "tagline": "Adversarial evaluation harness for live browser agents.\r\n\r\n",
+    "desc": "Inspiration Browser agents are getting really good at doing things on the web — booking flights, searching products, filling out forms. But we kept asking ourselves: what happens when the website tries to trick them? We were inspired by adversarial security research and wanted to bring that same thinking to browser agents. If an agent can be fooled",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "anthropic-api",
+      "convex",
+      "html2canvas",
+      "nanoid",
+      "next.js",
+      "openai-api",
+      "playwright",
+      "recharts",
+      "tailwind-css",
+      "vitest"
+    ]
+  },
+  {
+    "slug": "scamshield-87rbxe",
+    "name": "ScamShield",
+    "event": "HooHacks 2026",
+    "prizes": [
+      "Best Overall - 3rd Place"
+    ],
+    "tagline": "ScamShield listens for scam calls in real time, warns seniors through lights, voice, and display alerts, and instantly notifies trusted family through a secure dashboard.",
+    "desc": "Inspiration Phone scams targeting older adults are one of those problems that feel invisible until it is too late. Victims are often isolated, trusting, and pressured in the moment, before a family member has any chance to step in. We built ScamShield to act like a silent guardian during those calls: something that can listen in real time, recogniz",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "auth0",
+      "elevenlabs",
+      "fastapi",
+      "google-gemini-api",
+      "googlenest",
+      "grove-sensors",
+      "next.js",
+      "ngrok",
+      "railway-postgres",
+      "sensecap-indicator",
+      "vercel"
+    ]
+  },
+  {
+    "slug": "alleaf",
+    "name": "Alleaf",
+    "event": "Hacklytics 2026",
+    "prizes": [
+      "Best Overall Hack – 1st Place"
+    ],
+    "tagline": "Alleviate. Relief. Turn over a new Leaf.",
+    "desc": "Inspiration Mental health challenges have become a significant challenge, with rising rates of depression and anxiety often linked to elevated stress levels and a lack of mindfulness. Alleaf was developed to address this by leveraging technology and physiological data to help users maintain a grounded state. What the Project Does Alleaf provides re",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "actian-vectordb",
+      "esp32",
+      "next.js"
+    ]
+  },
+  {
+    "slug": "lumos-ai",
+    "name": "Lumos AI",
+    "event": "Hacklytics 2026",
+    "prizes": [
+      "2nd Overall Hack"
+    ],
+    "tagline": "Navigate with Real-Time Safety, Crime/Risk Metrics, &amp; Predictive Routing!",
+    "desc": "💡 Inspiration The idea for Lumos came from a simple fear we've all felt: walking at night in an unfamiliar place, wondering is this street safe? Existing safety tools give you a vague \"high crime area\" label with no context — no breakdown of what crimes, when they happen, or how the risk shifts hour by hour. We wanted to build something that actua",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "citizen",
+      "cloud-functions",
+      "elevenlabs",
+      "fastapi",
+      "fbi-crime-data-explorer-api",
+      "fbi-nibrs",
+      "firebase-(auth",
+      "firestore",
+      "framer-motion",
+      "geocoding)",
+      "google-gemini-2.5-flash",
+      "google-maps-platform-(places",
+      "mapbox-gl",
+      "national-weather-service-api",
+      "realtime-database)",
+      "routes",
+      "scraping",
+      "shadcn/ui",
+      "tailwind-css",
+      "ticketmaster-api",
+      "us-census-bureau-api",
+      "vapi",
+      "vite",
+      "vultr",
+      "webhook",
+      "xgboost"
+    ]
+  },
+  {
+    "slug": "crisis-averted",
+    "name": "Crisis Averted",
+    "event": "Hacklytics 2026",
+    "prizes": [
+      "3rd Overall Hack"
+    ],
+    "tagline": "Close the humanitarian funding gap with our Crisis Topography Command Center. We map aid mismatches on a 3D globe. Ask Pablo, our AI voice agent, to fly you to any country for deep insights.",
+    "desc": "Inspiration We were inspired by the Hacklytics 2026 challenge on inequality in humanitarian funding allocation. Currently, billions of dollars in aid are spent reactively, driven by media visibility and sentiment rather than by systemic, measured need. We wanted to reframe global humanitarian aid as a quantitative capital allocation challenge . Our",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "actian-vector-db",
+      "agent",
+      "apache-kafka",
+      "databricks",
+      "delta-lake",
+      "elevenlabs",
+      "fastapi",
+      "fintech",
+      "framer-motion",
+      "google-gemini",
+      "hdx-hapi",
+      "hpc-tools-api",
+      "httpx",
+      "jupyter",
+      "kafka",
+      "llama",
+      "next.js",
+      "openrouter",
+      "qwen",
+      "react-globe.gl",
+      "recharts",
+      "sentence-transformers",
+      "tailwind-css",
+      "vector",
+      "virtual-machine",
+      "vultr"
+    ]
+  },
+  {
+    "slug": "cybersea-h5kgvf",
+    "name": "CyberSea",
+    "event": "uOttaHack 2026",
+    "prizes": [
+      "1st Place Overall",
+      "Thales: Northern Shield, Maritime Strategy Simulator Challenge"
+    ],
+    "tagline": "AI-powered tactical intelligence platform that lets commanders visualize, analyze, and simulate Arctic patrol operations in real-time.                                                               ",
+    "desc": "Inspiration CyberSea was inspired by the challenge facing Canada's Navy: protecting vast Arctic territories with limited resources as climate change opens new trade routes. We saw an opportunity to build modern simulation and decision-support tools that help leadership teams visualize complex patrol operations, optimize resource allocation, and tes",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "gsap",
+      "next.js",
+      "tailwindcss"
+    ]
+  },
+  {
+    "slug": "snowy-day-3nfbgm",
+    "name": "Snowy Day",
+    "event": "uOttaHack 2026",
+    "prizes": [
+      "2nd Place Overall"
+    ],
+    "tagline": "Think Waymo&#39;s… but for Snow Plows.",
+    "desc": "Inspiration It snowed. A lot. Our streets turned into chaos, traffic slowed to a crawl, and snowplows somehow still missed half the roads. We started wondering: why are snowplow routes still basically guesswork? That curiosity turned into Snowy Day — a fun experiment to see how much better snowplowing could be with a little AI help. What it does Sn",
+    "video": false,
+    "image": true,
+    "builtWith": [
+      "dqn",
+      "osmnx",
+      "reinforcement-learning"
+    ]
+  },
+  {
+    "slug": "wingit-4s1gbk",
+    "name": "WingIt",
+    "event": "uOttaHack 2026",
+    "prizes": [
+      "3rd Place Overall",
+      "NAV Canada: Trajectory Insight Challenge",
+      "Sentry: Best Use of Sentry"
+    ],
+    "tagline": "WingIt is a flight scheduling tool designed to keep skies safe by resolving thousands of possible mid-air collisions at the click of a button.",
+    "desc": "Inspiration The team was inspired this UOttaHack by a shared desire to build code that wasn't just beautiful or functional, but had a tangible impact on people's lives. Nav Canada's challenge was an opportunity to build a tool that could show real public benefit, and go beyond just maximizing a balance sheet. What it does WingIt is able to visualiz",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "ai",
+      "fastapi"
+    ]
+  },
+  {
+    "slug": "circa-u1fsx5",
+    "name": "Circa",
+    "event": "YHack 2026",
+    "prizes": [
+      "First Place Overall",
+      "Societal Impact"
+    ],
+    "tagline": "Real-time field monitoring for precision irrigation control.",
+    "desc": "The Problem Farming today is inefficient, expensive, and hard to control. Nearly 40–50% of irrigation water is wasted through poor management and imprecise delivery — and the systems designed to fix this create problems of their own. Center-pivot irrigation (circular farming) is one of the most water-efficient methods available, saving up to 90% mo",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "esp-32",
+      "fastapi",
+      "restapi",
+      "socket"
+    ]
+  },
+  {
+    "slug": "lifesaver-lnm0tz",
+    "name": "LifeSaver",
+    "event": "YHack 2026",
+    "prizes": [
+      "Second Place Overall",
+      "Most Creative Hack"
+    ],
+    "tagline": "AI-powered surgical training simulator with real-time hand tracking, voice-guided anatomy, and   32-dim performance vectors learn to operate before you operate.",
+    "desc": "Inspiration A medical student spends 4 years in school, then 3-7 years in residency, and for most of that time they're watching not doing. The first time many residents actually hold a laparoscopic instrument and cut tissue, there's a real patient on the table. That's terrifying also Surgical simulation exists, but it costs $100,000+ per machine. M",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "3dmodels",
+      "eleven",
+      "framer",
+      "mediapipe",
+      "vector",
+      "vite"
+    ]
+  },
+  {
+    "slug": "gaitguard",
+    "name": "GaitGuard",
+    "event": "YHack 2026",
+    "prizes": [
+      "Third Place Overall",
+      "Built With Zed"
+    ],
+    "tagline": "GaitGuard is a wearable sensor system that measures a patient&#39;s gait against a personalized healthy baseline and delivers realtime haptic feedback to correct deviations between physical therapy visits",
+    "desc": "Inspiration One of our team members has spent a lot of time working at a rehab center and has seen these challenges firsthand. They saw how difficult it is for patients to stay consistent with home exercises and how little feedback they receive once they leave the clinic. That experience inspired us to build GaitGuard. What it does GaitGuard is a w",
+    "video": true,
+    "image": true,
+    "builtWith": [
+      "claude",
+      "qnx",
+      "zed"
+    ]
+  }
+]

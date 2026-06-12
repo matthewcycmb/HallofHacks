@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#ece2c8"/>
+  <rect x="12" y="12" width="376" height="276" fill="none" stroke="#a87e1f" stroke-width="2"/>
+  <rect x="18" y="18" width="364" height="264" fill="none" stroke="#211a10" stroke-width="1"/>
+  <text x="200" y="145" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-style="italic" fill="#6b5f48">image unavailable</text>
+  <text x="200" y="175" text-anchor="middle" font-family="Courier, monospace" font-size="11" letter-spacing="3" fill="#9c8f73">HALL OF HACKS</text>
+</svg>

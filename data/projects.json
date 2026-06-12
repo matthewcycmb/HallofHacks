@@ -1,0 +1,764 @@
+[
+  {
+    "slug": "facetime-macos-ai-agent",
+    "name": "FaceTimeOS",
+    "oneLiner": "Lets you call your own Mac on FaceTime and ask it to do things out loud. The computer actually does them for you and talks back to you during the call.",
+    "description": "Have you ever gone to the gym and forgotten to train your Hugging Face model? Have you ever wanted to show a friend your most recent Fortnite clip, but the file was stuck on your Mac? We've all been there. In today's remote-first world, we're often physically separated from our most powerful tool: our personal computer. We're stuck on the go, desperately needing a local file, a specific app, or the ability to run a complex script that only exists on our Mac. Current remote desktop solutions are clunky, slow, and built for visual control, not quick, conversational commands. We were inspired to bridge this gap.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/901/909/datas/medium.png",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/zN96RdE0OSg",
+    "devpostUrl": "https://devpost.com/software/facetime-macos-ai-agent",
+    "githubUrl": "https://github.com/ThePickleGawd/calhacks-25",
+    "award": "1st out of 699 teams",
+    "hackathon": "Cal Hacks 12.0",
+    "year": 2025,
+    "domainTags": [
+      "ai-ml",
+      "dev-tools"
+    ],
+    "form": "software",
+    "team": [
+      {
+        "name": "Dylan Lu",
+        "devpostProfileUrl": "https://devpost.com/dylanelu"
+      },
+      {
+        "name": "Calvin Lu",
+        "devpostProfileUrl": "https://devpost.com/Cow-Van"
+      },
+      {
+        "name": "Davyn Paringkoan",
+        "devpostProfileUrl": "https://devpost.com/davyn-par"
+      }
+    ],
+    "featuredRank": 1,
+    "dominantColor": "#483828"
+  },
+  {
+    "slug": "raising-cane",
+    "name": "Shepherd",
+    "oneLiner": "A white cane for blind people with a small motor inside. Instead of just warning about obstacles, it gently pulls the user toward the safest open path, the way a guide dog would, and it costs about 20 times less than products in stores.",
+    "description": "1.7 million Americans are legally blind. While canes tell you something is there, they don't tell you where to go. Smart canes actively steer you around obstacles, but they’re prohibitively expensive and inaccessible. We wanted to create a cheaper, intelligent alternative. Shepherd is a motorized smart cane that uses iPhone LiDAR and computer vision to detect obstacles and physically guide the user away from them in real time, and is also able to navigate users using GPS with an interactive voice interface. A small motor on the cane applies lateral force, nudging the cane left or right, so the user feels which direction is clear without needing audio cues or screen interaction.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/330/049/datas/medium.png",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/nJ5YjK1-0c0",
+    "devpostUrl": "https://devpost.com/software/raising-cane",
+    "githubUrl": "https://github.com/tonywangs/shepherd",
+    "award": "Grand Prize (378 teams)",
+    "hackathon": "TreeHacks",
+    "year": 2026,
+    "domainTags": [
+      "social-good",
+      "health"
+    ],
+    "form": "both",
+    "team": [
+      {
+        "name": "Tony Wang",
+        "devpostProfileUrl": "https://devpost.com/tony-wang"
+      },
+      {
+        "name": "Arjun Oberoi",
+        "devpostProfileUrl": "https://devpost.com/Gymnast544"
+      },
+      {
+        "name": "Shane Mion",
+        "devpostProfileUrl": "https://devpost.com/shanemion"
+      },
+      {
+        "name": "Anthony Chukhlov",
+        "devpostProfileUrl": "https://devpost.com/AnthChukh"
+      }
+    ],
+    "featuredRank": 2,
+    "dominantColor": "#080808",
+    "feedImage": "https://i.ytimg.com/vi/nJ5YjK1-0c0/hqdefault.jpg"
+  },
+  {
+    "slug": "temp-sqyptg",
+    "name": "Identity Matrix",
+    "oneLiner": "An online game world where your character stays alive after you log off. It learns how you talk and behave, so your friends can still chat and hang out with a version of you while you're away.",
+    "description": "What if your “online presence” didn’t stop when you closed your laptop? Identity Matrix is a real-time multiplayer simulation where your avatar transforms into a stateful agent. When you log off, your AI keeps running: it remembers how you talk, what you care about, who you avoid, and who you keep coming back to. Step 1: upload your identity to the Matrix. Step 2: find out you... We developed a real-time multiplayer virtual world with four core features: Our proudest feature is the Continual Learning loop we developed. The model iteratively learns from your mannerisms and interactions, storing this into our custom memory bank , optimized to remember both important things and minor details.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/173/716/datas/medium.png",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/AGGb7Qv4gY4",
+    "devpostUrl": "https://devpost.com/software/temp-sqyptg",
+    "githubUrl": "https://github.com/qiuethan/UofTHacks-Project",
+    "award": "1st out of 160 teams",
+    "hackathon": "UofTHacks",
+    "year": 2026,
+    "domainTags": [
+      "ai-ml",
+      "games"
+    ],
+    "form": "software",
+    "team": [
+      {
+        "name": "Alvina Yang",
+        "devpostProfileUrl": "https://devpost.com/alvina-yang"
+      },
+      {
+        "name": "Ethan Qiu",
+        "devpostProfileUrl": "https://devpost.com/ethanqiu"
+      },
+      {
+        "name": "William Bo",
+        "devpostProfileUrl": "https://devpost.com/Williamzhibo"
+      },
+      {
+        "name": "Zachary Tang",
+        "devpostProfileUrl": "https://devpost.com/e-ndorfin"
+      }
+    ],
+    "featuredRank": 3,
+    "dominantColor": "#080808",
+    "feedImage": "https://i.ytimg.com/vi/AGGb7Qv4gY4/hqdefault.jpg"
+  },
+  {
+    "slug": "dial-4rqzc3",
+    "name": "DIAL(*)",
+    "oneLiner": "The team arrived at the hackathon with nowhere to sleep, so they built phone bots that called more than 100 real hotels overnight and negotiated a luxury room down to $158.",
+    "description": "We were stranded in San Francisco on Saturday night without housing, and decided to let a fleet of AI agents find us a room. What started as a quick experiment turned into a full-stack system for autonomous negotiation, data-driven decision making, and natural communication. DIAL (*) is an optimized customer service agent designed for data-heavy use cases. It makes phone calls, speaks naturally, queries live databases, and learns from every conversation to improve future performance. Building a robust state machine that avoided hallucinations while staying conversational was hard. Integrating ElevenLabs’ voice with live Twilio calls also required solving real-time latency issues.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/899/639/datas/medium.png",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/32DSdO1V-z0",
+    "devpostUrl": "https://devpost.com/software/dial-4rqzc3",
+    "award": "Winner (699 teams)",
+    "hackathon": "Cal Hacks 12.0",
+    "year": 2025,
+    "domainTags": [
+      "ai-ml"
+    ],
+    "form": "software",
+    "team": [
+      {
+        "name": "John Connell",
+        "devpostProfileUrl": "https://devpost.com/JohnConnellCS"
+      },
+      {
+        "name": "Sophia Sharif",
+        "devpostProfileUrl": "https://devpost.com/sophiasharif146"
+      },
+      {
+        "name": "Tom Binford",
+        "devpostProfileUrl": "https://devpost.com/tombinford"
+      },
+      {
+        "name": "Shubham Kumar",
+        "devpostProfileUrl": "https://devpost.com/altruisticnarcissist"
+      }
+    ],
+    "featuredRank": 4,
+    "dominantColor": "#080808"
+  },
+  {
+    "slug": "ross-42pnvi",
+    "name": "ROSS",
+    "oneLiner": "A robot that helps blind people experience paintings. It draws the artwork on the palm of your hand, using warm and cold touches so you can feel where the different colors are.",
+    "description": "Visual art is such a large component of human culture. If you visit any art gallery, you'll notice that many of the exhibits are paintings on 2D surfaces. What if you're blind and looking to experience the art as well? What if you could take a picture of a painting and feel the shapes and curves being drawn on your hands? Our inspiration for this project was based in accessibility, to make the idea of art accessible to the visually impaired by adding the elements of touch, sound, and temperature. The inspiration for the name specifically is Bob Ross, who believed that art should be accessible and joyful for everyone, regardless of skill or background.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/740/373/datas/medium.png",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/FP0lBdZkyqI",
+    "devpostUrl": "https://devpost.com/software/ross-42pnvi",
+    "githubUrl": "https://github.com/FowlFarmer/HTN2025",
+    "award": "Finalist (261 teams)",
+    "hackathon": "Hack the North",
+    "year": 2025,
+    "domainTags": [
+      "social-good"
+    ],
+    "form": "software",
+    "team": [
+      {
+        "name": "Theodore Zhu",
+        "devpostProfileUrl": "https://devpost.com/theodorez888"
+      },
+      {
+        "name": "TianYao12 Yao",
+        "devpostProfileUrl": "https://devpost.com/TianYao12"
+      },
+      {
+        "name": "Andre Ke",
+        "devpostProfileUrl": "https://devpost.com/nohyp3"
+      },
+      {
+        "name": "Jonathan Shanmuganantham",
+        "devpostProfileUrl": "https://devpost.com/JonnyACCI"
+      }
+    ],
+    "featuredRank": 5,
+    "dominantColor": "#080808",
+    "feedImage": "https://i.ytimg.com/vi/FP0lBdZkyqI/hqdefault.jpg"
+  },
+  {
+    "slug": "orca-4po0nm",
+    "name": "Orca",
+    "oneLiner": "You hum or beatbox a melody and say which instruments you want. It turns that into a real song you can keep editing, so you can make music without knowing any music software.",
+    "description": "We're living in the golden age of creation. AI tools are unlocking creative potential like never before, but there's this massive gap: millions of enthusiast musicians and producers have incredible musical ideas stuck in their heads. You know that melody you hum in the shower? That beat you tap on your desk? Most people have no way to actually turn those into real music. We wanted to fix that. Our goal was simple: give musical enthusiasts the power to bring those fleeting melodies to life. Build something that keeps the artist in control while making the whole experience feel seamless and natural. Orca takes your voice and turns it into actual music.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/262/015/datas/medium.png",
+    "demoVideoUrl": "https://player.vimeo.com/video/1162996077",
+    "devpostUrl": "https://devpost.com/software/orca-4po0nm",
+    "githubUrl": "https://github.com/Beebdoles/qhacks-2026/tree/main",
+    "award": "1st out of 77 teams",
+    "hackathon": "QHacks",
+    "year": 2026,
+    "domainTags": [
+      "ai-ml"
+    ],
+    "form": "software",
+    "team": [
+      {
+        "name": "Marshall Yao",
+        "devpostProfileUrl": "https://devpost.com/beebdoles132435"
+      },
+      {
+        "name": "Robert Yin",
+        "devpostProfileUrl": "https://devpost.com/RupertChin"
+      },
+      {
+        "name": "Chloe Houvardas",
+        "devpostProfileUrl": "https://devpost.com/ToastDuck"
+      }
+    ],
+    "featuredRank": 6,
+    "dominantColor": "#080808"
+  },
+  {
+    "slug": "dance-cv",
+    "name": "Dance CV",
+    "oneLiner": "Pick any dance video on the internet and dance along in front of your webcam. The app compares your moves to the video, gives you a score, and a voice coach tells you what to fix.",
+    "description": "We were inspired by years of playing Just Dance on the Wii. It was a great way to combine fun and exercise, but we noticed two main issues. The Wii only scored you based on the position of your Wii remote, and there was no room for customization if you wanted to add your own songs and dances. To try and fix this, we decided to build our own AI dance coach that can teach you any dance in the world, and actually give you real advice that you can use to improve! Dance CV allows the user to upload an .mp4 of any solo dance they want. It will then use AI to chunk the dance into easily learnable movements so the user can spend time perfecting each move.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/183/096/datas/medium.png",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/AWBrBWU1IzA",
+    "devpostUrl": "https://devpost.com/software/dance-cv",
+    "githubUrl": "https://github.com/douglasichen/DanceCV",
+    "award": "Best Game Project (169 teams)",
+    "hackathon": "nwHacks",
+    "year": 2026,
+    "domainTags": [
+      "ai-ml"
+    ],
+    "form": "software",
+    "team": [
+      {
+        "name": "Joseph Deng",
+        "devpostProfileUrl": "https://devpost.com/josephdeng317"
+      },
+      {
+        "name": "Douglas Chen",
+        "devpostProfileUrl": "https://devpost.com/douglas579"
+      }
+    ],
+    "dominantColor": "#080808",
+    "featuredRank": 7
+  },
+  {
+    "slug": "yes-or-yes",
+    "name": "YES? or YES!",
+    "oneLiner": "Can't make a decision? Type in your options and three live pet fish choose for you by swimming toward one. The computer then actually goes and does whatever the fish picked.",
+    "description": "We wanted the most unhinged possible use of 36 hours. The premise: take an actual fish tank with three real guppies and put it in charge of a real human's real life. Over the phone, in real time, with real consequences on a real MacBook. No prompt, no UI, no off-ramp. The fish decide, your computer obeys. You call a Twilio number. A snarky AI fish picks up. You tell it about something going on in your life. A breakup, a meeting you forgot, the job you just lost. The fish picks two options for you, one slightly bad and one catastrophically bad, and shows them on a TV mounted behind a real fish tank. Three guppies swim around. Whichever side of the tank the majority of fish are on when the countdown ends, that is the option that wins.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/615/217/datas/medium.jpg",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/v2X7dJ6E1E4",
+    "devpostUrl": "https://devpost.com/software/yes-or-yes",
+    "githubUrl": "https://github.com/lukietee/YESorYES",
+    "award": "Winner (307 teams)",
+    "hackathon": "LA Hacks",
+    "year": 2026,
+    "domainTags": [
+      "ai-ml",
+      "games"
+    ],
+    "form": "software",
+    "team": [
+      {
+        "name": "lucas t",
+        "devpostProfileUrl": "https://devpost.com/lukietee"
+      },
+      {
+        "name": "zig chen",
+        "devpostProfileUrl": "https://devpost.com/zigchen"
+      },
+      {
+        "name": "Jason Zeng",
+        "devpostProfileUrl": "https://devpost.com/jasonzzeng"
+      }
+    ],
+    "dominantColor": "#080808",
+    "featuredRank": 8
+  },
+  {
+    "slug": "screwyouikea",
+    "name": "ScrewYouIKEA.com",
+    "oneLiner": "Upload the instruction manual for your IKEA furniture and it becomes a 3D animation. You can spin it around and watch each step happen until the furniture is fully built.",
+    "description": "Furniture manual PDF → interactive 3D assembly animation. Gemini emits Scene JSON executed by a Three.js renderer.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/815/644/datas/medium.png",
+    "demoVideoUrl": "https://player.vimeo.com/video/1124554736",
+    "devpostUrl": "https://devpost.com/software/screwyouikea",
+    "githubUrl": "https://github.com/donaragalstyan/ScrewYouIkea",
+    "award": "Winner (160 teams)",
+    "hackathon": "HackHarvard",
+    "year": 2025,
+    "domainTags": [
+      "ai-ml"
+    ],
+    "form": "software",
+    "team": [
+      {
+        "name": "Senan Gaffori",
+        "devpostProfileUrl": "https://devpost.com/SenanG"
+      },
+      {
+        "name": "Donara Galstyan",
+        "devpostProfileUrl": "https://devpost.com/donna-galstyan-31"
+      },
+      {
+        "name": "Liam Marcovitz",
+        "devpostProfileUrl": "https://devpost.com/liam-marcovitz"
+      }
+    ],
+    "dominantColor": "#080808",
+    "featuredRank": 9
+  },
+  {
+    "slug": "longshot",
+    "name": "Longshot",
+    "oneLiner": "The team typed one sentence describing Minecraft, and 200 AI assistants worked together overnight, writing code side by side until they had rebuilt the game from scratch.",
+    "description": "AI has already transformed the digital world by translating language to code with autonomous coding agents, but this requires human intervention. Longshot changes that by orchestrating swarms of autonomous agents. Each agent observes, interprets, and acts in real time, working in parallel while staying aligned to the project’s goal. Longshot is our architectural system curated towards spawning swarms of carefully managed long-running agents that code an end product start to finish. Most agentic coding today like Claude and OpenClaw are iterative loops where you either supervise step by step or let a single agent run in a loop.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/325/504/datas/medium.png",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/5oxXfazBcaQ",
+    "devpostUrl": "https://devpost.com/software/longshot",
+    "githubUrl": "https://github.com/andrewcai8/agentswarm",
+    "award": "Modal Challenge Winner (378 teams)",
+    "hackathon": "TreeHacks",
+    "year": 2026,
+    "domainTags": [
+      "ai-ml",
+      "dev-tools",
+      "games"
+    ],
+    "form": "software",
+    "team": [
+      {
+        "name": "Legasse Remon",
+        "devpostProfileUrl": "https://devpost.com/legasseahs1"
+      },
+      {
+        "name": "Matthew Chow",
+        "devpostProfileUrl": "https://devpost.com/matthewchow03"
+      },
+      {
+        "name": "Andrew Cai",
+        "devpostProfileUrl": "https://devpost.com/andrewcai8"
+      },
+      {
+        "name": "Rami Maalouf",
+        "devpostProfileUrl": "https://devpost.com/ramim66809"
+      }
+    ],
+    "featuredRank": 10,
+    "dominantColor": "#f8f8e8"
+  },
+  {
+    "slug": "shop-a-sketch",
+    "name": "Shop-A-Sketch",
+    "oneLiner": "When you can't put what you want to buy into words, you just draw it. The app looks at your sketch and finds real products that look like it.",
+    "description": "Traditional e-commerce search relies heavily on text. Yet, human thought is often visual, intuitive, and difficult to articulate in words. We were inspired by the gap between how people naturally imagine products and how they are forced to search for them online. Shop-A-Sketch lets users draw what they want to buy, then uses AI to interpret their sketch and search real products via Google Shopping APIs. Results show prices, ratings, and store links, and users can filter by price to refine their search. Users may then click directly into the item to purchase from the merchant. Our drawing canvas is built with React and Tailwind for a clean, responsive UI that works on any device.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/176/652/datas/medium.jpg",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/Rlop_MAxdIY",
+    "devpostUrl": "https://devpost.com/software/shop-a-sketch",
+    "githubUrl": "https://github.com/clairez308/uofthacks26",
+    "award": "3rd out of 160 teams",
+    "hackathon": "UofTHacks",
+    "year": 2026,
+    "domainTags": [
+      "ai-ml",
+      "dev-tools"
+    ],
+    "form": "software",
+    "team": [
+      {
+        "name": "Madeleine Alexander",
+        "devpostProfileUrl": "https://devpost.com/madeleinea"
+      },
+      {
+        "name": "Claire Zhang",
+        "devpostProfileUrl": "https://devpost.com/clairezhang838"
+      },
+      {
+        "name": "Shen Lei",
+        "devpostProfileUrl": "https://devpost.com/shen-lei2021"
+      }
+    ],
+    "dominantColor": "#e8e8e8",
+    "feedImage": "https://i.ytimg.com/vi/Rlop_MAxdIY/hqdefault.jpg"
+  },
+  {
+    "slug": "scamshield-87rbxe",
+    "name": "ScamShield",
+    "oneLiner": "A device that listens along to an elderly person's phone calls. The moment a caller sounds like a scammer, it warns them with lights and a spoken alert, then texts their family.",
+    "description": "Phone scams targeting older adults are one of those problems that feel invisible until it is too late. Victims are often isolated, trusting, and pressured in the moment, before a family member has any chance to step in. We built ScamShield to act like a silent guardian during those calls: something that can listen in real time, recognize scam patterns, warn the person immediately, and get their family involved before money or personal information is lost. ScamShield is a Raspberry Pi device that listens to calls on speakerphone, detects scam patterns using AI, and instantly alerts both the person on the call and their family. There is no app to install and no major behavior change required.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/483/174/datas/medium.png",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/z5F1gDdCr84",
+    "devpostUrl": "https://devpost.com/software/scamshield-87rbxe",
+    "githubUrl": "https://github.com/TristanGru/ScamShield",
+    "award": "3rd out of 231 teams",
+    "hackathon": "HooHacks",
+    "year": 2026,
+    "domainTags": [
+      "ai-ml",
+      "fintech"
+    ],
+    "form": "both",
+    "team": [
+      {
+        "name": "Caleb Wiese",
+        "devpostProfileUrl": "https://devpost.com/calebwiese18"
+      },
+      {
+        "name": "TristanGru Grubbs",
+        "devpostProfileUrl": "https://devpost.com/TristanGru"
+      },
+      {
+        "name": "Alex Clunan",
+        "devpostProfileUrl": "https://devpost.com/alexclunan"
+      }
+    ],
+    "dominantColor": "#080808",
+    "feedImage": "https://i.ytimg.com/vi/z5F1gDdCr84/hqdefault.jpg"
+  },
+  {
+    "slug": "snowy-day-3nfbgm",
+    "name": "Snowy Day",
+    "oneLiner": "After a big snowstorm, this app replans the routes snow plows take through the city, so streets get cleared faster and no neighborhood gets forgotten.",
+    "description": "Our streets turned into chaos, traffic slowed to a crawl, and snowplows somehow still missed half the roads. We started wondering: why are snowplow routes still basically guesswork? That curiosity turned into Snowy Day. A fun experiment to see how much better snowplowing could be with a little AI help. Snowy Day lets you pick a city and watch snowplows clean it up the smart way. Each snowplow acts like its own little brain, figuring out where to go next so that every road gets cleared with as little overlap and wasted time as possible. You can watch the plows move in real time as they tackle streets, highways, and intersections together.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/172/626/datas/medium.png",
+    "devpostUrl": "https://devpost.com/software/snowy-day-3nfbgm",
+    "githubUrl": "https://github.com/ryushen-tan/uOttaHack8-Maze",
+    "award": "2nd out of 175 teams",
+    "hackathon": "uOttaHack",
+    "year": 2026,
+    "domainTags": [
+      "ai-ml",
+      "sustainability"
+    ],
+    "form": "software",
+    "team": [
+      {
+        "name": "Stephen Mamosian",
+        "devpostProfileUrl": "https://devpost.com/TheSlenk"
+      },
+      {
+        "name": "Aidan Chow",
+        "devpostProfileUrl": "https://devpost.com/kachowchow"
+      },
+      {
+        "name": "Ryushen Tan",
+        "devpostProfileUrl": "https://devpost.com/ryushen"
+      }
+    ],
+    "dominantColor": "#7888a8"
+  },
+  {
+    "slug": "wordhawk",
+    "name": "Wordhawk",
+    "oneLiner": "A small robot that plays the iPhone game Word Hunt by itself. A camera reads the letter board, the software finds the words, and a robotic finger swipes them on screen faster than any human.",
+    "description": "A robot that plays Word Hunt on its own-powered by a jury-rigged 3D printer, computer vision, and distributed intelligence. We combined mechanical automation, edge AI, and language models to create a system that not only finds the best words on the board but also teaches you what they mean. Our project automates the process of solving Word Hunt, a gamepigeon (iMessages) word game, using a fully integrated hardware + software pipeline: Capture. A photo of the Word Hunt board is taken. Recognize. An Edge AI accelerator runs OCR locally to extract letters from the board in real time. Detect. Using a DFS with a trie, the system searches the board for all valid words.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/786/182/datas/medium.jpg",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/WktVaFtu6HE",
+    "devpostUrl": "https://devpost.com/software/wordhawk",
+    "githubUrl": "https://github.com/TSKoduru/mhacks-gamehawk",
+    "award": "Best Use of MemryX Edge AI Accelerator (122 teams)",
+    "hackathon": "MHacks",
+    "year": 2025,
+    "domainTags": [
+      "ai-ml",
+      "games"
+    ],
+    "form": "both",
+    "team": [
+      {
+        "name": "Cindy Yang",
+        "devpostProfileUrl": "https://devpost.com/ElemelonWind"
+      },
+      {
+        "name": "Abhineet Repala",
+        "devpostProfileUrl": "https://devpost.com/abhirepala"
+      },
+      {
+        "name": "Teja Koduru",
+        "devpostProfileUrl": "https://devpost.com/tkoduru"
+      }
+    ],
+    "dominantColor": "#b8d8a8"
+  },
+  {
+    "slug": "diffuji",
+    "name": "diffuji",
+    "oneLiner": "An instant camera that prints art instead of photos. You snap a picture, the camera repaints it in a dreamy art style, and it prints the result on receipt paper while you wait.",
+    "description": "The world needs a bit more silliness. Instant cams are fun, and there’s something special about memorializing a moment through physical media. But what if these moments were … part dream, part hallucination of reality? Introducing Diffuji - a diffusion-powered instant camera that turns half-real, half-dreamed moments into physical prints. You can take a picture and choose from a range of filters to apply to your image. However, these filters aren’t your typical color grades, but can completely reimagine the context the photo was taken in - whether turning back time to the 19th century, having the best six-pack you’ve never had, or simply becoming a duck.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/332/642/datas/medium.gif",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/JiRth1HCIag",
+    "devpostUrl": "https://devpost.com/software/diffuji",
+    "award": "Most Creative Hack (378 teams)",
+    "hackathon": "TreeHacks",
+    "year": 2026,
+    "domainTags": [
+      "ai-ml"
+    ],
+    "form": "both",
+    "team": [
+      {
+        "name": "Pranav Tadepalli",
+        "devpostProfileUrl": "https://devpost.com/whackamadoodle3000"
+      },
+      {
+        "name": "Lainey Leslie",
+        "devpostProfileUrl": "https://devpost.com/adelaine"
+      },
+      {
+        "name": "Alexander Kranias",
+        "devpostProfileUrl": "https://devpost.com/alexander-kranias"
+      },
+      {
+        "name": "Nathan Barry",
+        "devpostProfileUrl": "https://devpost.com/nathanbarry474"
+      }
+    ],
+    "dominantColor": "#080808"
+  },
+  {
+    "slug": "freak-cha",
+    "name": "freak-cha",
+    "oneLiner": "A test that proves you're a real human and not an AI. Instead of clicking pictures of traffic lights, you answer by sticking out your tongue in different directions, which deepfakes can't fake.",
+    "description": "In the age of SORA 2 and Google Veo 3, deepfakes have blurred the line between human and AI-generated faces. Our inspiration for Freak-cha came from iOS 26’s accessibility tongue-scrolling feature. An innovative way to interact with technology using subtle gestures. We wanted to take that idea further by designing a verification system that AI simply couldn’t replicate. Freak-cha is a tongue-based biometric authentication system that challenges users to prove their humanity through facial expressions and tongue gestures, turning security into a playful, interactive experience. We built Freak-cha as a CAPTCHA process with multiple stages.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/814/028/datas/medium.png",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/wssGfKUIxzw",
+    "devpostUrl": "https://devpost.com/software/freak-cha",
+    "githubUrl": "https://github.com/anselmlong/hackharvard",
+    "award": "Winner (160 teams)",
+    "hackathon": "HackHarvard",
+    "year": 2025,
+    "domainTags": [
+      "ai-ml",
+      "social-good"
+    ],
+    "form": "software",
+    "team": [
+      {
+        "name": "Anselm Long",
+        "devpostProfileUrl": "https://devpost.com/anselmlong"
+      },
+      {
+        "name": "Jensen Huang",
+        "devpostProfileUrl": "https://devpost.com/jensen88"
+      },
+      {
+        "name": "Junjie Junjie",
+        "devpostProfileUrl": "https://devpost.com/GrassHeadd"
+      },
+      {
+        "name": "Isabel Wang",
+        "devpostProfileUrl": "https://devpost.com/isabelwang13"
+      }
+    ],
+    "dominantColor": "#383838"
+  },
+  {
+    "slug": "heartstart",
+    "name": "HeartStart",
+    "oneLiner": "A robot that watches for someone's heart stopping. When it happens, it drives itself across the room to the person and starts doing CPR while the ambulance is on the way.",
+    "description": "Every year, more than 350,000 people in the US experience cardiac arrest outside of a hospital setting. The difference between life and death often comes down to those critical minutes before emergency services arrive-minutes where CPR must be performed continuously, consistently, and correctly. But bystanders freeze, panic, or simply don't know how to administer CPR properly. First responders face impossible response times. And even trained individuals grow fatigued, their compressions becoming shallow and ineffective after just two minutes. In fact, according to the American Heart Association, the survival rate drops by 7-10% for every minute without CPR. After just 10 minutes, survival is nearly zero.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/339/034/datas/medium.png",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/8B98pMV5k1o",
+    "devpostUrl": "https://devpost.com/software/heartstart",
+    "githubUrl": "https://github.com/nicolewongbiz/cpr-robot.git",
+    "award": "Best Beginner Hack (378 teams)",
+    "hackathon": "TreeHacks",
+    "year": 2026,
+    "domainTags": [
+      "health",
+      "ai-ml"
+    ],
+    "form": "both",
+    "team": [
+      {
+        "name": "Cristiano Da Silva",
+        "devpostProfileUrl": "https://devpost.com/cristianofilipe-d"
+      },
+      {
+        "name": "Chiling Han",
+        "devpostProfileUrl": "https://devpost.com/chilinghan"
+      },
+      {
+        "name": "Maha Nawaz",
+        "devpostProfileUrl": "https://devpost.com/maha77"
+      },
+      {
+        "name": "Nicole Wong",
+        "devpostProfileUrl": "https://devpost.com/nicolewongbiz"
+      }
+    ],
+    "dominantColor": "#c82848"
+  },
+  {
+    "slug": "lifesaver-lnm0tz",
+    "name": "LifeSaver",
+    "oneLiner": "Lets medical students practice surgery like a video game. The webcam tracks their hands while a voice guides them through each step, and they get a score at the end, with no real patient needed.",
+    "description": "A medical student spends 4 years in school, then 3-7 years in residency, and for most of that time they're watching not doing. The first time many residents actually hold a laparoscopic instrument and cut tissue, there's a real patient on the table. That's terrifying also Surgical simulation exists, but it costs $100,000+ per machine. Most medical schools have one or two simulators shared across hundreds of students, and you get maybe 30 minutes a semester on them. The rest of the time you're watching YouTube videos of surgeries and hoping you remember the steps when it matters. And it's not just about access it's about feedback.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/505/991/datas/medium.png",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/W6CaKOtUlmw",
+    "devpostUrl": "https://devpost.com/software/lifesaver-lnm0tz",
+    "githubUrl": "https://github.com/akhilm2223/yale/",
+    "award": "2nd out of 42 teams",
+    "hackathon": "YHack",
+    "year": 2026,
+    "domainTags": [
+      "ai-ml",
+      "health",
+      "games"
+    ],
+    "form": "software",
+    "team": [
+      {
+        "name": "Surya Newa",
+        "devpostProfileUrl": "https://devpost.com/suryanewa"
+      },
+      {
+        "name": "Akhil Mattaparthi",
+        "devpostProfileUrl": "https://devpost.com/akhilmattaparthi7"
+      },
+      {
+        "name": "Mark Hrytchak",
+        "devpostProfileUrl": "https://devpost.com/mh4605"
+      },
+      {
+        "name": "Sunghoo Jung",
+        "devpostProfileUrl": "https://devpost.com/sunghoojung"
+      }
+    ],
+    "dominantColor": "#080808",
+    "feedImage": "https://i.ytimg.com/vi/W6CaKOtUlmw/hqdefault.jpg"
+  },
+  {
+    "slug": "kinemo",
+    "name": "kinemo",
+    "oneLiner": "A party game console that needs no controllers at all. The webcam watches your body, so you jump, duck, and wave your arms to play the games.",
+    "description": "We started off making a boxing motion tracker with the intention of creating real-time AI feedback. It slowly evolved into feeling more like a game, so we decided to work towards that instead. Eventually, we realized we could turn this into something bigger. Then the idea for a whole console-like experience with multiple games was born. Our project is a motion-controlled gaming platform that only needs a webcam. Two players can compete in three different active games. The main menu is controlled with hand gestures, letting players choose between Boxing, Flying Fruits, or Reaction Time. In Boxing, players can punch, kick, or weave. Each player starts with 12 hearts. A punch takes away 1 heart, and a kick takes away 3.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/762/890/datas/medium.png",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/JY9jn1HCboI",
+    "devpostUrl": "https://devpost.com/software/kinemo",
+    "githubUrl": "https://github.com/arvinmefsha/kinemo",
+    "award": "1st out of 85 teams",
+    "hackathon": "PennApps XXVI",
+    "year": 2025,
+    "domainTags": [
+      "ai-ml",
+      "games"
+    ],
+    "form": "software",
+    "team": [
+      {
+        "name": "Patrick McNaughton",
+        "devpostProfileUrl": "https://devpost.com/PatMcN7"
+      },
+      {
+        "name": "Arvin Mefsha",
+        "devpostProfileUrl": "https://devpost.com/arvinmefsha"
+      },
+      {
+        "name": "Rajarshi Mandal",
+        "devpostProfileUrl": "https://devpost.com/rajarshi-m-1000"
+      },
+      {
+        "name": "ni",
+        "devpostProfileUrl": "https://devpost.com/n1waii"
+      }
+    ],
+    "dominantColor": "#080808",
+    "feedImage": "https://i.ytimg.com/vi/JY9jn1HCboI/hqdefault.jpg"
+  },
+  {
+    "slug": "artificial-sandwich-intelligence",
+    "name": "Artificial Sandwich Intelligence",
+    "oneLiner": "A robot that learned to make sandwiches just by watching people make them for four hours. It was built from robot arms that cost only $200.",
+    "description": "Imitation-learning sandwich robot trained from 4 hours of teleop on $200 arms. Robot learning is now weekend-scale.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/794/185/datas/medium.jpeg",
+    "demoVideoUrl": "https://www.youtube-nocookie.com/embed/46MQk3qE6fI",
+    "devpostUrl": "https://devpost.com/software/artificial-sandwich-intelligence",
+    "award": "Grand Award (122 teams)",
+    "hackathon": "MHacks",
+    "year": 2025,
+    "domainTags": [
+      "ai-ml"
+    ],
+    "form": "both",
+    "team": [
+      {
+        "name": "Elvis Xiang",
+        "devpostProfileUrl": "https://devpost.com/ekx"
+      }
+    ],
+    "dominantColor": "#488858"
+  },
+  {
+    "slug": "clipper-ph49un",
+    "name": "Get Clipped!",
+    "oneLiner": "An app that keeps you honest while studying. If you quit your study session early, it takes a photo of you and sends it to your friends so they know you gave up.",
+    "description": "We all have that one friend who says they’re \"locked in\" on studying, but five minutes later, they’re doomscrolling on TikTok. Nowadays, individual willpower isn't enough to stop the urge to check your phone. We wanted to solve this in a unique and entertaining way. We realized that for some people, the best motivator isn't a productivity graph, but rather is the fear of getting exposed in front of your closest friends. Get Clipped turns a study session into a high-stakes standoff where if one person folds, everyone knows immediately and instantly get a clipped photo of the person who folded. Users log in (via Firebase Auth) and add their friends to a study group.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/182/503/datas/medium.png",
+    "devpostUrl": "https://devpost.com/software/clipper-ph49un",
+    "githubUrl": "https://github.com/daniel-mwj/clipped",
+    "award": "Best Design (169 teams)",
+    "hackathon": "nwHacks",
+    "year": 2026,
+    "domainTags": [
+      "social-good"
+    ],
+    "form": "software",
+    "team": [
+      {
+        "name": "Annie Wu",
+        "devpostProfileUrl": "https://devpost.com/cynthiannie2006"
+      },
+      {
+        "name": "annie w",
+        "devpostProfileUrl": "https://devpost.com/cynthiannie-w"
+      },
+      {
+        "name": "Jade Tao",
+        "devpostProfileUrl": "https://devpost.com/jadetao25"
+      },
+      {
+        "name": "Daniel M",
+        "devpostProfileUrl": "https://devpost.com/cozidan2000"
+      }
+    ],
+    "dominantColor": "#e8d878"
+  },
+  {
+    "slug": "wing-cet3o0",
+    "name": "Wing",
+    "oneLiner": "A safety app for people living with an abusive partner. It looks and works exactly like a normal weather app, so if the abuser checks the phone, nothing seems unusual.",
+    "description": "We were motivated by the number of women who experience intimate partner violence and the aid workers who seek to provide help in secret, providing victims with ways to report their situation without alerting the abuser or raising suspicion. However, we hope that this project can provide help to anyone in an unsafe environment. We built this project to provide aid to individuals in restrictive and unhealthy relationships, providing a private and hidden outlet to chat, find help and respond in emergency situations. The app showcases a fake interface: it would appear as a Weather App to outsiders, but has hidden, protected settings that let the user seek help, find available resources and chat.",
+    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/410/100/datas/medium.png",
+    "devpostUrl": "https://devpost.com/software/wing-cet3o0",
+    "githubUrl": "https://github.com/nb488/cmd-f_2026",
+    "award": "3rd out of 47 teams",
+    "hackathon": "cmd-f",
+    "year": 2026,
+    "domainTags": [
+      "social-good"
+    ],
+    "form": "software",
+    "team": [
+      {
+        "name": "Ellen Ren",
+        "devpostProfileUrl": "https://devpost.com/ellen-renn123"
+      },
+      {
+        "name": "Natalia Blanco",
+        "devpostProfileUrl": "https://devpost.com/bnatalia232"
+      },
+      {
+        "name": "Manbeena Sidhu",
+        "devpostProfileUrl": "https://devpost.com/s-manbeena"
+      }
+    ],
+    "dominantColor": "#9858f8"
+  }
+]
