@@ -54,7 +54,9 @@ export default function SignupCard() {
       />
       <div className="relative flex min-h-full items-center justify-center p-5 pt-[6vh]">
         <div className="flex w-[min(430px,100%)] flex-col items-start gap-4 rounded-3xl border border-white/[0.07] bg-white/[0.055] p-[30px] pb-7">
-          <h1 className="whitespace-nowrap font-display text-[clamp(19px,5.6vw,25px)] tracking-[-0.01em]">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/croc.png" alt="" className="croc-mark h-7 w-auto" />
+          <h1 className="-mt-1 whitespace-nowrap font-display text-[clamp(19px,5.6vw,25px)] tracking-[-0.01em]">
             Welcome to Hall of Hacks
           </h1>
           <p className="-mt-2 text-[15px] text-ink-soft">Please sign up or sign in below.</p>

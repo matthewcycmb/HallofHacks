@@ -119,7 +119,9 @@ function Landing({ data }: { data: OnboardingData }) {
       {/* Nav rails align with the app-shot edges below (same width formula). */}
       <nav className="py-[18px]">
         <div className="mx-auto flex w-[min(980px,calc(100%-40px))] items-center justify-between">
-          <span className="whitespace-nowrap font-display text-[21px] leading-none tracking-[-0.01em]">
+          <span className="inline-flex items-center gap-2 whitespace-nowrap font-display text-[21px] leading-none tracking-[-0.01em]">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/croc.png" alt="" className="croc-mark h-[22px] w-auto" />
             Hall <em className="font-normal italic text-gold">of</em> Hacks
           </span>
           <div className="flex items-center gap-4">
@@ -141,13 +143,21 @@ function Landing({ data }: { data: OnboardingData }) {
 
       {/* Desktop: centered hero, headline ~24% down the viewport (Cursor's placement).
           Mobile: left-aligned F-pattern, no stats line, lower start. */}
-      <div className="flex flex-col items-start gap-5 px-5 pt-[11vh] text-left sm:items-center sm:gap-[26px] sm:pt-[clamp(60px,14vh,140px)] sm:text-center">
+      <div className="flex flex-col items-start gap-5 px-5 pt-[9vh] text-left sm:items-center sm:gap-[22px] sm:pt-[clamp(48px,11vh,120px)] sm:text-center">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/croc.png" alt="Hall of Hacks" className="croc-hero h-11 w-auto sm:h-14" />
         {/* Regular weight on purpose: the heading sets the scene, the white CTA takes the spotlight. */}
-        <h1 className="text-[clamp(30px,5vw,62px)] font-normal leading-[1.12] tracking-[-0.02em] text-balance sm:leading-[1.07]">
+        <h1
+          className="rise-in text-[clamp(30px,5vw,62px)] font-normal leading-[1.12] tracking-[-0.02em] text-balance sm:leading-[1.07]"
+          style={{ animationDelay: "0.05s" }}
+        >
           The ultimate feed for
           <br className="hidden sm:inline" /> winning hackathon projects.
         </h1>
-        <div className="flex flex-col items-start gap-3.5 sm:items-center">
+        <div
+          className="rise-in flex flex-col items-start gap-3.5 sm:items-center"
+          style={{ animationDelay: "0.13s" }}
+        >
           <div className="flex gap-3">
             <Link href="/signup" className={`${BTN_PRIMARY} px-6 py-3 text-[15px]`}>
               Get started <Arrow />

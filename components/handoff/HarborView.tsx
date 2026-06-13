@@ -115,7 +115,7 @@ export default function HarborView({ projects }: { projects: Project[] }) {
                     />
                     {/* mobile inline expansion */}
                     {expanded?.slug === card.slug && (
-                      <div className="mb-3 flex flex-col items-start gap-3 rounded-[20px] border border-[var(--nf-nline)] bg-[var(--nf-card)] p-5 backdrop-blur-[14px] min-[901px]:hidden">
+                      <div className="expand-in mb-3 flex flex-col items-start gap-3 rounded-[20px] border border-[var(--nf-nline)] bg-[var(--nf-card)] p-5 backdrop-blur-[14px] min-[901px]:hidden">
                         <DetailConsole card={card} saved={savedSlugs.has(card.slug)} />
                       </div>
                     )}

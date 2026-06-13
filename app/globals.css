@@ -332,14 +332,94 @@ body[data-v] .hoh-save {
   border: 1px solid var(--nf-nline);
 }
 
+/* ============ brand croc + flow motion ============ */
+
+/* the gold mascot: soft glow everywhere, a little life on hover */
+.croc-mark {
+  filter: drop-shadow(0 0 5px rgba(214, 198, 147, 0.32));
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+a:hover .croc-mark {
+  transform: translateY(-2px) rotate(-3deg);
+}
+.croc-hero {
+  filter: drop-shadow(0 0 22px rgba(214, 198, 147, 0.28));
+  animation: croc-float 4.8s ease-in-out infinite;
+}
+@keyframes croc-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* per-navigation transition — opacity only, so it never breaks fixed overlays */
+.page-in {
+  animation: fade-in 0.34s ease both;
+}
+/* focal entrance (onboarding hero pieces) */
+.rise-in {
+  animation: rise-in 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+/* feed cards ease up as they mount (initial load + each lazy batch) */
+.nf-card {
+  animation: rise-in 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+/* mobile inline detail box opening under a tapped card */
+.expand-in {
+  animation: rise-in 0.3s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+/* photos fade in instead of popping when they decode */
+.img-fade {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.img-fade.is-loaded {
+  opacity: 1;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .hc3-cursor,
   .modal-in,
-  .backdrop-in {
+  .backdrop-in,
+  .croc-hero,
+  .page-in,
+  .rise-in,
+  .nf-card,
+  .expand-in {
     animation: none;
+  }
+  .img-fade {
+    opacity: 1;
+    transition: none;
   }
 }
 body.no-motion * {
   animation: none !important;
   transition: none !important;
+}
+body.no-motion .img-fade {
+  opacity: 1;
 }
