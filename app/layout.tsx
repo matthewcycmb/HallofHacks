@@ -6,22 +6,15 @@ import AccountWidget from "@/components/auth/AccountWidget";
 import HeaderSaves from "@/components/handoff/HeaderSaves";
 import HeaderSearch from "@/components/handoff/HeaderSearch";
 import SiteFooter from "@/components/SiteFooter";
+import { siteUrl } from "@/lib/site-url";
 import "./globals.css";
-
-// Prefer an explicit override, else Vercel's production domain, else localhost.
-// Keeps OG/canonical URLs absolute in prod without a manually-set env var.
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ??
-  (process.env.VERCEL_PROJECT_PRODUCTION_URL
-    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-    : "http://localhost:3000");
 
 const title = "Hall of Hacks — the permanent archive of winning hackathon projects";
 const description =
   "A bingeable archive of winning hackathon projects from Hack the North, TreeHacks, CalHacks, MHacks and more. Consume winners. Build winners.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(siteUrl()),
   title: {
     default: title,
     template: "%s — Hall of Hacks",
