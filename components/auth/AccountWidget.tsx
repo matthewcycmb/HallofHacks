@@ -13,6 +13,7 @@ import { signOut, useSession } from "next-auth/react";
 export default function AccountWidget() {
   const { data: session, status } = useSession();
   const [open, setOpen] = useState(false);
+  const [imgError, setImgError] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -54,16 +55,14 @@ export default function AccountWidget() {
         aria-expanded={open}
         className="flex h-8 w-8 items-center justify-center overflow-hidden rounded-full border border-line bg-paper-2 text-[13px] font-bold text-ink-soft transition-transform hover:scale-105"
       >
-        {image ? (
+        {image && !imgError ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={image}
             alt=""
             referrerPolicy="no-referrer"
             className="h-full w-full object-cover"
-            onError={(e) => {
-              e.currentTarget.style.display = "none";
-            }}
+            onError={() => setImgError(true)}
           />
         ) : (
           initial

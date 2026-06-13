@@ -111,15 +111,27 @@ export async function refetch() {
   applyResult(await getCollectionsAction());
 }
 
+// `.catch(safeRefetch)` — refetch is async, so swallow its own rejection to
+// avoid an unhandled promise rejection when the network is down.
+function safeRefetch() {
+  refetch().catch(() => {});
+}
+
 /** Merge pre-account localStorage collections into the account, once. */
 export async function runMigrationOnce() {
   if (mode !== "server" || typeof window === "undefined") return;
   if (window.localStorage.getItem(MIGRATED_KEY)) return;
   const local = loadLocal();
-  // Set the flag before awaiting so a double-mount can't double-run it.
-  window.localStorage.setItem(MIGRATED_KEY, "1");
-  if (local.length === 0) return;
-  applyResult(await migrateCollectionsAction(local));
+  if (local.length === 0) {
+    window.localStorage.setItem(MIGRATED_KEY, "1");
+    return;
+  }
+  // Only mark migrated on success — the server merge is idempotent (ON CONFLICT
+  // DO NOTHING), so a double-mount running it twice is safe; a failed run must
+  // be retried, not silently lost.
+  const res = await migrateCollectionsAction(local);
+  if ("collections" in res) window.localStorage.setItem(MIGRATED_KEY, "1");
+  applyResult(res);
 }
 
 // ---------- helpers ----------
@@ -157,7 +169,7 @@ export function quickSaveToggle(slug: string): boolean {
     return false;
   }
   const willSave = optimisticToggleSaved(slug);
-  quickSaveToggleAction(slug).then(applyResult).catch(refetch);
+  quickSaveToggleAction(slug).then(applyResult).catch(safeRefetch);
   return willSave;
 }
 
@@ -168,7 +180,7 @@ export function quickSave(slug: string): boolean {
   }
   if (savedSet().has(slug)) return false;
   optimisticToggleSaved(slug);
-  quickSaveToggleAction(slug).then(applyResult).catch(refetch);
+  quickSaveToggleAction(slug).then(applyResult).catch(safeRefetch);
   return true;
 }
 
@@ -186,7 +198,7 @@ export function toggleInCollection(id: string, slug: string) {
       : c,
   );
   notify();
-  toggleItemAction(id, slug).then(applyResult).catch(refetch);
+  toggleItemAction(id, slug).then(applyResult).catch(safeRefetch);
 }
 
 export function deleteCollection(id: string) {
@@ -196,7 +208,7 @@ export function deleteCollection(id: string) {
   }
   snapshot = snapshot.filter((c) => c.id !== id);
   notify();
-  deleteCollectionAction(id).then(applyResult).catch(refetch);
+  deleteCollectionAction(id).then(applyResult).catch(safeRefetch);
 }
 
 /** Create a collection (SaveMenu "New collection" without an immediate slug). */
@@ -213,7 +225,7 @@ export function createCollection(name: string): Collection {
   }
   snapshot = [...snapshot, optimistic];
   notify();
-  createCollectionAction(name).then(applyResult).catch(refetch);
+  createCollectionAction(name).then(applyResult).catch(safeRefetch);
   return optimistic;
 }
 
@@ -231,5 +243,5 @@ export function createCollectionAndAdd(name: string, slug: string) {
   };
   snapshot = [...snapshot, optimistic];
   notify();
-  createCollectionWithSlugAction(name, slug).then(applyResult).catch(refetch);
+  createCollectionWithSlugAction(name, slug).then(applyResult).catch(safeRefetch);
 }

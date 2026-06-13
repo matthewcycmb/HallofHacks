@@ -6,6 +6,15 @@ import { collections, collectionItems } from "@/lib/db/schema";
 import { getUserId } from "@/lib/auth/dal";
 import type { Collection, CollectionsResult } from "./types";
 
+// Project slugs are kebab-case. Reject anything else so a direct POST can't
+// write arbitrary strings into collection_item.slug.
+const SLUG_RE = /^[a-z0-9-]{1,120}$/;
+const isValidSlug = (s: unknown): s is string => typeof s === "string" && SLUG_RE.test(s);
+
+// Migration is the only caller-supplied bulk write — bound it hard.
+const MAX_MIGRATE_COLLECTIONS = 50;
+const MAX_SLUGS_PER_COLLECTION = 1000;
+
 /**
  * Server-owned collections. Every action resolves the session first and scopes
  * ALL queries by the user's id — these are reachable by direct POST, so the
@@ -64,6 +73,7 @@ export async function getCollections(): Promise<CollectionsResult> {
 export async function quickSaveToggleAction(slug: string): Promise<CollectionsResult> {
   const userId = await getUserId();
   if (!userId) return { error: "UNAUTHENTICATED" };
+  if (!isValidSlug(slug)) return { error: "NOT_FOUND" };
 
   const def = await ensureDefault(userId);
   const existing = await db
@@ -98,6 +108,7 @@ export async function createCollectionWithSlugAction(
 ): Promise<CollectionsResult> {
   const userId = await getUserId();
   if (!userId) return { error: "UNAUTHENTICATED" };
+  if (!isValidSlug(slug)) return { error: "NOT_FOUND" };
   const clean = name.trim().slice(0, 60) || "Untitled";
   const [created] = await db.insert(collections).values({ userId, name: clean }).returning();
   await db.insert(collectionItems).values({ collectionId: created.id, slug }).onConflictDoNothing();
@@ -119,6 +130,7 @@ export async function toggleItemAction(
 ): Promise<CollectionsResult> {
   const userId = await getUserId();
   if (!userId) return { error: "UNAUTHENTICATED" };
+  if (!isValidSlug(slug)) return { error: "NOT_FOUND" };
 
   const owned = await db
     .select({ id: collections.id })
@@ -156,31 +168,38 @@ export async function migrateCollectionsAction(local: Collection[]): Promise<Col
   const userId = await getUserId();
   if (!userId) return { error: "UNAUTHENTICATED" };
 
-  for (const lc of local) {
-    if (!lc?.slugs?.length) continue;
-    let targetId: string;
+  // Caller-supplied payload: cap collections, validate + cap slugs per collection.
+  const incoming = Array.isArray(local) ? local.slice(0, MAX_MIGRATE_COLLECTIONS) : [];
 
-    if (lc.name.trim().toLowerCase() === "saved") {
+  for (const lc of incoming) {
+    const name = typeof lc?.name === "string" ? lc.name.trim() : "";
+    const slugs = (Array.isArray(lc?.slugs) ? lc.slugs : [])
+      .filter(isValidSlug)
+      .slice(0, MAX_SLUGS_PER_COLLECTION);
+    if (slugs.length === 0) continue;
+
+    let targetId: string;
+    if (name.toLowerCase() === "saved") {
       targetId = (await ensureDefault(userId)).id;
     } else {
       const found = await db
         .select({ id: collections.id })
         .from(collections)
-        .where(and(eq(collections.userId, userId), eq(collections.name, lc.name)))
+        .where(and(eq(collections.userId, userId), eq(collections.name, name)))
         .limit(1);
       targetId =
         found[0]?.id ??
         (
           await db
             .insert(collections)
-            .values({ userId, name: lc.name.slice(0, 60) || "Untitled" })
+            .values({ userId, name: name.slice(0, 60) || "Untitled" })
             .returning()
         )[0].id;
     }
 
     await db
       .insert(collectionItems)
-      .values(lc.slugs.map((slug) => ({ collectionId: targetId, slug })))
+      .values(slugs.map((slug) => ({ collectionId: targetId, slug })))
       .onConflictDoNothing();
   }
 

@@ -33,14 +33,25 @@ export default function Home() {
   const data: OnboardingData = {
     stats: { projects: projects.length, hackathons: byEvent.size },
     groups,
-    hero: {
-      name: top.name,
-      prize: top.award,
-      tag: tagOf(top),
-      image: top.feedImage ?? top.image,
-      event: `${top.hackathon} ${top.year}`,
-      blurb: top.oneLiner,
-    },
+    // `top` is always present with the real dataset; guard the empty case so the
+    // homepage can never crash on a TypeError.
+    hero: top
+      ? {
+          name: top.name,
+          prize: top.award,
+          tag: tagOf(top),
+          image: top.feedImage ?? top.image,
+          event: `${top.hackathon} ${top.year}`,
+          blurb: top.oneLiner,
+        }
+      : {
+          name: "Hall of Hacks",
+          prize: "Winner",
+          tag: "Hack",
+          image: "",
+          event: "",
+          blurb: "Browse the projects that won the world's biggest hackathons.",
+        },
   };
 
   return <OnboardingFlow data={data} />;
