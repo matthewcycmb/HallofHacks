@@ -69,8 +69,8 @@ export default function HarborView({ projects }: { projects: Project[] }) {
             Browse the projects that won the world&rsquo;s biggest hackathons.
           </p>
           <p className="hidden max-w-[64ch] text-[17px] leading-[1.6] text-[var(--nf-muted)] sm:block">
-            Browse the projects that won the world&rsquo;s biggest hackathons, watch their demos,
-            and save the ideas that inspire you.
+            Browse the projects that won the world&rsquo;s biggest hackathons,
+            <br /> watch their demos, and save the ideas that inspire you.
           </p>
           <div className="mt-1 flex flex-wrap items-center gap-x-4 gap-y-1.5 text-[13.5px] text-[var(--nf-muted)] sm:gap-x-5 sm:gap-y-2 sm:text-[16px]">
             <span className="inline-flex items-center gap-1.5">
