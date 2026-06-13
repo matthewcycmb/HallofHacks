@@ -44,7 +44,8 @@ export default function ProjectDetail({ project }: { project: Project }) {
 
       {/* Info pane */}
       <div className="flex flex-col gap-3.5 p-5 md:p-6">
-        <div className="flex items-center justify-between gap-3">
+        {/* Devpost / GitHub / save — at the top on desktop, moved to the bottom on mobile. */}
+        <div className="order-last flex items-center justify-between gap-3 border-t border-line pt-4 md:order-none md:border-0 md:pt-0">
           <div className="flex items-center gap-1.5">
             <a
               href={project.devpostUrl}

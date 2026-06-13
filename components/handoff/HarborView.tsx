@@ -28,8 +28,9 @@ export default function HarborView({ projects }: { projects: Project[] }) {
 
   // Desktop: sticky aside, defaults to the first card so it's never empty.
   const [selected, setSelected] = useState<HandoffCard | null>(cards[0] ?? null);
-  // Mobile: inline expansion, collapsed until the visitor taps.
-  const [expanded, setExpanded] = useState<HandoffCard | null>(null);
+  // Mobile: any number of cards can be expanded inline at once — tapping a new
+  // one leaves the others open. Tracked by slug; collapsed until the first tap.
+  const [expandedSlugs, setExpandedSlugs] = useState<Set<string>>(() => new Set());
 
   // Mirror the CSS exactly: the layout switches at min-[901px], so mobile is
   // "not (min-width: 901px)". Using one query for both state and taps avoids the
@@ -44,8 +45,17 @@ export default function HarborView({ projects }: { projects: Project[] }) {
   }, []);
 
   function open(card: HandoffCard) {
-    if (!isMobile) setSelected(card);
-    else setExpanded((prev) => (prev?.slug === card.slug ? null : card));
+    if (!isMobile) {
+      setSelected(card);
+      return;
+    }
+    // Toggle this card; the others stay as they are.
+    setExpandedSlugs((prev) => {
+      const next = new Set(prev);
+      if (next.has(card.slug)) next.delete(card.slug);
+      else next.add(card.slug);
+      return next;
+    });
   }
 
   // Filtering (pool change) resets selection — render-time state
@@ -54,10 +64,8 @@ export default function HarborView({ projects }: { projects: Project[] }) {
   if (prevCards !== cards) {
     setPrevCards(cards);
     setSelected(cards[0] ?? null);
-    setExpanded(null);
+    setExpandedSlugs(new Set());
   }
-
-  const active = isMobile ? expanded : selected;
 
   return (
     <div>
@@ -105,11 +113,13 @@ export default function HarborView({ projects }: { projects: Project[] }) {
                     <NightCard
                       card={card}
                       compact
-                      selected={active?.slug === card.slug}
+                      selected={
+                        isMobile ? expandedSlugs.has(card.slug) : selected?.slug === card.slug
+                      }
                       onSelect={() => open(card)}
                     />
-                    {/* mobile inline expansion */}
-                    {expanded?.slug === card.slug && (
+                    {/* mobile inline expansion — multiple can be open at once */}
+                    {expandedSlugs.has(card.slug) && (
                       <div className="expand-in mb-3 flex flex-col items-start gap-3 rounded-[20px] border border-[var(--nf-nline)] bg-[var(--nf-card)] p-5 backdrop-blur-[14px] min-[901px]:hidden">
                         <DetailConsole card={card} saved={savedSlugs.has(card.slug)} />
                       </div>
