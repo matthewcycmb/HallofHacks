@@ -2,10 +2,11 @@
 
 import { usePathname } from "next/navigation";
 
-/** The feed must never visibly end — the footer lives on every other page. */
+/** The feed must never visibly end — the footer lives on every other page.
+    Hidden on the endless feed (/feed) and the onboarding overlay (/). */
 export default function SiteFooter() {
   const pathname = usePathname();
-  if (pathname === "/") return null;
+  if (pathname === "/" || pathname === "/feed") return null;
 
   return (
     <footer className="mt-auto border-t border-line">

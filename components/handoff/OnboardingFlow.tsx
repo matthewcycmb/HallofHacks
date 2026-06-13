@@ -144,8 +144,8 @@ function Landing({ data }: { data: OnboardingData }) {
       <div className="flex flex-col items-start gap-5 px-5 pt-[11vh] text-left sm:items-center sm:gap-[26px] sm:pt-[clamp(60px,14vh,140px)] sm:text-center">
         {/* Regular weight on purpose: the heading sets the scene, the white CTA takes the spotlight. */}
         <h1 className="text-[clamp(30px,5vw,62px)] font-normal leading-[1.12] tracking-[-0.02em] text-balance sm:leading-[1.07]">
-          The ultimate feed for winning
-          <br className="hidden sm:inline" /> hackathon projects.
+          The ultimate feed for
+          <br className="hidden sm:inline" /> winning hackathon projects.
         </h1>
         <div className="flex flex-col items-start gap-3.5 sm:items-center">
           <div className="flex gap-3">
