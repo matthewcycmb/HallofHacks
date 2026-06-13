@@ -1,5 +1,8 @@
 # Data
 
+**Adding a project? Read `CURATION.md` first** — the six-gate filter,
+disqualifiers, blurb style, and add checklist every new entry must pass.
+
 `projects.json` is the app's database: a strictly curated set of winning
 hackathon projects where every entry passes the "worth your time reading" bar
 (one sharp technical insight, an honest pivot, or a visceral demo). The

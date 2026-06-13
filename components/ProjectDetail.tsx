@@ -1,26 +1,41 @@
 import type { Project } from "@/lib/types";
 import { DOMAIN_TAGS, FORMS } from "@/lib/types";
-import { isAllowedVideoEmbedUrl } from "@/lib/allowlist";
+import { isAllowedVideoEmbedUrl, watchUrlFromEmbed } from "@/lib/allowlist";
 import DetailSave from "./handoff/DetailSave";
 import ProjectImage from "./ProjectImage";
 
 export default function ProjectDetail({ project }: { project: Project }) {
   const showVideo = project.demoVideoUrl && isAllowedVideoEmbedUrl(project.demoVideoUrl);
+  const watch = showVideo ? watchUrlFromEmbed(project.demoVideoUrl!) : null;
 
   return (
     <div className="grid md:grid-cols-2">
       {/* Media pane */}
       <div className="flex items-center justify-center rounded-t-[26px] bg-paper-2 p-3 md:rounded-l-[26px] md:rounded-tr-none md:p-5">
         {showVideo ? (
-          <div className="aspect-video w-full overflow-hidden rounded-2xl shadow-sm">
-            <iframe
-              src={project.demoVideoUrl}
-              title={`${project.name} demo video`}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              referrerPolicy="strict-origin-when-cross-origin"
-              className="h-full w-full"
-            />
+          <div className="w-full">
+            <div className="aspect-video w-full overflow-hidden rounded-2xl shadow-sm">
+              <iframe
+                src={project.demoVideoUrl}
+                title={`${project.name} demo video`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                referrerPolicy="strict-origin-when-cross-origin"
+                className="h-full w-full"
+              />
+            </div>
+            {watch && (
+              <div className="mt-2.5 flex justify-center">
+                <a
+                  href={watch.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 rounded-full border border-line px-3.5 py-2 font-mono text-[10.5px] uppercase tracking-[0.1em] text-ink-soft transition-colors hover:text-ink"
+                >
+                  Watch on {watch.label} ↗
+                </a>
+              </div>
+            )}
           </div>
         ) : (
           <ProjectImage src={project.image} alt={`${project.name} project image`} className="block w-full rounded-2xl shadow-sm" />

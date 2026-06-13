@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useSession } from "next-auth/react";
 import ProjectCardMini from "@/components/handoff/ProjectCardMini";
 import { deleteCollection, useCollections } from "@/lib/collections";
 import { getAllProjects } from "@/lib/projects";
@@ -8,25 +9,46 @@ import { useHydrated } from "@/lib/use-hydrated";
 
 export default function CollectionsPage() {
   const { collections } = useCollections();
+  const { status } = useSession();
   const hydrated = useHydrated();
+  const signedIn = status === "authenticated";
 
   const bySlug = new Map(getAllProjects().map((p) => [p.slug, p]));
 
   if (!hydrated) return null;
 
   return (
-    <div className="mx-auto w-full max-w-[1040px] px-[clamp(20px,4vw,56px)] py-8">
-      <div className="mb-6 flex flex-wrap items-baseline justify-between gap-3">
-        <h2 className="font-display text-4xl">My collections</h2>
-        <p className="font-mono text-[10.5px] uppercase tracking-[0.16em] text-ink-soft">
-          Kept in this browser — no account needed
-        </p>
-      </div>
+    <div className="mx-auto w-full max-w-[1040px] px-[clamp(20px,4vw,48px)] pb-[140px] pt-12">
+      <h2 className="text-[26px] font-bold tracking-[-0.01em]">My collections</h2>
+      <p className="mt-1 text-sm text-ink-soft">
+        {signedIn ? "Synced to your account across devices." : "Sign in to save and sync."}
+      </p>
+
+      {!signedIn && (
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-line bg-paper-2 px-4 py-3">
+          <p className="text-sm text-ink-soft">
+            {collections.length > 0
+              ? "These are saved on this device. Sign in to sync them across devices."
+              : "Sign in to start saving projects to your account."}
+          </p>
+          <Link
+            href="/signup?next=/collections"
+            className="shrink-0 rounded-full bg-ink px-4 py-2 text-[13px] font-bold text-paper transition-colors hover:bg-gold"
+          >
+            Sign in →
+          </Link>
+        </div>
+      )}
 
       {collections.length === 0 ? (
-        <div className="mx-auto max-w-md rounded-[22px] bg-paper-2 p-10 text-center">
-          <p className="font-display text-2xl">No collections yet.</p>
-          <p className="mt-2 text-sm text-ink-soft">
+        <div className="mx-auto mt-[16vh] flex max-w-sm flex-col items-center gap-2 text-center">
+          <span className="mb-2 flex h-14 w-14 items-center justify-center rounded-full bg-paper-2">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" />
+            </svg>
+          </span>
+          <p className="text-[19px] font-bold">No collections yet.</p>
+          <p className="text-sm text-ink-soft">
             Save any project from{" "}
             <Link href="/" className="text-gold underline underline-offset-2">
               the feed
@@ -35,7 +57,7 @@ export default function CollectionsPage() {
           </p>
         </div>
       ) : (
-        <div className="flex flex-col gap-10">
+        <div className="mt-8 flex flex-col gap-10">
           {collections.map((c) => {
             const saved = c.slugs
               .map((slug) => bySlug.get(slug))

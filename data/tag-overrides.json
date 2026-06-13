@@ -604,5 +604,11 @@
     "domainTags": [
       "sustainability"
     ]
+  },
+  "viniclip": {
+    "domainTags": [
+      "ai-ml"
+    ],
+    "form": "software"
   }
 }

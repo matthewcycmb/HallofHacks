@@ -8,6 +8,8 @@ export const ALLOWED_IMAGE_HOSTS = [
   "devpost.com",
   "*.devpost.com",
   "i.ytimg.com", // YouTube video thumbnails (photographic feed images)
+  "lh3.googleusercontent.com", // Google account avatars
+  "avatars.githubusercontent.com", // GitHub account avatars
 ];
 
 export const ALLOWED_VIDEO_EMBED_HOSTS = [
@@ -38,4 +40,23 @@ export function isAllowedImageUrl(url: string): boolean {
 
 export function isAllowedVideoEmbedUrl(url: string): boolean {
   return isAllowedHost(url, ALLOWED_VIDEO_EMBED_HOSTS);
+}
+
+/** Embed URL → the human watch page, for "Watch on YouTube/Vimeo" links. */
+export function watchUrlFromEmbed(embedUrl: string): { href: string; label: string } | null {
+  let parsed: URL;
+  try {
+    parsed = new URL(embedUrl);
+  } catch {
+    return null;
+  }
+  if (["www.youtube.com", "www.youtube-nocookie.com"].includes(parsed.hostname)) {
+    const id = parsed.pathname.match(/^\/embed\/([\w-]+)/)?.[1];
+    return id ? { href: `https://www.youtube.com/watch?v=${id}`, label: "YouTube" } : null;
+  }
+  if (parsed.hostname === "player.vimeo.com") {
+    const id = parsed.pathname.match(/^\/video\/(\d+)/)?.[1];
+    return id ? { href: `https://vimeo.com/${id}`, label: "Vimeo" } : null;
+  }
+  return null;
 }
