@@ -130,7 +130,12 @@ export async function runMigrationOnce() {
   // DO NOTHING), so a double-mount running it twice is safe; a failed run must
   // be retried, not silently lost.
   const res = await migrateCollectionsAction(local);
-  if ("collections" in res) window.localStorage.setItem(MIGRATED_KEY, "1");
+  if ("collections" in res) {
+    window.localStorage.setItem(MIGRATED_KEY, "1");
+    // Clear the local copy so it can't bleed into another account on a shared
+    // browser (or re-display after sign-out).
+    window.localStorage.removeItem(STORAGE_KEY);
+  }
   applyResult(res);
 }
 
@@ -144,7 +149,13 @@ function applyResult(res: CollectionsResult) {
     snapshot = res.collections;
     notify();
   } else if (res.error === "UNAUTHENTICATED") {
+    // Session expired mid-use: drop back to local mode (so we stop optimistically
+    // writing) and prompt sign-in, rather than leaving a phantom optimistic save.
+    enterLocalMode();
     authPrompt?.();
+  } else {
+    // NOT_FOUND etc. — the optimistic change didn't land server-side; resync.
+    safeRefetch();
   }
 }
 

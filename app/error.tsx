@@ -5,7 +5,7 @@ import Link from "next/link";
 /** Route-level error boundary — renders inside the layout (header/footer stay). */
 export default function Error({ reset }: { error: Error & { digest?: string }; reset: () => void }) {
   return (
-    <div className="mx-auto mt-12 max-w-md rounded-[22px] bg-paper-2 p-10 text-center">
+    <div className="mx-4 mt-12 max-w-md rounded-[22px] bg-paper-2 p-8 text-center sm:mx-auto sm:p-10">
       <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold">Error</p>
       <p className="mt-2 font-display text-3xl">Something broke.</p>
       <p className="mt-2 text-sm text-ink-soft">

@@ -81,7 +81,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
         <p className="text-[15px] font-medium leading-snug text-ink-soft">{project.oneLiner}</p>
 
         {project.whyWon && (
-          <div className="rounded-xl border border-line bg-paper-2 px-4 py-3.5">
+          <div className="rounded-xl border border-gold/25 bg-paper-2 px-4 py-3.5">
             <p className="flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.16em] text-gold">
               <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                 <path d="M6 9a6 6 0 0 0 12 0V3H6v6Z" />

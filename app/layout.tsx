@@ -50,13 +50,14 @@ export default function RootLayout({
               <div className="mx-auto flex w-full max-w-[1040px] items-center justify-between px-[clamp(20px,4vw,48px)]">
                 <Link
                   href="/feed"
-                  className="group inline-flex items-center gap-2 whitespace-nowrap font-display text-[22px] leading-none tracking-[-0.01em]"
+                  className="group inline-flex items-center gap-2 whitespace-nowrap font-display text-[19px] leading-none tracking-[-0.01em] sm:text-[22px]"
                 >
+                  {/* hidden on the smallest phones (≤~375px) so the wordmark + nav don't collide */}
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src="/croc.png" alt="" className="croc-mark h-5 w-auto sm:h-[22px]" />
+                  <img src="/croc.png" alt="" className="croc-mark hidden h-[18px] w-auto min-[390px]:block sm:h-[22px]" />
                   Hall <em className="font-normal italic text-gold">of</em> Hacks
                 </Link>
-                <div className="flex items-center gap-6">
+                <div className="flex items-center gap-3.5 sm:gap-6">
                   <HeaderSearch />
                   <Link
                     href="/categories"

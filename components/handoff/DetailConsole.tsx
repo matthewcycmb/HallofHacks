@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import type { HandoffCard } from "@/lib/handoff";
-import { watchUrlFromEmbed } from "@/lib/allowlist";
+import { isAllowedVideoEmbedUrl, watchUrlFromEmbed } from "@/lib/allowlist";
 import { quickSaveToggle } from "@/lib/collections";
 import Cover from "./Cover";
 import { CAL, MetaRow, PIN, PrizeLine } from "./NightCard";
@@ -13,7 +13,9 @@ import { CAL, MetaRow, PIN, PrizeLine } from "./NightCard";
  * by the caller; this renders only the inner stack.
  */
 export default function DetailConsole({ card, saved }: { card: HandoffCard; saved: boolean }) {
-  const videoUrl = card.project.demoVideoUrl;
+  // Only embed allow-listed hosts (matches ProjectDetail) — else CSP would blank it.
+  const raw = card.project.demoVideoUrl;
+  const videoUrl = raw && isAllowedVideoEmbedUrl(raw) ? raw : null;
   const watch = videoUrl ? watchUrlFromEmbed(videoUrl) : null;
 
   return (

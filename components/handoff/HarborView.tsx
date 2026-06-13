@@ -31,17 +31,20 @@ export default function HarborView({ projects }: { projects: Project[] }) {
   // Mobile: inline expansion, collapsed until the visitor taps.
   const [expanded, setExpanded] = useState<HandoffCard | null>(null);
 
+  // Mirror the CSS exactly: the layout switches at min-[901px], so mobile is
+  // "not (min-width: 901px)". Using one query for both state and taps avoids the
+  // dead-click desync at fractional widths near 900px.
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
-    const mq = window.matchMedia("(max-width: 900px)");
-    const update = () => setIsMobile(mq.matches);
+    const mq = window.matchMedia("(min-width: 901px)");
+    const update = () => setIsMobile(!mq.matches);
     update();
     mq.addEventListener("change", update);
     return () => mq.removeEventListener("change", update);
   }, []);
 
   function open(card: HandoffCard) {
-    if (window.matchMedia("(min-width: 901px)").matches) setSelected(card);
+    if (!isMobile) setSelected(card);
     else setExpanded((prev) => (prev?.slug === card.slug ? null : card));
   }
 

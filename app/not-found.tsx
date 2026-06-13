@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NotFound() {
   return (
-    <div className="mx-auto mt-12 max-w-md rounded-[22px] bg-paper-2 p-10 text-center">
+    <div className="mx-4 mt-12 max-w-md rounded-[22px] bg-paper-2 p-8 text-center sm:mx-auto sm:p-10">
       <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-gold">404</p>
       <p className="mt-2 font-display text-3xl">Not in the record book.</p>
       <p className="mt-2 text-sm text-ink-soft">

@@ -28,12 +28,14 @@ export default function FeedSwitcher({ projects }: { projects: Project[] }) {
 
   if (pool.length === 0) {
     return (
-      <div className="mx-auto max-w-[1040px] px-[clamp(20px,4vw,48px)] pt-16 text-center">
+      <div className="mx-auto flex min-h-[55vh] max-w-[1040px] flex-col items-center justify-center px-[clamp(20px,4vw,48px)] text-center">
         <p className="text-lg font-bold">Nothing matches.</p>
         <p className="mt-1 text-sm text-ink-soft">Try a different search or category.</p>
       </div>
     );
   }
 
-  return <HarborView key={`${category.id}:${q}`} projects={pool} />;
+  // Key on category only — typing in search keeps HarborView mounted (it
+  // re-filters via its prevCards reset), so the feed doesn't remount/jump per keystroke.
+  return <HarborView key={category.id} projects={pool} />;
 }
