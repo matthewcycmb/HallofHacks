@@ -11,6 +11,7 @@ import {
   toggleItemAction,
   migrateCollectionsAction,
 } from "./collections/actions";
+import { toast } from "./toast";
 
 export type { Collection };
 
@@ -180,6 +181,7 @@ export function quickSaveToggle(slug: string): boolean {
     return false;
   }
   const willSave = optimisticToggleSaved(slug);
+  toast(willSave ? "Saved to collection" : "Removed from collection");
   quickSaveToggleAction(slug).then(applyResult).catch(safeRefetch);
   return willSave;
 }

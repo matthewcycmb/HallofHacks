@@ -66,13 +66,23 @@ export default function ProjectDetail({ project }: { project: Project }) {
               </a>
             )}
           </div>
-          <SaveStar slug={project.slug} />
+          {/* desktop: save lives here in the top action row (wrapper controls visibility,
+              since .hoh-save is display:flex and would override `hidden` on the button itself) */}
+          <div className="hidden md:block">
+            <SaveStar slug={project.slug} />
+          </div>
         </div>
 
         <div>
-          <h2 className="font-display text-[28px] leading-[1.1] tracking-[-0.01em]">
-            {project.name}
-          </h2>
+          <div className="flex items-start justify-between gap-3">
+            <h2 className="font-display text-[28px] leading-[1.1] tracking-[-0.01em]">
+              {project.name}
+            </h2>
+            {/* mobile: save sits on the right of the title row */}
+            <div className="flex-none md:hidden">
+              <SaveStar slug={project.slug} className="mt-0.5" />
+            </div>
+          </div>
           <p className="mt-1.5 text-[16px] font-semibold text-gold">{project.award}</p>
           <p className="mt-1.5 font-mono text-[11px] uppercase tracking-[0.16em] text-ink-soft">
             {project.hackathon} · {project.year}

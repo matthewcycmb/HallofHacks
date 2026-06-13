@@ -6,6 +6,7 @@ import AccountWidget from "@/components/auth/AccountWidget";
 import HeaderSaves from "@/components/handoff/HeaderSaves";
 import HeaderSearch from "@/components/handoff/HeaderSearch";
 import SiteFooter from "@/components/SiteFooter";
+import Toaster from "@/components/Toaster";
 import { siteUrl } from "@/lib/site-url";
 import "./globals.css";
 
@@ -77,6 +78,7 @@ export default function RootLayout({
             <SiteFooter />
           </main>
         </Providers>
+        <Toaster />
         <Analytics />
       </body>
     </html>
