@@ -31,7 +31,8 @@
       }
     ],
     "featuredRank": 1,
-    "dominantColor": "#483828"
+    "dominantColor": "#483828",
+    "whyWon": "It won by making something that sounds impossible feel ordinary: you ring up your own computer on FaceTime, ask out loud, and watch it do the task and talk back in real time."
   },
   {
     "slug": "raising-cane",
@@ -70,7 +71,8 @@
     ],
     "featuredRank": 2,
     "dominantColor": "#080808",
-    "feedImage": "https://i.ytimg.com/vi/nJ5YjK1-0c0/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/nJ5YjK1-0c0/hqdefault.jpg",
+    "whyWon": "The wow is a cane that physically pulls a blind user toward the safe path like a guide dog, and the team reached that level of help for about a twentieth of what store-bought versions cost."
   },
   {
     "slug": "temp-sqyptg",
@@ -109,7 +111,8 @@
     ],
     "featuredRank": 3,
     "dominantColor": "#080808",
-    "feedImage": "https://i.ytimg.com/vi/AGGb7Qv4gY4/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/AGGb7Qv4gY4/hqdefault.jpg",
+    "whyWon": "Judges loved that your character keeps living after you log off, learning your voice and quirks well enough that friends can keep hanging out with a version of you while you're gone."
   },
   {
     "slug": "dial-4rqzc3",
@@ -145,7 +148,8 @@
       }
     ],
     "featuredRank": 4,
-    "dominantColor": "#080808"
+    "dominantColor": "#080808",
+    "whyWon": "It won on sheer nerve and a real result: stranded with no hotel, the team let AI agents cold-call over 100 real hotels overnight and actually talked a luxury room down to $158."
   },
   {
     "slug": "ross-42pnvi",
@@ -183,7 +187,8 @@
     ],
     "featuredRank": 5,
     "dominantColor": "#080808",
-    "feedImage": "https://i.ytimg.com/vi/FP0lBdZkyqI/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/FP0lBdZkyqI/hqdefault.jpg",
+    "whyWon": "The wow moment is feeling a painting: the robot draws the artwork on your palm with warm and cold touches so a blind person can sense where each color sits."
   },
   {
     "slug": "orca-4po0nm",
@@ -216,7 +221,8 @@
       }
     ],
     "featuredRank": 6,
-    "dominantColor": "#080808"
+    "dominantColor": "#080808",
+    "whyWon": "It won because it removes every barrier to making music: you just hum or beatbox, name the instruments you want, and it hands back a real, editable song."
   },
   {
     "slug": "dance-cv",
@@ -245,7 +251,8 @@
       }
     ],
     "dominantColor": "#080808",
-    "featuredRank": 7
+    "featuredRank": 7,
+    "whyWon": "The wow is that it works with any dance video on the internet, scoring your moves through a plain webcam and coaching you out loud on exactly what to fix."
   },
   {
     "slug": "yes-or-yes",
@@ -279,7 +286,8 @@
       }
     ],
     "dominantColor": "#080808",
-    "featuredRank": 8
+    "featuredRank": 8,
+    "whyWon": "It won for being gloriously unhinged but fully working: three real pet fish swim to pick your decision, and your computer then actually goes and does it."
   },
   {
     "slug": "screwyouikea",
@@ -312,7 +320,8 @@
       }
     ],
     "dominantColor": "#080808",
-    "featuredRank": 9
+    "featuredRank": 9,
+    "whyWon": "The wow is watching your IKEA manual turn into a 3D animation you can spin around, with each step playing out until the furniture builds itself."
   },
   {
     "slug": "longshot",
@@ -351,7 +360,8 @@
       }
     ],
     "featuredRank": 10,
-    "dominantColor": "#f8f8e8"
+    "dominantColor": "#f8f8e8",
+    "whyWon": "It won by going big: one sentence in, 200 AI agents work side by side overnight and rebuild a whole game like Minecraft from scratch with no human stepping in."
   },
   {
     "slug": "shop-a-sketch",
@@ -385,7 +395,8 @@
       }
     ],
     "dominantColor": "#e8e8e8",
-    "feedImage": "https://i.ytimg.com/vi/Rlop_MAxdIY/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/Rlop_MAxdIY/hqdefault.jpg",
+    "whyWon": "The wow is shopping by drawing: when you can't put what you want into words, you sketch it and it pulls up real products that match."
   },
   {
     "slug": "scamshield-87rbxe",
@@ -419,7 +430,8 @@
       }
     ],
     "dominantColor": "#080808",
-    "feedImage": "https://i.ytimg.com/vi/z5F1gDdCr84/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/z5F1gDdCr84/hqdefault.jpg",
+    "whyWon": "It won for being a genuinely useful guardian: it listens to an elderly person's calls, catches a scammer mid-sentence, warns them out loud, and texts the family before any money is lost."
   },
   {
     "slug": "snowy-day-3nfbgm",
@@ -451,7 +463,8 @@
         "devpostProfileUrl": "https://devpost.com/ryushen"
       }
     ],
-    "dominantColor": "#7888a8"
+    "dominantColor": "#7888a8",
+    "whyWon": "The wow is watching each snowplow think for itself, replanning the whole city's routes live so streets clear faster and no neighborhood gets skipped."
   },
   {
     "slug": "wordhawk",
@@ -484,7 +497,8 @@
         "devpostProfileUrl": "https://devpost.com/tkoduru"
       }
     ],
-    "dominantColor": "#b8d8a8"
+    "dominantColor": "#b8d8a8",
+    "whyWon": "It won for the spectacle: a camera reads the Word Hunt board, the software finds every word, and a robotic finger swipes them on a real phone faster than any person could."
   },
   {
     "slug": "diffuji",
@@ -519,7 +533,8 @@
         "devpostProfileUrl": "https://devpost.com/nathanbarry474"
       }
     ],
-    "dominantColor": "#080808"
+    "dominantColor": "#080808",
+    "whyWon": "The wow is holding a print of a daydream: you snap a photo, it repaints reality in a wild style, and prints it on receipt paper while you wait."
   },
   {
     "slug": "freak-cha",
@@ -556,7 +571,8 @@
         "devpostProfileUrl": "https://devpost.com/isabelwang13"
       }
     ],
-    "dominantColor": "#383838"
+    "dominantColor": "#383838",
+    "whyWon": "It won by flipping CAPTCHA on its head: you prove you're human by sticking your tongue out in different directions, a move today's deepfakes still can't fake."
   },
   {
     "slug": "heartstart",
@@ -593,7 +609,8 @@
         "devpostProfileUrl": "https://devpost.com/nicolewongbiz"
       }
     ],
-    "dominantColor": "#c82848"
+    "dominantColor": "#c82848",
+    "whyWon": "The wow is a robot that drives itself across the room to a collapsed person and starts doing CPR, buying the minutes that decide whether someone lives."
   },
   {
     "slug": "lifesaver-lnm0tz",
@@ -632,7 +649,8 @@
       }
     ],
     "dominantColor": "#080808",
-    "feedImage": "https://i.ytimg.com/vi/W6CaKOtUlmw/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/W6CaKOtUlmw/hqdefault.jpg",
+    "whyWon": "It won by turning surgery practice into a webcam game with a voice guide and a score, so medical students can rehearse without a $100k simulator or a real patient on the table."
   },
   {
     "slug": "kinemo",
@@ -670,7 +688,8 @@
       }
     ],
     "dominantColor": "#080808",
-    "feedImage": "https://i.ytimg.com/vi/JY9jn1HCboI/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/JY9jn1HCboI/hqdefault.jpg",
+    "whyWon": "The wow is a whole party console with no controllers at all: the webcam reads your body, so you jump, duck, and swing your arms to play."
   },
   {
     "slug": "artificial-sandwich-intelligence",
@@ -693,7 +712,8 @@
         "devpostProfileUrl": "https://devpost.com/ekx"
       }
     ],
-    "dominantColor": "#488858"
+    "dominantColor": "#488858",
+    "whyWon": "It won by proving robot learning is now a weekend project: $200 arms learned to make a sandwich just from watching people do it for four hours."
   },
   {
     "slug": "clipper-ph49un",
@@ -728,7 +748,8 @@
         "devpostProfileUrl": "https://devpost.com/cozidan2000"
       }
     ],
-    "dominantColor": "#e8d878"
+    "dominantColor": "#e8d878",
+    "whyWon": "The wow is the social stakes: quit your study session early and it snaps your photo and sends it to your friends, so the fear of getting exposed keeps you locked in."
   },
   {
     "slug": "wing-cet3o0",
@@ -759,7 +780,8 @@
         "devpostProfileUrl": "https://devpost.com/s-manbeena"
       }
     ],
-    "dominantColor": "#9858f8"
+    "dominantColor": "#9858f8",
+    "whyWon": "It won for a thoughtful disguise: a real, working safety app for abuse victims that looks and behaves exactly like a weather app, so a controlling partner sees nothing unusual."
   },
   {
     "slug": "ted-ai-x8537t",
@@ -796,7 +818,8 @@
       }
     ],
     "dominantColor": "#080808",
-    "feedImage": "https://i.ytimg.com/vi/3bj86ky1eAc/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/3bj86ky1eAc/hqdefault.jpg",
+    "whyWon": "The wow is a teddy bear that reads your heartbeat and how tightly you squeeze to sense how you feel, then talks back gently like a friend who always notices something's wrong."
   },
   {
     "slug": "maestro-n0uqyz",
@@ -837,7 +860,8 @@
       }
     ],
     "dominantColor": "#080808",
-    "feedImage": "https://i.ytimg.com/vi/7tlVRvY_3n8/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/7tlVRvY_3n8/hqdefault.jpg",
+    "whyWon": "It won because anyone can suddenly play: point a camera at a broom, air-strum it like a guitar with real notes, and grow what you play into a finished song."
   },
   {
     "slug": "viniclip",
@@ -873,7 +897,8 @@
         "devpostProfileUrl": "https://devpost.com/mahutt"
       }
     ],
-    "dominantColor": "#f8f8f8"
+    "dominantColor": "#f8f8f8",
+    "whyWon": "The wow is that the edit happens while you talk: stumble or restart a sentence and it cuts the mistake on the spot, so you stop recording with a finished video ready to post."
   },
   {
     "slug": "plant-hopper",
@@ -911,7 +936,8 @@
         "devpostProfileUrl": "https://devpost.com/seanchansato"
       }
     ],
-    "dominantColor": "#b8b8a8"
+    "dominantColor": "#b8b8a8",
+    "whyWon": "It won for the delightful mechanism: a water-gun turret scans the room, works out which plants are thirsty, and squirts each one the exact amount it needs."
   },
   {
     "slug": "chessmate-nwygvq",
@@ -947,7 +973,8 @@
         "devpostProfileUrl": "https://devpost.com/neelnimesh2005"
       }
     ],
-    "dominantColor": "#181818"
+    "dominantColor": "#181818",
+    "whyWon": "The wow is pieces that glide across the board on their own, moved by a magnet underneath, so a relative's move from the other side of the world appears on your real board."
   },
   {
     "slug": "readable-ai-braille-printer",
@@ -985,7 +1012,8 @@
         "devpostProfileUrl": "https://devpost.com/cathyzbn"
       }
     ],
-    "dominantColor": "#c8b8a8"
+    "dominantColor": "#c8b8a8",
+    "whyWon": "It won by crushing the price: a $1,500 braille printer rebuilt for under $15 from a cheap 3D printer, and it even describes the pictures in plain words."
   },
   {
     "slug": "fable-br8e1d",
@@ -1019,7 +1047,8 @@
       }
     ],
     "dominantColor": "#080808",
-    "feedImage": "https://i.ytimg.com/vi/Q8udHqdKbKw/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/Q8udHqdKbKw/hqdefault.jpg",
+    "whyWon": "The wow is a story that bends to your mind: a headband reads your brainwaves so the plot, art, and sound shift with how focused or relaxed you actually are, and no two people get the same story."
   },
   {
     "slug": "vibe-director",
@@ -1056,7 +1085,8 @@
       }
     ],
     "dominantColor": "#080808",
-    "feedImage": "https://i.ytimg.com/vi/-zFjfA0N3Gs/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/-zFjfA0N3Gs/hqdefault.jpg",
+    "whyWon": "It won for the world it builds: you walk around a tiny 3D studio and chat with a director, writer, and artist who together turn your ideas into a finished short film."
   },
   {
     "slug": "signhero",
@@ -1095,7 +1125,8 @@
         "devpostProfileUrl": "https://devpost.com/MsMarion"
       }
     ],
-    "dominantColor": "#080828"
+    "dominantColor": "#080828",
+    "whyWon": "The wow is Guitar Hero for sign language: letters fall like notes and your webcam checks each hand sign in time with the music, which makes learning ASL genuinely fun."
   },
   {
     "slug": "s-kbd67",
@@ -1131,7 +1162,8 @@
         "devpostProfileUrl": "https://devpost.com/EmChen06"
       }
     ],
-    "dominantColor": "#282828"
+    "dominantColor": "#282828",
+    "whyWon": "It won for the in-real-life immersion: a Nerf gun becomes the controller, so you aim, shoot, and pump to reload a real toy gun to play a first-person shooter."
   },
   {
     "slug": "rehabify-y2f5mu",
@@ -1169,7 +1201,8 @@
       }
     ],
     "dominantColor": "#f8f8f8",
-    "feedImage": "https://i.ytimg.com/vi/gXh_Ct_AQGU/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/gXh_Ct_AQGU/hqdefault.jpg",
+    "whyWon": "The wow is having a therapist in the room through your webcam: it catches the moment your form slips during home physical therapy and corrects you out loud."
   },
   {
     "slug": "reeljobs",
@@ -1205,7 +1238,8 @@
         "devpostProfileUrl": "https://devpost.com/juliansalvador727"
       }
     ],
-    "dominantColor": "#2868a8"
+    "dominantColor": "#2868a8",
+    "whyWon": "It won for making job hunting feel like TikTok: every listing becomes a 20-second video you swipe through, and one tap fills out the application."
   },
   {
     "slug": "the-unspillable",
@@ -1237,7 +1271,8 @@
         "devpostProfileUrl": "https://devpost.com/han0124lin"
       }
     ],
-    "dominantColor": "#d89848"
+    "dominantColor": "#d89848",
+    "whyWon": "The wow is a spoon bowl that stays perfectly level no matter how badly your hand shakes, matching a $300-plus medical device with one chip and two tiny motors built in a weekend."
   },
   {
     "slug": "project-horizon-8iodp2",
@@ -1269,7 +1304,8 @@
         "devpostProfileUrl": "https://devpost.com/alanb3350"
       }
     ],
-    "dominantColor": "#080808"
+    "dominantColor": "#080808",
+    "whyWon": "It won for the impossible camera angle: it rebuilds a first-person view from normal broadcast footage, so you can watch a soccer match through the striker's or keeper's own eyes."
   },
   {
     "slug": "coach-bob",
@@ -1307,7 +1343,8 @@
         "devpostProfileUrl": "https://devpost.com/1ardgupta"
       }
     ],
-    "dominantColor": "#e8e8e8"
+    "dominantColor": "#e8e8e8",
+    "whyWon": "The wow is AR glasses lighting up targets on a punching bag while it measures how hard you hit and trash-talks you, turning a boring warm-up into a game."
   },
   {
     "slug": "wateryourdoin",
@@ -1344,7 +1381,8 @@
         "devpostProfileUrl": "https://devpost.com/dpritthiraj"
       }
     ],
-    "dominantColor": "#f8f8f8"
+    "dominantColor": "#f8f8f8",
+    "whyWon": "It won for making a hidden cost visible: it catches AI questions a plain search could answer and shows the water you'd save as little ice cubes."
   },
   {
     "slug": "vril",
@@ -1381,7 +1419,8 @@
       }
     ],
     "dominantColor": "#f8f8f8",
-    "feedImage": "https://i.ytimg.com/vi/pGwVC0TzbDQ/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/pGwVC0TzbDQ/hqdefault.jpg",
+    "whyWon": "The wow is going from a sentence to a printable object: describe anything in plain words, tweak the 3D model, and send it straight to a 3D printer with no design software."
   },
   {
     "slug": "digital-physical-darts-wii-darts",
@@ -1417,7 +1456,8 @@
         "devpostProfileUrl": "https://devpost.com/SiwenJadenLong"
       }
     ],
-    "dominantColor": "#080808"
+    "dominantColor": "#080808",
+    "whyWon": "It won as a from-scratch Wii moment: a real dart with a motion sensor inside, so you wind up and throw for real and watch it land on the dartboard on screen."
   },
   {
     "slug": "blinkai",
@@ -1454,7 +1494,8 @@
         "devpostProfileUrl": "https://devpost.com/GabrielAnokye"
       }
     ],
-    "dominantColor": "#a8c8c8"
+    "dominantColor": "#a8c8c8",
+    "whyWon": "The wow is giving a voice back through blinking alone: short and long blinks become a kind of Morse code that the app reads aloud as full sentences."
   },
   {
     "slug": "project-lend",
@@ -1485,7 +1526,8 @@
         "devpostProfileUrl": "https://devpost.com/vikvang"
       }
     ],
-    "dominantColor": "#282828"
+    "dominantColor": "#282828",
+    "whyWon": "It won for actually running itself: donors text what they have, a robot arm boxes the food, and AI coordinates the pickups, delivering about 100 pounds to real shelters in a weekend."
   },
   {
     "slug": "ghostdiedie",
@@ -1520,7 +1562,8 @@
         "devpostProfileUrl": "https://devpost.com/jchoi120"
       }
     ],
-    "dominantColor": "#080818"
+    "dominantColor": "#080818",
+    "whyWon": "The wow is fighting a friend with your whole body through the webcam, seeing each other's real faces on the on-screen fighters as you dodge and swing."
   },
   {
     "slug": "lume-zrlypk",
@@ -1560,7 +1603,8 @@
       }
     ],
     "dominantColor": "#080808",
-    "feedImage": "https://i.ytimg.com/vi/o_BVDoVG3aI/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/o_BVDoVG3aI/hqdefault.jpg",
+    "whyWon": "It won for the patience it shows: ask how to unmute on Zoom and it highlights the exact button on screen and talks you through it, like a grandkid who's always around."
   },
   {
     "slug": "replay-wq5isz",
@@ -1598,7 +1642,8 @@
       }
     ],
     "dominantColor": "#080808",
-    "feedImage": "https://i.ytimg.com/vi/VxwPjytatZA/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/VxwPjytatZA/hqdefault.jpg",
+    "whyWon": "The wow is a video-game replay of real life: record a room with a phone and two cheap sensors, then pause, rewind, and fly the camera anywhere inside the moment."
   },
   {
     "slug": "taqr",
@@ -1636,7 +1681,8 @@
         "devpostProfileUrl": "https://devpost.com/kianhk6"
       }
     ],
-    "dominantColor": "#d8f8c8"
+    "dominantColor": "#d8f8c8",
+    "whyWon": "It won for turning cleanup into a game: you reload your laser tag by picking up and scanning real litter, so every piece of trash powers your next round."
   },
   {
     "slug": "dose-ebmo9z",
@@ -1673,7 +1719,8 @@
       }
     ],
     "dominantColor": "#f8f8e8",
-    "feedImage": "https://i.ytimg.com/vi/j7cSnyq9Vn8/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/j7cSnyq9Vn8/hqdefault.jpg",
+    "whyWon": "The wow is a pill bottle that weighs itself to know whether someone took their medicine, and quietly messages the family the moment a dose is missed."
   },
   {
     "slug": "whalebeing-27sj0w",
@@ -1710,7 +1757,8 @@
       }
     ],
     "dominantColor": "#080808",
-    "feedImage": "https://i.ytimg.com/vi/EwOxT8YSXnk/hqdefault.jpg"
+    "feedImage": "https://i.ytimg.com/vi/EwOxT8YSXnk/hqdefault.jpg",
+    "whyWon": "It won for a fix that costs almost nothing: it nudges shipping routes around where whales feed and travel, saving thousands of whales while ships lose barely any time."
   },
   {
     "slug": "archemy",
@@ -1749,7 +1797,8 @@
         "devpostProfileUrl": "https://devpost.com/mangoqwq"
       }
     ],
-    "dominantColor": "#f8f8f8"
+    "dominantColor": "#f8f8f8",
+    "whyWon": "The wow is grabbing floating objects with your bare hands through AR glasses and smashing them together to invent new ones, so a duck plus a car becomes a quackmobile."
   },
   {
     "slug": "resqme-jq52al",
@@ -1785,6 +1834,7 @@
         "devpostProfileUrl": "https://devpost.com/solanhomestead"
       }
     ],
-    "dominantColor": "#0888b8"
+    "dominantColor": "#0888b8",
+    "whyWon": "It won for working when everything else fails: cheap pocket radios pass your text and location device to device until they reach rescuers, with no cell towers needed."
   }
 ]

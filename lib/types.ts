@@ -10,6 +10,8 @@ export interface Project {
   name: string;
   oneLiner: string;
   description: string;
+  /** One clear line on why it won + the "wow" moment (data/why-won.json). */
+  whyWon?: string;
   image: string;
   demoVideoUrl?: string;
   devpostUrl: string;

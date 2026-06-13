@@ -10,6 +10,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 const projects = JSON.parse(readFileSync("data/projects.json", "utf8"));
 const { roster } = JSON.parse(readFileSync("data/final-cut.json", "utf8"));
 const blurbs = JSON.parse(readFileSync("data/blurbs.json", "utf8"));
+const whyWon = JSON.parse(readFileSync("data/why-won.json", "utf8"));
 
 const bySlug = new Map(projects.map((p) => [p.slug, p]));
 const missing = roster.filter((s) => !bySlug.has(s));
@@ -61,6 +62,7 @@ final.forEach((p, i) => {
   p.award = scrubDashes(quantify(p.award, p.hackathon, p.year));
   p.oneLiner = blurbs[p.slug] ?? scrubDashes(p.oneLiner);
   p.description = scrubDashes(p.description);
+  if (whyWon[p.slug]) p.whyWon = scrubDashes(whyWon[p.slug]);
 });
 writeFileSync("data/projects.json", JSON.stringify(final, null, 2));
 console.log(`Final cut: ${final.length} projects (dropped ${projects.length - final.length}).`);

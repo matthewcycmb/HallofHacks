@@ -80,7 +80,18 @@ export default function ProjectDetail({ project }: { project: Project }) {
 
         <p className="text-[15px] font-medium leading-snug text-ink-soft">{project.oneLiner}</p>
 
-        <p className="line-clamp-6 text-sm leading-relaxed">{project.description}</p>
+        {project.whyWon && (
+          <div className="rounded-xl border border-line bg-paper-2 px-4 py-3.5">
+            <p className="flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.16em] text-gold">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                <path d="M6 9a6 6 0 0 0 12 0V3H6v6Z" />
+                <path d="M6 5H3v2a4 4 0 0 0 4 4M18 5h3v2a4 4 0 0 1-4 4M12 15v4M8 21h8" />
+              </svg>
+              Why it won
+            </p>
+            <p className="mt-1.5 text-sm leading-relaxed">{project.whyWon}</p>
+          </div>
+        )}
 
         <div className="flex flex-wrap gap-1.5">
           {project.domainTags.map((t) => (
