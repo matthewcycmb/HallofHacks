@@ -143,9 +143,7 @@ function Landing({ data }: { data: OnboardingData }) {
 
       {/* Desktop: centered hero, headline ~24% down the viewport (Cursor's placement).
           Mobile: left-aligned F-pattern, no stats line, lower start. */}
-      <div className="flex flex-col items-start gap-5 px-5 pt-[9vh] text-left sm:items-center sm:gap-[22px] sm:pt-[clamp(48px,11vh,120px)] sm:text-center">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/croc.png" alt="Hall of Hacks" className="croc-hero h-11 w-auto sm:h-14" />
+      <div className="flex flex-col items-start gap-5 px-5 pt-[11vh] text-left sm:items-center sm:gap-[26px] sm:pt-[clamp(60px,14vh,140px)] sm:text-center">
         {/* Regular weight on purpose: the heading sets the scene, the white CTA takes the spotlight. */}
         <h1
           className="rise-in text-[clamp(30px,5vw,62px)] font-normal leading-[1.12] tracking-[-0.02em] text-balance sm:leading-[1.07]"
