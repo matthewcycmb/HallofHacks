@@ -35,7 +35,7 @@ const ERROR_COPY: Record<string, string> = {
 
 export default function SignupCard() {
   const params = useSearchParams();
-  const next = params.get("next") || "/";
+  const next = params.get("next") || "/feed";
   const errorKey = params.get("error");
   const errorMsg = errorKey
     ? ERROR_COPY[errorKey] ?? "Something went wrong signing in. Please try again."

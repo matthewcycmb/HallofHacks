@@ -26,7 +26,7 @@ export default function CategoriesPage() {
         {cards.map((cat) => (
           <Link
             key={cat.id}
-            href={cat.id === "all" ? "/" : `/?cat=${cat.id}`}
+            href={cat.id === "all" ? "/feed" : `/feed?cat=${cat.id}`}
             className="group flex flex-col gap-0.5 rounded-xl border border-line bg-paper-2 px-4 py-3 transition-transform hover:-translate-y-0.5 sm:flex-row sm:items-baseline sm:gap-2"
           >
             <span className="text-[15px] font-bold tracking-[-0.01em]">{cat.label}</span>

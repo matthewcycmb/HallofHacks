@@ -50,7 +50,7 @@ export default function CollectionsPage() {
           <p className="text-[19px] font-bold">No collections yet.</p>
           <p className="text-sm text-ink-soft">
             Save any project from{" "}
-            <Link href="/" className="text-gold underline underline-offset-2">
+            <Link href="/feed" className="text-gold underline underline-offset-2">
               the feed
             </Link>{" "}
             to start one.

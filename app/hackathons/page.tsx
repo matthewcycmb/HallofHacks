@@ -37,7 +37,7 @@ export default function HackathonsPage() {
         {cards.map((e) => (
           <Link
             key={e.key}
-            href={`/?q=${encodeURIComponent(e.hackathon)}`}
+            href={`/feed?q=${encodeURIComponent(e.hackathon)}`}
             className="group rounded-xl border border-line bg-paper-2 px-4 py-3 transition-transform hover:-translate-y-0.5"
           >
             <div className="flex items-baseline gap-2">

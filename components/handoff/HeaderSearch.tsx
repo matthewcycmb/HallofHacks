@@ -18,7 +18,7 @@ function SearchInner() {
     const next = new URLSearchParams(params.toString());
     if (value.trim()) next.set("q", value.trim());
     else next.delete("q");
-    router.replace(`/?${next.toString()}`);
+    router.replace(`/feed?${next.toString()}`);
   }
 
   if (!open) {

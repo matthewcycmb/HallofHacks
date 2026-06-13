@@ -32,7 +32,7 @@ export default function RootLayout({
             <header className="flex-none py-3.5">
               <div className="mx-auto flex w-full max-w-[1040px] items-center justify-between px-[clamp(20px,4vw,48px)]">
                 <Link
-                  href="/"
+                  href="/feed"
                   className="font-display text-[22px] leading-none tracking-[-0.01em] whitespace-nowrap"
                 >
                   Hall <em className="font-normal italic text-gold">of</em> Hacks

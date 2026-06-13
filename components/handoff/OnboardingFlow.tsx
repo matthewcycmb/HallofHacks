@@ -153,7 +153,7 @@ function Landing({ data }: { data: OnboardingData }) {
               Get started <Arrow />
             </Link>
             {/* Deliberately ungated: browsing is the value taste, signup gates saves later. */}
-            <Link href="/" className={`${BTN_GHOST} px-6 py-3 text-[15px]`}>
+            <Link href="/feed" className={`${BTN_GHOST} px-6 py-3 text-[15px]`}>
               Browse projects
             </Link>
           </div>

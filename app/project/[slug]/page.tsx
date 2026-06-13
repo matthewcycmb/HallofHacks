@@ -47,7 +47,7 @@ export default async function ProjectPage({
   return (
     <div className="mx-auto w-full max-w-5xl px-4 py-6 sm:px-8">
       <Link
-        href="/"
+        href="/feed"
         className="inline-flex items-center gap-2 rounded-full px-3 py-2 font-mono text-[11px] uppercase tracking-[0.1em] text-ink-soft transition-colors hover:bg-paper-2 hover:text-ink"
       >
         ← Back to the feed
