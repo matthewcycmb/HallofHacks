@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 import Providers from "@/components/auth/Providers";
 import AccountWidget from "@/components/auth/AccountWidget";
 import HeaderSaves from "@/components/handoff/HeaderSaves";
@@ -7,14 +8,37 @@ import HeaderSearch from "@/components/handoff/HeaderSearch";
 import SiteFooter from "@/components/SiteFooter";
 import "./globals.css";
 
+// Prefer an explicit override, else Vercel's production domain, else localhost.
+// Keeps OG/canonical URLs absolute in prod without a manually-set env var.
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : "http://localhost:3000");
+
+const title = "Hall of Hacks — the permanent archive of winning hackathon projects";
+const description =
+  "A bingeable archive of winning hackathon projects from Hack the North, TreeHacks, CalHacks, MHacks and more. Consume winners. Build winners.";
+
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
+  metadataBase: new URL(siteUrl),
   title: {
-    default: "Hall of Hacks — the permanent archive of winning hackathon projects",
+    default: title,
     template: "%s — Hall of Hacks",
   },
-  description:
-    "A bingeable archive of winning hackathon projects from Hack the North, TreeHacks, CalHacks, MHacks and more. Consume winners. Build winners.",
+  description,
+  openGraph: {
+    title,
+    description,
+    siteName: "Hall of Hacks",
+    type: "website",
+    url: "/",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
 };
 
 export default function RootLayout({
@@ -58,6 +82,7 @@ export default function RootLayout({
             <SiteFooter />
           </main>
         </Providers>
+        <Analytics />
       </body>
     </html>
   );

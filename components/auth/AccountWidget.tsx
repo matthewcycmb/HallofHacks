@@ -85,6 +85,17 @@ export default function AccountWidget() {
             </svg>
             My collection
           </Link>
+          <Link
+            href="/account"
+            onClick={() => setOpen(false)}
+            className="flex items-center gap-2 rounded-xl px-3 py-2 text-sm font-medium hover:bg-paper-2"
+          >
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <circle cx="12" cy="8" r="4" />
+              <path d="M4 21c0-3.5 3.6-6 8-6s8 2.5 8 6" />
+            </svg>
+            Account
+          </Link>
           <button
             type="button"
             onClick={() => signOut({ callbackUrl: "/" })}

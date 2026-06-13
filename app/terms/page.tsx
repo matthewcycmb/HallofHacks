@@ -72,7 +72,7 @@ export default function TermsPage() {
         <section className="flex flex-col gap-2">
           <h2>Contact</h2>
           <p>
-            Questions? Email <a href="mailto:hello@hallofhacks.app">hello@hallofhacks.app</a>.
+            Questions? Email <a href="mailto:jchanh@gmail.com">jchanh@gmail.com</a>.
           </p>
         </section>
       </div>

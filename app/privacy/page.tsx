@@ -67,7 +67,7 @@ export default function PrivacyPage() {
           <h2>Contact</h2>
           <p>
             Questions about this policy? Email{" "}
-            <a href="mailto:privacy@hallofhacks.app">privacy@hallofhacks.app</a>.
+            <a href="mailto:jchanh@gmail.com">jchanh@gmail.com</a>.
           </p>
         </section>
       </div>
