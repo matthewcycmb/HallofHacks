@@ -92,14 +92,6 @@ export default function HarborView({ projects }: { projects: Project[] }) {
               <span className="font-semibold text-[var(--nf-text)]">{wings.length}</span>{" "}
               {wings.length === 1 ? "Hackathon" : "Hackathons"}
             </span>
-            {/* Updated Daily: desktop only — saves a line on phones. */}
-            <span className="hidden items-center gap-1.5 sm:inline-flex">
-              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-                <path d="M21 12a9 9 0 1 1-2.64-6.36" />
-                <path d="M21 3v6h-6" />
-              </svg>
-              Updated Daily
-            </span>
           </div>
         </div>
         <div className="grid items-start gap-[clamp(26px,4vw,56px)] min-[901px]:grid-cols-[minmax(340px,430px)_1fr]">

@@ -1,7 +1,7 @@
 import type { Project } from "@/lib/types";
 import { DOMAIN_TAGS, FORMS } from "@/lib/types";
 import { isAllowedVideoEmbedUrl, watchUrlFromEmbed } from "@/lib/allowlist";
-import DetailSave from "./handoff/DetailSave";
+import SaveStar from "./handoff/SaveStar";
 import ProjectImage from "./ProjectImage";
 
 export default function ProjectDetail({ project }: { project: Project }) {
@@ -65,7 +65,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
               </a>
             )}
           </div>
-          <DetailSave slug={project.slug} />
+          <SaveStar slug={project.slug} />
         </div>
 
         <div>
