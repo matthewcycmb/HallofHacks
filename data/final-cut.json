@@ -1,5 +1,5 @@
 {
-  "_note": "The beginner-wow roster: ~20 projects a first-time hackathoner instantly gets and goes 'wow' at. Strict filter: no technically-opaque, niche, or hospital-ops projects. Order = reading order = feed deal order; first 10 = featured. FaceTimeOS always opens. Cut records stay in merged-raw.json; restore by re-adding a slug.",
+  "_note": "The beginner-wow roster: 50 projects a first-time hackathoner instantly gets and goes 'wow' at, filtered by data/CURATION.md (six gates; fun-framed hardware allowed since June 2026). Order = reading order = feed deal order; first 10 = featured. FaceTimeOS always opens. Cut records stay in merged-raw.json; restore by re-adding a slug.",
   "roster": [
     "facetime-macos-ai-agent",
     "raising-cane",
@@ -22,6 +22,34 @@
     "kinemo",
     "artificial-sandwich-intelligence",
     "clipper-ph49un",
-    "wing-cet3o0"
+    "wing-cet3o0",
+    "ted-ai-x8537t",
+    "maestro-n0uqyz",
+    "viniclip",
+    "plant-hopper",
+    "chessmate-nwygvq",
+    "readable-ai-braille-printer",
+    "fable-br8e1d",
+    "vibe-director",
+    "signhero",
+    "s-kbd67",
+    "rehabify-y2f5mu",
+    "reeljobs",
+    "the-unspillable",
+    "project-horizon-8iodp2",
+    "coach-bob",
+    "wateryourdoin",
+    "vril",
+    "digital-physical-darts-wii-darts",
+    "blinkai",
+    "project-lend",
+    "ghostdiedie",
+    "lume-zrlypk",
+    "replay-wq5isz",
+    "taqr",
+    "dose-ebmo9z",
+    "whalebeing-27sj0w",
+    "archemy",
+    "resqme-jq52al"
   ]
 }

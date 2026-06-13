@@ -270,7 +270,7 @@ body[data-v="glass"] {
   --ink-soft: rgba(241, 241, 243, 0.55);
   --line: rgba(255, 255, 255, 0.08);
   --gold: #d6c693;
-  --nf-bg: #121216;
+  --nf-bg: #000;
   --nf-card: rgba(255, 255, 255, 0.055);
   --nf-card-hover: rgba(255, 255, 255, 0.09);
   --nf-nline: rgba(255, 255, 255, 0.05);

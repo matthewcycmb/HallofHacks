@@ -1,11 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import {
-  createCollection,
-  toggleInCollection,
-  useCollections,
-} from "@/lib/collections";
+import { createCollectionAndAdd, toggleInCollection, useCollections } from "@/lib/collections";
 
 export default function SaveMenu({
   slug,
@@ -38,8 +34,7 @@ export default function SaveMenu({
   function handleCreate() {
     const name = newName.trim();
     if (!name) return;
-    const collection = createCollection(name);
-    toggleInCollection(collection.id, slug);
+    createCollectionAndAdd(name, slug);
     setNewName("");
   }
 

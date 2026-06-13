@@ -18,7 +18,7 @@ function SearchInner() {
     const next = new URLSearchParams(params.toString());
     if (value.trim()) next.set("q", value.trim());
     else next.delete("q");
-    router.replace(`/?${next.toString()}`);
+    router.replace(`/feed?${next.toString()}`);
   }
 
   if (!open) {
@@ -26,13 +26,14 @@ function SearchInner() {
       <button
         type="button"
         onClick={() => setOpen(true)}
+        aria-label="Search"
         className="inline-flex items-center gap-2 rounded-full py-2 text-[15px] font-medium text-ink-soft transition-colors hover:text-ink"
       >
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
           <circle cx="11" cy="11" r="8" />
           <path d="m21 21-4.3-4.3" />
         </svg>
-        Search
+        <span className="hidden sm:inline">Search</span>
       </button>
     );
   }
@@ -52,7 +53,8 @@ function SearchInner() {
       onBlur={(e) => {
         if (!e.target.value.trim()) setOpen(false);
       }}
-      className="w-52 rounded-full bg-paper-2 px-3.5 py-1.5 text-[14px] text-ink outline-none placeholder:text-ink-soft"
+      // 16px floor on phones: anything smaller makes iOS Safari auto-zoom into the field.
+      className="w-36 rounded-full bg-paper-2 px-3.5 py-1.5 text-[16px] text-ink outline-none placeholder:text-ink-soft sm:w-52 sm:text-[14px]"
     />
   );
 }

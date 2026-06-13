@@ -1906,6 +1906,610 @@
       "domainTags": [],
       "form": "software",
       "team": []
+    },
+    {
+      "slug": "maestro-n0uqyz",
+      "name": "Maestro",
+      "oneLiner": "Point a camera at a broom and strum: hand tracking turns any object into a playable instrument, then a full song.",
+      "description": "We’re an international team, and music is one of the few languages everyone on our team shares. No matter where we’re from, we’ve all used everyday objects, desks, bottles, and brooms to make rhythm or pretend instruments. We wanted to build something that lets anyone express themselves musically and develop their musical skills without needing expensive gear or formal training. Maestro turns a broom into a playable guitar and music studio. Using a camera, hand tracking, and sound mapping, we detect a broom and map your hand movements to musical notes so you can instantly play it like a real instrument. An iPhone companion detects pressed “strings,” letting you form chords and control pitch while strumming in the air.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/330/739/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/7tlVRvY_3n8",
+      "devpostUrl": "https://devpost.com/software/maestro-n0uqyz",
+      "githubUrl": "https://github.com/markmusic27/treehacks",
+      "award": "Best Musical Hack",
+      "hackathon": "TreeHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Gaston Nils Marie de Baudry d&#39;Asson",
+          "devpostProfileUrl": "https://devpost.com/gba"
+        },
+        {
+          "name": "Gaston Nils Marie de Baudry d'Asson",
+          "devpostProfileUrl": "https://devpost.com/gba"
+        },
+        {
+          "name": "Abraham Yeung",
+          "devpostProfileUrl": "https://devpost.com/ayeung1616"
+        },
+        {
+          "name": "Mark Music",
+          "devpostProfileUrl": "https://devpost.com/me879"
+        },
+        {
+          "name": "Vansh Gadhia",
+          "devpostProfileUrl": "https://devpost.com/gadhiavansh"
+        }
+      ]
+    },
+    {
+      "slug": "viniclip",
+      "name": "ViniClip",
+      "oneLiner": "An editor that deletes your stumbles while you're still recording — press stop and the video is already done.",
+      "description": "Ever fumble through a video recording, pause awkwardly, or restart mid-sentence? Typical video editing means recording everything, then spending hours re-recording or cutting out mistakes - but what if your video could edit itself while you recorded? ViniClip is an opinionated, automatic video editor that cuts out pauses and errors on the fly. Record yourself directly in your browser, and ViniClip removes awkward pauses, repeated takes, or any mistake you wish to get rid of instantly. The final product is a video that's ready to post immediately, you can even command the video to be upload to Instagram reels instantly. This project enables real-time video editing during active recording sessions.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/219/172/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/qDyQIVBcPCs",
+      "devpostUrl": "https://devpost.com/software/viniclip",
+      "githubUrl": "https://github.com/mahutt/ViniClip",
+      "award": "1st Place Overall",
+      "hackathon": "ConUHacks",
+      "year": 2026,
+      "domainTags": [],
+      "form": "software",
+      "team": [
+        {
+          "name": "vinisha manek",
+          "devpostProfileUrl": "https://devpost.com/vinishamanek"
+        },
+        {
+          "name": "Christopher Mezzacappa",
+          "devpostProfileUrl": "https://devpost.com/christophermezzacappa818"
+        },
+        {
+          "name": "ambrose mclaughlin",
+          "devpostProfileUrl": "https://devpost.com/mclaughlinambrose"
+        },
+        {
+          "name": "mahutt",
+          "devpostProfileUrl": "https://devpost.com/mahutt"
+        }
+      ]
+    },
+    {
+      "slug": "plant-hopper",
+      "name": "Plant Hopper",
+      "oneLiner": "A water-gun turret that finds thirsty houseplants and squirts each exactly enough.",
+      "description": "Traditional watering methods like sprinklers waste up to 50% of the water they use. They treat every plant the same, ignoring that some need more or less water, or operate on different schedules. We wanted a setup that’s smarter, healthier for plants, and massively more efficient. Plant Hopper solves this by individually targeting plants using computer vision, optimized schedules, and soil moisture readings. The system scales across multiple plants using a database-driven model instead of fixed hardware zones.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/817/370/datas/medium.jpg",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/C8jYkJZJHcI",
+      "devpostUrl": "https://devpost.com/software/plant-hopper",
+      "githubUrl": "https://github.com/jello-2/PlantHopper",
+      "award": "1st Place Overall",
+      "hackathon": "Hack the Valley",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml",
+        "health",
+        "sustainability"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Eugene Lee",
+          "devpostProfileUrl": "https://devpost.com/eu-lee"
+        },
+        {
+          "name": "Austin Jian",
+          "devpostProfileUrl": "https://devpost.com/austinjian07"
+        },
+        {
+          "name": "Jason Liu",
+          "devpostProfileUrl": "https://devpost.com/pekachoo"
+        },
+        {
+          "name": "Sean Chan-Sato",
+          "devpostProfileUrl": "https://devpost.com/seanchansato"
+        }
+      ]
+    },
+    {
+      "slug": "readable-ai-braille-printer",
+      "name": "BrailleBot: Make Every Document Accessible!",
+      "oneLiner": "A braille printer for under $15 on a stock 3D printer — 100x cheaper than commercial embossers.",
+      "description": "During the start of Treehacks, we chatted with a fellow builder who described corresponding with her visually-impaired pen pal: She types her message on her computer, and then manually punches the braille, letter by letter, on a sheet of paper to send over. Why does she do this? Braille printers are outrageously expensive due to the high degree of precision required and the niche market. Due to the high cost, many who seek to print braille documents instead manually punch each letter with a specialized hole puncher. This struggle extends far beyond personal correspondence—it highlights a critical gap in education for the visually impaired.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/270/209/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/atzED5lXhCE",
+      "devpostUrl": "https://devpost.com/software/readable-ai-braille-printer",
+      "githubUrl": "https://github.com/cathyzbn/braille-printer",
+      "award": "Best Hardware Hack",
+      "hackathon": "TreeHacks",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml",
+        "fintech",
+        "social-good"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Jason Lin",
+          "devpostProfileUrl": "https://devpost.com/jclin22009"
+        },
+        {
+          "name": "Scott Hickmann",
+          "devpostProfileUrl": "https://devpost.com/scotthickmann"
+        },
+        {
+          "name": "Lawton Skaling",
+          "devpostProfileUrl": "https://devpost.com/LSkaling"
+        },
+        {
+          "name": "Cathy Zhou",
+          "devpostProfileUrl": "https://devpost.com/cathyzbn"
+        }
+      ]
+    },
+    {
+      "slug": "fable-br8e1d",
+      "name": "Fable",
+      "oneLiner": "A storybook steered by your brainwaves: focus and calm reshape plot, art, and sound live via a consumer EEG headband.",
+      "description": "Fable began with a simple question: What if a story could adapt to your state of mind? As our team explored EEG technology, we became excited about the idea of measuring brain waves and uncovering hidden patterns of thought. What if a narrative could respond to your level of focus and relaxation—your shifting mental state? With EEG headsets reading brain activity, Fable dynamically shapes its plot, characters, sound effects, and visuals, crafting a living, breathing story that unfolds uniquely for you. This isn’t just storytelling—it’s an experience powered by your mind. Fable reads your brainwaves to craft a living story that responds to your every thought.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/273/081/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/Q8udHqdKbKw",
+      "devpostUrl": "https://devpost.com/software/fable-br8e1d",
+      "githubUrl": "https://github.com/StiopaPopa/fable",
+      "award": "OpenAI: Most Creative",
+      "hackathon": "TreeHacks",
+      "year": 2025,
+      "domainTags": [
+        "health",
+        "ar-vr"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Max Chew",
+          "devpostProfileUrl": "https://devpost.com/kxchew"
+        },
+        {
+          "name": "Hemal Arora",
+          "devpostProfileUrl": "https://devpost.com/hemal1"
+        },
+        {
+          "name": "Steve Mendeleev",
+          "devpostProfileUrl": "https://devpost.com/st21"
+        }
+      ]
+    },
+    {
+      "slug": "vibe-director",
+      "name": "Stu3dio",
+      "oneLiner": "Make a film by walking around a 3D studio and talking to the AI staff — the interface is the wow, not the generation.",
+      "description": "Make an AI movie by talking to others in the 3D studio. First, chat with an Director to brainstorm ideas, build characters, and outline scenes. Secondly, collaborate with an Scriptwriter to flesh out dialogue, actions, and narrative details. Next, meet the Character Artist, where you can tweak style, clothes (ANYTHING YOU WANT) by simply scribbling on the character’s image for instant AI edits. Lastly, view a timeline of all the scenes and their frames, you could edit the scene images directly using scribbling tools and getting instant responses from our image gen AI. Finally ... generate the video ...",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/741/160/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/-zFjfA0N3Gs",
+      "devpostUrl": "https://devpost.com/software/vibe-director",
+      "githubUrl": "https://github.com/Jeff15321/Stu3dio-HackTheNorth2025",
+      "award": "Finalist",
+      "hackathon": "Hack the North",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Emma Shi",
+          "devpostProfileUrl": "https://devpost.com/emmashi2006"
+        },
+        {
+          "name": "jeff lu",
+          "devpostProfileUrl": "https://devpost.com/jeff-lu234"
+        },
+        {
+          "name": "William Zeng",
+          "devpostProfileUrl": "https://devpost.com/willzeng274"
+        },
+        {
+          "name": "Martin Sit",
+          "devpostProfileUrl": "https://devpost.com/martin226"
+        }
+      ]
+    },
+    {
+      "slug": "signhero",
+      "name": "SignHero",
+      "oneLiner": "Sign-language rhythm game: letters fall like notes, the webcam judges your handshapes in time with the music.",
+      "description": "Over 48 million Americans are deaf or hard of hearing, yet ASL literacy remains low among the hearing population. We wanted to make learning ASL fingerspelling fun, accessible, and engaging —the same way Guitar Hero made learning rhythm patterns addictive. The breakthrough idea: What if we could gamify sign language learning with real-time AI detection and rhythm-based gameplay? SignHero is a rhythm game that teaches ASL fingerspelling through webcam-powered gameplay: The AI watches your webcam, detects which ASL letter you're signing in real-time (~30-50ms latency), and scores your accuracy with combo multipliers, streak celebrations, and visual effects. For this we build a custom model based on the mobileneyb2 cnn as our backbone.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/200/537/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/ZX6OOWAt5-U",
+      "devpostUrl": "https://devpost.com/software/signhero",
+      "githubUrl": "https://github.com/MsMarion/ASL-Fun-Training",
+      "award": "Best Overall",
+      "hackathon": "SwampHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "health",
+        "games",
+        "social-good"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Jerry He",
+          "devpostProfileUrl": "https://devpost.com/jerryhe365"
+        },
+        {
+          "name": "Eric George",
+          "devpostProfileUrl": "https://devpost.com/ericgeo324"
+        },
+        {
+          "name": "Kai Sprunger",
+          "devpostProfileUrl": "https://devpost.com/kaisprunger"
+        },
+        {
+          "name": "Dawn Balaschak",
+          "devpostProfileUrl": "https://devpost.com/MsMarion"
+        }
+      ]
+    },
+    {
+      "slug": "reeljobs",
+      "name": "ReelJobs",
+      "oneLiner": "Job listings as a swipeable short-video feed with one-tap apply — the demo narrators are Obama and Stewie.",
+      "description": "Job hunting sucks. You scroll through endless walls of text, copy-paste the same resume into a dozen forms, and still hear nothing back. Meanwhile, we spend hours on TikTok and Instagram Reels consuming content effortlessly. We asked ourselves: what if finding your next job felt as easy as scrolling through Reels? Gen Z and millennials already consume information through short-form video. Why should job discovery be stuck in the 2010s? ReelJobs brings job listings into the format we actually enjoy consuming. ReelJobs transforms job listings into engaging short-form vertical videos. Instead of reading through job descriptions, you swipe through 15-30 second video summaries that capture the essence of each role.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/152/140/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/cT9m9wvDQzQ",
+      "devpostUrl": "https://devpost.com/software/reeljobs",
+      "githubUrl": "https://github.com/Scr4tch587/DeltaHacks12",
+      "award": "3rd Place Overall",
+      "hackathon": "DeltaHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Kai Zhang",
+          "devpostProfileUrl": "https://devpost.com/Scr4tch587"
+        },
+        {
+          "name": "Ryan Zhou",
+          "devpostProfileUrl": "https://devpost.com/ryanzhou147"
+        },
+        {
+          "name": "Ario Barin Ostovary",
+          "devpostProfileUrl": "https://devpost.com/ariobarin"
+        },
+        {
+          "name": "Julian Salvador",
+          "devpostProfileUrl": "https://devpost.com/juliansalvador727"
+        }
+      ]
+    },
+    {
+      "slug": "the-unspillable",
+      "name": "The Unspillable",
+      "oneLiner": "Self-leveling spoon for tremor patients: two motors counteract the shake in real time — a $300 product rebuilt in a weekend.",
+      "description": "When researching solutions to Parkinson's and hand tremors, we realized that spoons with actual self-stabilizing technology were very expensive, often easily above $300. Thus, we decided to try to make one with easily accessible microcontrollers, motors and sensors to make an affordable version. The Unspillable is a smart spoon that uses a 2-axis sensor-motor system to counteract tremors and tilts in real time. The spoon bowl always remains perfectly level no matter the angle of the handle or hand. We wired together an Arduino Nano, a MPU6050 sensor, two servo motors, a button and a battery to be the core self-stabilizing system. Then we used CAD to create a case for it all and 3D printed it so we could use our system as the handle.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/566/293/datas/medium.jpg",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/7ixI50nMe54",
+      "devpostUrl": "https://devpost.com/software/the-unspillable",
+      "award": "Best Hardware Hack",
+      "hackathon": "Bitcamp",
+      "year": 2026,
+      "domainTags": [
+        "health",
+        "social-good"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "S4ndman10",
+          "devpostProfileUrl": "https://devpost.com/S4ndman10"
+        },
+        {
+          "name": "Chris Beegan",
+          "devpostProfileUrl": "https://devpost.com/chrisbeegan"
+        },
+        {
+          "name": "Han Lin",
+          "devpostProfileUrl": "https://devpost.com/han0124lin"
+        }
+      ]
+    },
+    {
+      "slug": "coach-bob",
+      "name": "Coach Bob!",
+      "oneLiner": "AR punching bag with glowing strike targets — it senses hit force from the wobble, and Bob trash-talks you through the workout.",
+      "description": "One of our teammates had to sit out of Taekwondo Nationals due to a strain injury. The cause? A rushed 5-minute warm-up that just wasn’t enough. It was a harsh reminder: skimping on warm-ups (Even if it's boring) is a common mistake, but it leads to real consequences...injury, lost training time, and missed opportunities. It's also a great way for people to get active and stay healthy! We set out to turn that mundane yet critical step into something athletes actually look forward to: an interactive AR warm-up game. By combining guided drills, live feedback, and playful challenges, our system makes proper warm-ups engaging, adaptive, and fun—so athletes are ready to perform and stay safe.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/740/724/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/6tv8J0Tt-6o",
+      "devpostUrl": "https://devpost.com/software/coach-bob",
+      "githubUrl": "https://github.com/ultratrikx/oak_camera_project",
+      "award": "Finalist",
+      "hackathon": "Hack the North",
+      "year": 2025,
+      "domainTags": [
+        "health",
+        "games",
+        "ar-vr"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Rohanth Marem",
+          "devpostProfileUrl": "https://devpost.com/ultratrikx"
+        },
+        {
+          "name": "Shayaan Azeem",
+          "devpostProfileUrl": "https://devpost.com/shayaanazeem10"
+        },
+        {
+          "name": "Casper Dong",
+          "devpostProfileUrl": "https://devpost.com/casperdong27"
+        },
+        {
+          "name": "Arjun Gupta",
+          "devpostProfileUrl": "https://devpost.com/1ardgupta"
+        }
+      ]
+    },
+    {
+      "slug": "wateryourdoin",
+      "name": "WaterYouDoin",
+      "oneLiner": "Catches prompts a web search could answer and shows the skipped queries as drinking water saved.",
+      "description": "AI tools are incredibly powerful, but we noticed developers often use them for things that don’t actually need AI, like definitions, quick lookups, or repetitive prompts. We wanted to encourage more intentional AI use without blocking or judging developers. Encouraging a more productive use of AI and avoid rabbit holes of intellectual doom. WaterYourDoin is a browser extension that locally analyzes prompts before they’re sent to an AI assistant. All decisions happen locally, and the extension visualizes avoided AI usage as water savings using a fun ice-cube mascot. We built a Chrome extension using TypeScript and Vite. Prompt classification runs entirely in the browser using lightweight NLP heuristics with an optional ML fallback.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/177/928/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/a59GGgiktuA",
+      "devpostUrl": "https://devpost.com/software/wateryourdoin",
+      "githubUrl": "https://github.com/memoud0/WaterYouDoin",
+      "award": "2nd Place Overall",
+      "hackathon": "McHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "dev-tools"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Kevin Tran",
+          "devpostProfileUrl": "https://devpost.com/khoakevintrn"
+        },
+        {
+          "name": "Valeria Gomez",
+          "devpostProfileUrl": "https://devpost.com/vagolad"
+        },
+        {
+          "name": "Mohamed Ndy",
+          "devpostProfileUrl": "https://devpost.com/memoud0"
+        },
+        {
+          "name": "Pritthiraj Dey",
+          "devpostProfileUrl": "https://devpost.com/dpritthiraj"
+        }
+      ]
+    },
+    {
+      "slug": "digital-physical-darts-wii-darts",
+      "name": "Physical Digital Darts (Wii Darts)",
+      "oneLiner": "A real dart with a motion sensor inside: swing your arm and the throw lands on a digital board — a homemade Wii controller.",
+      "description": "As a team who values accessible and immersive gaming experiences, we wanted to create a hack that embodied both of these ideas across software, hardware, and design. Taking inspiration from the Nintendo Wii and Switch consoles, we choose to create a Physical Digital Dart which allows the user to perform throwing motions as they would in real life, captures that motion with an accelerometer, and simulates the result on a digital dartboard.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/887/567/datas/medium.jpg",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/d-0ktDKMHS8",
+      "devpostUrl": "https://devpost.com/software/digital-physical-darts-wii-darts",
+      "githubUrl": "https://github.com/commonkestrel/physical-digital-darts",
+      "award": "Best Beginner Hack",
+      "hackathon": "Cal Hacks 12.0",
+      "year": 2025,
+      "domainTags": [
+        "social-good"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Kestrel",
+          "devpostProfileUrl": "https://devpost.com/commonkestrel"
+        },
+        {
+          "name": "Cai Scheidler",
+          "devpostProfileUrl": "https://devpost.com/Slipperee-CODE"
+        },
+        {
+          "name": "Gianna Nicomedes",
+          "devpostProfileUrl": "https://devpost.com/gpnicomedes"
+        },
+        {
+          "name": "Siwen Long",
+          "devpostProfileUrl": "https://devpost.com/SiwenJadenLong"
+        }
+      ]
+    },
+    {
+      "slug": "project-lend",
+      "name": "Project Lend",
+      "oneLiner": "An autonomous food bank: donors text, a robot arm sorts, agents schedule — about 100 lbs actually delivered to shelters in one weekend.",
+      "description": "We've spent years volunteering at food banks and shelters, experiencing firsthand the challenges of both front-office admin and back-breaking logistics. When Anthropic released Project Vend showing Claude could run a business autonomously, we wondered- what if we applied that same capability to helping people give instead of take? With agents now able to reason, communicate, and operate in the physical world, Project Lend was born at the intersection of technical possibility and human need. Project Lend is an autonomous food bank run entirely by AI.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/337/075/datas/medium.jpg",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/hBcCNg_U3t4",
+      "devpostUrl": "https://devpost.com/software/project-lend",
+      "githubUrl": "https://github.com/PranavViswanath/project-lend",
+      "award": "Anthropic Track Winner",
+      "hackathon": "TreeHacks",
+      "year": 2026,
+      "domainTags": [
+        "ai-ml",
+        "fintech",
+        "social-good",
+        "dev-tools"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Pranav Viswanath",
+          "devpostProfileUrl": "https://devpost.com/pviswanath3"
+        },
+        {
+          "name": "Sathvik Vangavolu",
+          "devpostProfileUrl": "https://devpost.com/vikvang"
+        }
+      ]
+    },
+    {
+      "slug": "lume-zrlypk",
+      "name": "Lume - Your tech-savvy guide.",
+      "oneLiner": "Voice tutor for seniors that draws a glowing highlight on the actual button to click — guidance on the real screen, not a chatbot.",
+      "description": "We’ve all been there: helping a parent or grandparent unmute on Zoom, find the “Share Screen” button, or open an email attachment. Small tech tasks that take seconds for us can feel impossible for older adults, creating frustration and dependence. We wanted to change that. Lume was born from the idea of a patient, tech-savvy helper--like a grandkid who’s always available--that can listen, see, and guide seniors through technology with confidence. Lume is a voice-activated, on-screen tutor that shows seniors exactly where to click. It listens to natural questions (“How do I join a Zoom meeting?”), uses AI to understand what’s on their screen, and then visually highlights the correct buttons step by step--while speaking instructions aloud.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/955/836/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/o_BVDoVG3aI",
+      "devpostUrl": "https://devpost.com/software/lume-zrlypk",
+      "githubUrl": "https://github.com/parker-rho/lume/",
+      "award": "Education Track Winner",
+      "hackathon": "HackPrinceton",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml",
+        "health",
+        "dev-tools",
+        "ar-vr"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Sennet Senadheera",
+          "devpostProfileUrl": "https://devpost.com/sennetsenadheera"
+        },
+        {
+          "name": "Tony Oh",
+          "devpostProfileUrl": "https://devpost.com/do256"
+        },
+        {
+          "name": "Parker Rho",
+          "devpostProfileUrl": "https://devpost.com/pkr47"
+        },
+        {
+          "name": "Caroline Zhu",
+          "devpostProfileUrl": "https://devpost.com/cz364"
+        }
+      ]
+    },
+    {
+      "slug": "replay-wq5isz",
+      "name": "Replay",
+      "oneLiner": "Replay Mod for reality: iPhone LiDAR plus two arm sensors record a room you can scrub and fly through in 3D.",
+      "description": "Everyone who's played Minecraft knows Replay Mod — you record a session, then scrub through time and fly a free camera around the 3D world to relive it from any angle. We asked: what if we could do that with real life? Record a physical space and the people moving through it, then replay the moment in an interactive 3D viewer where you can pause, rewind, and orbit freely. No volumetric video studio, no professional mocap suit — just an iPhone, two ESP32s, and a laptop. Replay captures a real-world 3D environment and human body motion in real time, then lets you replay it as an interactive 3D scene.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/004/558/382/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/VxwPjytatZA",
+      "devpostUrl": "https://devpost.com/software/replay-wq5isz",
+      "githubUrl": "https://github.com/priyam-k/replay",
+      "award": "App Dev Track Winner",
+      "hackathon": "Bitcamp",
+      "year": 2026,
+      "domainTags": [
+        "games",
+        "sustainability"
+      ],
+      "form": "both",
+      "team": [
+        {
+          "name": "Priyam Kabra",
+          "devpostProfileUrl": "https://devpost.com/priyam-k"
+        },
+        {
+          "name": "Ian Coutinho",
+          "devpostProfileUrl": "https://devpost.com/iancoutinho"
+        },
+        {
+          "name": "Shyaam Mukundan",
+          "devpostProfileUrl": "https://devpost.com/shyaammukundan"
+        },
+        {
+          "name": "Mohammad Sadiq",
+          "devpostProfileUrl": "https://devpost.com/chrovo1"
+        }
+      ]
+    },
+    {
+      "slug": "taqr",
+      "name": "EcoTag",
+      "oneLiner": "Laser tag where ammo is litter: scan real trash to reload — cleanup becomes the game loop.",
+      "description": "🏆 StormHacks Winner — Selected as one of the top projects among 778 participants at Western Canada’s largest hackathon. 🌍 Winner of the United Nations Sustainable Development Goals (SDG) Challenge — Recognized for creating an innovative and scalable solution that advances sustainability and positive social impact. EcoTag — portable laser tag that turns “ugh, cleanup” into “one more round,” helping the planet one scan at a time. EcoTag is the world’s first portable, phone-powered laser tag fused with real-world environmental action. Attach a simple QR tag, scan to score hits and climb the leaderboard, then flip the script: scan real litter, classify it, get CO₂-saving estimates, and drop it in the right bin for bonus points.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/820/916/datas/medium.png",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/rpcqI7ap0XU",
+      "devpostUrl": "https://devpost.com/software/taqr",
+      "githubUrl": "https://github.com/fesenjuniors/backend",
+      "award": "UN SDG Challenge Winner",
+      "hackathon": "StormHacks",
+      "year": 2025,
+      "domainTags": [
+        "health",
+        "games",
+        "sustainability"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "zach1502 Chan",
+          "devpostProfileUrl": "https://devpost.com/zach1502"
+        },
+        {
+          "name": "Parsa Nil",
+          "devpostProfileUrl": "https://devpost.com/parsa964"
+        },
+        {
+          "name": "Peyman Zhiani",
+          "devpostProfileUrl": "https://devpost.com/zhiani2000"
+        },
+        {
+          "name": "Kian Hosseinkhani",
+          "devpostProfileUrl": "https://devpost.com/kianhk6"
+        }
+      ]
+    },
+    {
+      "slug": "archemy",
+      "name": "ARchemy",
+      "oneLiner": "Infinite Craft in midair: grab AR elements with bare hands and smash them into new inventions.",
+      "description": "Our team really enjoyed playing games like Little Alchemy, and Infinite Craft, where we get to take basic building blocks and challenge the limits of our imagination. But we wanted to take this to the next level. What if instead of clicking pixels on a screen with a mouse, we move these building blocks into the real world? What if we could spawn anything from a toaster, to a dragon, to a transformer right before our eyes, all with the use of our fingertips? Well, you can achieve all of this through ARchemy. ARchemy is an augmented reality crafting game that lets players combine elemental building blocks to create new ones in real time.",
+      "image": "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/003/739/570/datas/medium.jpeg",
+      "demoVideoUrl": "https://www.youtube-nocookie.com/embed/-qdRSClgbJA",
+      "devpostUrl": "https://devpost.com/software/archemy",
+      "githubUrl": "https://github.com/jasonnpan/ARchemy/",
+      "award": "Snap AR Winner",
+      "hackathon": "Hack the North",
+      "year": 2025,
+      "domainTags": [
+        "ai-ml",
+        "health",
+        "games",
+        "ar-vr"
+      ],
+      "form": "software",
+      "team": [
+        {
+          "name": "Kevin Tan",
+          "devpostProfileUrl": "https://devpost.com/KTanningbed"
+        },
+        {
+          "name": "Jason Pan",
+          "devpostProfileUrl": "https://devpost.com/pan-jason12"
+        },
+        {
+          "name": "Andrew Kuharski",
+          "devpostProfileUrl": "https://devpost.com/kuharski"
+        },
+        {
+          "name": "Max Jiang",
+          "devpostProfileUrl": "https://devpost.com/mangoqwq"
+        }
+      ]
     }
   ],
   "patches": [

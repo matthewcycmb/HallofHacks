@@ -9,7 +9,7 @@ export default function NotFound() {
         This page doesn&rsquo;t exist — but plenty of winning projects do.
       </p>
       <Link
-        href="/"
+        href="/feed"
         className="mt-5 inline-block rounded-full bg-ink px-5 py-2.5 font-mono text-[11px] uppercase tracking-[0.1em] text-paper hover:bg-gold"
       >
         Back to the feed

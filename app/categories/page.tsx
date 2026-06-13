@@ -22,16 +22,17 @@ export default function CategoriesPage() {
       <p className="mt-1 text-sm text-ink-soft">
         Pick what you want to binge. Every project is a winner worth reading.
       </p>
-      <div className="mt-6 grid grid-cols-1 gap-2.5 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-6 grid grid-cols-2 gap-2.5 lg:grid-cols-3">
         {cards.map((cat) => (
           <Link
             key={cat.id}
-            href={cat.id === "all" ? "/" : `/?cat=${cat.id}`}
-            className="group flex items-baseline gap-2 rounded-xl border border-line bg-paper-2 px-4 py-3 transition-transform hover:-translate-y-0.5"
+            href={cat.id === "all" ? "/feed" : `/feed?cat=${cat.id}`}
+            className="group flex flex-col gap-0.5 rounded-xl border border-line bg-paper-2 px-4 py-3 transition-transform hover:-translate-y-0.5 sm:flex-row sm:items-baseline sm:gap-2"
           >
             <span className="text-[15px] font-bold tracking-[-0.01em]">{cat.label}</span>
             <span className="text-[13px] text-ink-soft">
-              - {cat.count} {cat.count === 1 ? "winner" : "winners"}
+              <span className="hidden sm:inline">- </span>
+              {cat.count} {cat.count === 1 ? "winner" : "winners"}
             </span>
           </Link>
         ))}
