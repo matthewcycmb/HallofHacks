@@ -264,7 +264,8 @@ body {
    chrome (header, chips, modal, footer) adapts automatically. */
 body[data-v="harbor"],
 body[data-v="glass"] {
-  --paper: #1a1a1f;
+  /* neutral dark grey (was #1a1a1f, which had a cool blue cast) */
+  --paper: #1c1c1c;
   --paper-2: rgba(255, 255, 255, 0.07);
   --ink: #f1f1f3;
   --ink-soft: rgba(241, 241, 243, 0.55);

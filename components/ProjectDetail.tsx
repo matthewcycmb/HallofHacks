@@ -9,9 +9,9 @@ export default function ProjectDetail({ project }: { project: Project }) {
   const watch = showVideo ? watchUrlFromEmbed(project.demoVideoUrl!) : null;
 
   return (
-    <div className="grid md:grid-cols-2">
-      {/* Media pane */}
-      <div className="flex items-center justify-center rounded-t-[26px] bg-paper-2 p-3 md:rounded-l-[26px] md:rounded-tr-none md:p-5">
+    <div className="flex flex-col">
+      {/* Media pane — big video on top, mobile-style stacked layout */}
+      <div className="flex items-center justify-center rounded-t-[26px] bg-paper-2 p-3 sm:p-4">
         {showVideo ? (
           <div className="w-full">
             <div className="aspect-video w-full overflow-hidden rounded-2xl shadow-sm">
@@ -44,8 +44,8 @@ export default function ProjectDetail({ project }: { project: Project }) {
 
       {/* Info pane */}
       <div className="flex flex-col gap-3.5 p-5 md:p-6">
-        {/* Devpost / GitHub / save — at the top on desktop, moved to the bottom on mobile. */}
-        <div className="order-last flex items-center justify-between gap-3 border-t border-line pt-4 md:order-none md:border-0 md:pt-0">
+        {/* Devpost / GitHub links — pinned to the bottom of the info pane. */}
+        <div className="order-last flex items-center justify-between gap-3 border-t border-line pt-4">
           <div className="flex items-center gap-1.5">
             <a
               href={project.devpostUrl}
@@ -66,11 +66,6 @@ export default function ProjectDetail({ project }: { project: Project }) {
               </a>
             )}
           </div>
-          {/* desktop: save lives here in the top action row (wrapper controls visibility,
-              since .hoh-save is display:flex and would override `hidden` on the button itself) */}
-          <div className="hidden md:block">
-            <SaveStar slug={project.slug} />
-          </div>
         </div>
 
         <div>
@@ -78,8 +73,8 @@ export default function ProjectDetail({ project }: { project: Project }) {
             <h2 className="font-display text-[28px] leading-[1.1] tracking-[-0.01em]">
               {project.name}
             </h2>
-            {/* mobile: save sits on the right of the title row */}
-            <div className="flex-none md:hidden">
+            {/* save sits on the right of the title row */}
+            <div className="flex-none">
               <SaveStar slug={project.slug} className="mt-0.5" />
             </div>
           </div>

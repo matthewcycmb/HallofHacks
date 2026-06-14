@@ -48,7 +48,7 @@ Details in `data/README.md`. After editing a source file, re-run `node scripts/f
 
 ## Where we stand / pending threads
 
-- **Google sign-in shows `error=Configuration` in prod.** Cause: the `AUTH_GOOGLE_SECRET` in Vercel is wrong/missing (consent screen is reached, the callback fails). The user needs to re-paste it in Vercel and redeploy. (Code is correct — verified Auth.js sends the right callback; DB + session endpoints are healthy.) GitHub sign-in reaches its provider fine.
+- **Google sign-in:** the `error=Configuration` was a wrong `AUTH_GOOGLE_SECRET` in Vercel; the user re-pasted it (2026-06-13) and it now reaches the Google consent screen on prod with no error. Last step to fully confirm: one real completed Google sign-in (the secret matters at the token-exchange callback, which can't be verified headlessly) — then check the Neon `user`/`account` tables for the new row. GitHub sign-in reaches its provider fine.
 - **Publish the Google OAuth consent screen to "In production"** — Testing mode caps at 100 users (non-sensitive scopes need no review, just publish).
 - **Save-gating vs. launch:** saving is gated behind login, and login is currently broken, so logged-out visitors can't save (they route to `/signup`). Open question the user is deciding: keep the gate, or ungate so logged-out users save locally + see the toast (syncs on login).
 - **Legal contact emails** in `/privacy` + `/terms` are `jchanh@gmail.com` placeholders — swap for a real address before/at launch.

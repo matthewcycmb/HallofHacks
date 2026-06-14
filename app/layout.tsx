@@ -74,7 +74,9 @@ export default function RootLayout({
                 </div>
               </div>
             </header>
-            {children}
+            {/* grow wrapper: fills the viewport on short pages (footer glued to bottom)
+                and takes its content height on tall pages (footer flows after, never overlaps) */}
+            <div className="flex shrink-0 grow flex-col">{children}</div>
             <SiteFooter />
           </main>
         </Providers>

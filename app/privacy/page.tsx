@@ -9,17 +9,40 @@ export default function PrivacyPage() {
   return (
     <article className="mx-auto w-full max-w-[680px] px-[clamp(20px,4vw,48px)] pb-[140px] pt-10 leading-relaxed">
       <h1 className="text-[28px] font-bold tracking-[-0.015em]">Privacy Policy</h1>
-      <p className="mt-1 text-sm text-ink-soft">Last updated June 12, 2026</p>
+      <p className="mt-1 text-sm text-ink-soft">Last updated June 13, 2026</p>
 
       <div className="mt-8 flex flex-col gap-6 text-[15px] text-ink-soft [&_h2]:text-[17px] [&_h2]:font-bold [&_h2]:text-ink [&_a]:text-gold [&_a]:underline">
         <p>
           Hall of Hacks (&ldquo;we&rdquo;, &ldquo;us&rdquo;) is a curated archive of
-          prize-winning hackathon projects. This policy explains what we collect when you
-          create an account and how we use it. We keep it minimal on purpose.
+          prize-winning hackathon projects. This policy covers two things: the public
+          information we keep about featured projects and their creators, and the account
+          information we collect when you sign in. We keep both minimal on purpose.
         </p>
 
         <section className="flex flex-col gap-2">
-          <h2>What we collect</h2>
+          <h2>Information about featured projects and their creators</h2>
+          <p>
+            The archive contains information about hackathon projects &mdash; project names,
+            descriptions, the prizes won, event names and years, representative images, and the
+            names and public profile links of team members as they were publicly credited. This
+            information is collected from publicly accessible sources, primarily project pages
+            on Devpost, and from the platforms that host the linked demos and code.
+          </p>
+          <p>
+            We publish it to document and celebrate winning work and to help newcomers learn,
+            and we rely on our legitimate interest in maintaining this public-interest,
+            educational archive as the basis for doing so. We do not add private contact
+            details, and we do not track or profile the people featured. If you are featured and
+            would like your name, image, or project removed, email{" "}
+            <a href="mailto:jchanh@gmail.com?subject=Hall%20of%20Hacks%20removal%20request">
+              jchanh@gmail.com
+            </a>{" "}
+            and we&rsquo;ll remove it promptly &mdash; you don&rsquo;t need to give a reason.
+          </p>
+        </section>
+
+        <section className="flex flex-col gap-2">
+          <h2>Account information we collect</h2>
           <p>
             When you sign in with Google or GitHub, we receive your name, email address, and
             profile image from that provider. We also store the projects you save and any
@@ -55,11 +78,13 @@ export default function PrivacyPage() {
         </section>
 
         <section className="flex flex-col gap-2">
-          <h2>Your choices</h2>
+          <h2>Your choices and rights</h2>
           <p>
             You can sign out at any time, and you can delete your account, which permanently
-            removes your profile and all your collections. To request deletion or a copy of
-            your data, contact us at the address below.
+            removes your profile and all your collections. If you&rsquo;re a featured creator,
+            you can ask us to remove your personal information from the archive as described
+            above. To request access to, a copy of, or deletion of your data, contact us at the
+            address below and we&rsquo;ll act on reasonable requests.
           </p>
         </section>
 

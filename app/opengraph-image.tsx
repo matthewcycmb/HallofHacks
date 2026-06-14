@@ -48,7 +48,7 @@ export default async function OpengraphImage() {
           The ultimate feed for winning hackathon projects.
         </div>
         <div style={{ fontSize: 26, color: "rgba(241,241,243,0.45)", marginTop: 40 }}>
-          {`${projects.length} winning projects · ${events} hackathons · free forever`}
+          {`${projects.length}+ winning projects · ${events} hackathons · free forever`}
         </div>
       </div>
     ),
