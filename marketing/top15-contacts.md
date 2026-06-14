@@ -25,9 +25,9 @@ Channel priority: Twitter DM > LinkedIn > personal site contact > GitHub (profil
 
 > hey Calvin! been going through winning hackathon projects and FaceTimeOS stood out — being able to call your own Mac and have it actually do stuff for you is so cool. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/facetime-macos-ai-agent. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
-**LinkedIn connect note (210/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (200/300 chars — send the full DM once they accept):**
 
-> Hey Calvin! I built a site rounding up the best winning hackathon projects and FaceTimeOS made the cut — here's your page: https://hallofhackss.com/project/facetime-macos-ai-agent. thought you'd want to see it!
+> Hey Calvin! I featured FaceTimeOS on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/facetime-macos-ai-agent. thought you'd want to see it!
 
 ---
 
@@ -51,9 +51,9 @@ Grand Prize (378 teams) · Page: https://hallofhackss.com/project/raising-cane
 
 > hey Tony! been going through winning hackathon projects and Shepherd stood out — a cane that steers you toward the clear path instead of just beeping at you is so clever. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/raising-cane. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
-**LinkedIn connect note (195/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (185/300 chars — send the full DM once they accept):**
 
-> Hey Tony! I built a site rounding up the best winning hackathon projects and Shepherd made the cut — here's your page: https://hallofhackss.com/project/raising-cane. thought you'd want to see it!
+> Hey Tony! I featured Shepherd on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/raising-cane. thought you'd want to see it!
 
 ---
 
@@ -77,9 +77,9 @@ Grand Prize (378 teams) · Page: https://hallofhackss.com/project/raising-cane
 
 > hey Alvina! been going through winning hackathon projects and Identity Matrix stood out — the idea that your character stays online after you log off, so your friends can still hang out with an AI version of you that talks like you, is such a cool concept. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/temp-sqyptg. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
-**LinkedIn connect note (203/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (193/300 chars — send the full DM once they accept):**
 
-> Hey Alvina! I built a site rounding up the best winning hackathon projects and Identity Matrix made the cut — here's your page: https://hallofhackss.com/project/temp-sqyptg. thought you'd want to see it!
+> Hey Alvina! I featured Identity Matrix on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/temp-sqyptg. thought you'd want to see it!
 
 ---
 
@@ -103,9 +103,9 @@ Winner (699 teams) · Page: https://hallofhackss.com/project/dial-4rqzc3
 
 > hey John! been going through winning hackathon projects and DIAL(*) stood out — the fact that you were actually stranded and built AI phone bots to call real hotels and haggle one down to $158 is hilarious. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/dial-4rqzc3. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
-**LinkedIn connect note (193/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (183/300 chars — send the full DM once they accept):**
 
-> Hey John! I built a site rounding up the best winning hackathon projects and DIAL(*) made the cut — here's your page: https://hallofhackss.com/project/dial-4rqzc3. thought you'd want to see it!
+> Hey John! I featured DIAL(*) on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/dial-4rqzc3. thought you'd want to see it!
 
 ---
 
@@ -129,9 +129,9 @@ Finalist (261 teams) · Page: https://hallofhackss.com/project/ross-42pnvi
 
 > hey Jonathan! been going through winning hackathon projects and ROSS stood out — drawing a painting onto someone's palm with hot and cold so they can feel the colors is such a cool idea. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/ross-42pnvi. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
-**LinkedIn connect note (194/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (184/300 chars — send the full DM once they accept):**
 
-> Hey Jonathan! I built a site rounding up the best winning hackathon projects and ROSS made the cut — here's your page: https://hallofhackss.com/project/ross-42pnvi. thought you'd want to see it!
+> Hey Jonathan! I featured ROSS on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/ross-42pnvi. thought you'd want to see it!
 
 ---
 
@@ -154,9 +154,9 @@ Finalist (261 teams) · Page: https://hallofhackss.com/project/ross-42pnvi
 
 > hey Robert! been going through winning hackathon projects and Orca stood out — being able to just hum something and turn it into a real song is so cool. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/orca-4po0nm. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
-**LinkedIn connect note (192/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (182/300 chars — send the full DM once they accept):**
 
-> Hey Robert! I built a site rounding up the best winning hackathon projects and Orca made the cut — here's your page: https://hallofhackss.com/project/orca-4po0nm. thought you'd want to see it!
+> Hey Robert! I featured Orca on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/orca-4po0nm. thought you'd want to see it!
 
 ---
 
@@ -178,9 +178,9 @@ Best Game Project (169 teams) · Page: https://hallofhackss.com/project/dance-cv
 
 > hey Joseph! been going through winning hackathon projects and Dance CV stood out — it's basically Just Dance for any video online, but the coach actually tells you what you're getting wrong. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/dance-cv. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
-**LinkedIn connect note (193/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (183/300 chars — send the full DM once they accept):**
 
-> Hey Joseph! I built a site rounding up the best winning hackathon projects and Dance CV made the cut — here's your page: https://hallofhackss.com/project/dance-cv. thought you'd want to see it!
+> Hey Joseph! I featured Dance CV on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/dance-cv. thought you'd want to see it!
 
 ---
 
@@ -203,9 +203,9 @@ Winner (307 teams) · Page: https://hallofhackss.com/project/yes-or-yes
 
 > hey Jason! been going through winning hackathon projects and YES? or YES! stood out — letting real pet fish pick your decisions by which side of the tank they swim to, then having the computer actually do it, is so funny. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/yes-or-yes. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
-**LinkedIn connect note (198/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (188/300 chars — send the full DM once they accept):**
 
-> Hey Jason! I built a site rounding up the best winning hackathon projects and YES? or YES! made the cut — here's your page: https://hallofhackss.com/project/yes-or-yes. thought you'd want to see it!
+> Hey Jason! I featured YES? or YES! on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/yes-or-yes. thought you'd want to see it!
 
 ---
 
@@ -228,9 +228,9 @@ Winner (160 teams) · Page: https://hallofhackss.com/project/screwyouikea
 
 > hey Donara! been going through winning hackathon projects and ScrewYouIKEA.com stood out — turning an IKEA manual into a 3D thing you can spin around and follow is genuinely so smart. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/screwyouikea. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
-**LinkedIn connect note (205/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (195/300 chars — send the full DM once they accept):**
 
-> Hey Donara! I built a site rounding up the best winning hackathon projects and ScrewYouIKEA.com made the cut — here's your page: https://hallofhackss.com/project/screwyouikea. thought you'd want to see it!
+> Hey Donara! I featured ScrewYouIKEA.com on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/screwyouikea. thought you'd want to see it!
 
 ---
 
@@ -254,9 +254,9 @@ Modal Challenge Winner (378 teams) · Page: https://hallofhackss.com/project/lon
 
 > hey Matthew! been going through winning hackathon projects and Longshot stood out — 200 AI coding agents working together overnight to rebuild Minecraft from a single prompt is wild. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/longshot. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
-**LinkedIn connect note (194/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (184/300 chars — send the full DM once they accept):**
 
-> Hey Matthew! I built a site rounding up the best winning hackathon projects and Longshot made the cut — here's your page: https://hallofhackss.com/project/longshot. thought you'd want to see it!
+> Hey Matthew! I featured Longshot on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/longshot. thought you'd want to see it!
 
 ---
 
@@ -279,9 +279,9 @@ Modal Challenge Winner (378 teams) · Page: https://hallofhackss.com/project/lon
 
 > hey Claire! been going through winning hackathon projects and Shop-A-Sketch stood out — letting people draw what they want to buy instead of trying to describe it is such a good idea. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/shop-a-sketch. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
-**LinkedIn connect note (203/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (193/300 chars — send the full DM once they accept):**
 
-> Hey Claire! I built a site rounding up the best winning hackathon projects and Shop-A-Sketch made the cut — here's your page: https://hallofhackss.com/project/shop-a-sketch. thought you'd want to see it!
+> Hey Claire! I featured Shop-A-Sketch on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/shop-a-sketch. thought you'd want to see it!
 
 ---
 
@@ -304,9 +304,9 @@ Modal Challenge Winner (378 teams) · Page: https://hallofhackss.com/project/lon
 
 > hey Caleb! been going through winning hackathon projects and ScamShield stood out — something that catches scam calls and warns grandparents, then texts the family, is honestly so needed. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/scamshield-87rbxe. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
-**LinkedIn connect note (203/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (193/300 chars — send the full DM once they accept):**
 
-> Hey Caleb! I built a site rounding up the best winning hackathon projects and ScamShield made the cut — here's your page: https://hallofhackss.com/project/scamshield-87rbxe. thought you'd want to see it!
+> Hey Caleb! I featured ScamShield on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/scamshield-87rbxe. thought you'd want to see it!
 
 ---
 
@@ -329,9 +329,9 @@ Modal Challenge Winner (378 teams) · Page: https://hallofhackss.com/project/lon
 
 > hey Aidan! been going through winning hackathon projects and Snowy Day stood out — rerouting snowplows so no street gets skipped is such a satisfying thing to solve. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/snowy-day-3nfbgm. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
-**LinkedIn connect note (201/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (191/300 chars — send the full DM once they accept):**
 
-> Hey Aidan! I built a site rounding up the best winning hackathon projects and Snowy Day made the cut — here's your page: https://hallofhackss.com/project/snowy-day-3nfbgm. thought you'd want to see it!
+> Hey Aidan! I featured Snowy Day on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/snowy-day-3nfbgm. thought you'd want to see it!
 
 ---
 
@@ -354,9 +354,9 @@ Best Use of MemryX Edge AI Accelerator (122 teams) · Page: https://hallofhackss
 
 > hey Cindy! been going through winning hackathon projects and Wordhawk stood out — a little robot finger that swipes Word Hunt faster than any human could is so dumb in the best way. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/wordhawk. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
-**LinkedIn connect note (192/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (182/300 chars — send the full DM once they accept):**
 
-> Hey Cindy! I built a site rounding up the best winning hackathon projects and Wordhawk made the cut — here's your page: https://hallofhackss.com/project/wordhawk. thought you'd want to see it!
+> Hey Cindy! I featured Wordhawk on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/wordhawk. thought you'd want to see it!
 
 ---
 
@@ -380,9 +380,9 @@ Most Creative Hack (378 teams) · Page: https://hallofhackss.com/project/diffuji
 
 > hey Alexander! been going through winning hackathon projects and diffuji stood out — an instant camera that reprints your photos as these dreamy painted versions on receipt paper is such a vibe. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/diffuji. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
-**LinkedIn connect note (194/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (184/300 chars — send the full DM once they accept):**
 
-> Hey Alexander! I built a site rounding up the best winning hackathon projects and diffuji made the cut — here's your page: https://hallofhackss.com/project/diffuji. thought you'd want to see it!
+> Hey Alexander! I featured diffuji on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/diffuji. thought you'd want to see it!
 
 ---
 
