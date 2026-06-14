@@ -19,15 +19,15 @@ Channel priority: Twitter DM > LinkedIn > personal site contact > GitHub (profil
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Calvin — I still can't get over that you can literally FaceTime your own Mac and it does the thing while talking back. I put FaceTimeOS in Hall of Hacks, a gallery I made of the best winning hackathon projects to inspire people at their first one. Here's your page: https://hallofhackss.com/project/facetime-macos-ai-agent. Would mean a lot if you shared it with your circle — and there's a "Featured in Hall of Hacks" badge for your README if you want one. Either way, congrats on the win 🐊
+> Hey Calvin — wait, you can actually call your own Mac on FaceTime and have it do stuff for you? that's so cool. I added FaceTimeOS to Hall of Hacks, a site I built that collects the best winning hackathon projects so people doing their first hackathon have stuff to get inspired by. Here's your page: https://hallofhackss.com/project/facetime-macos-ai-agent. Would mean a lot if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Calvin! I still can't get over that you can literally FaceTime your own Mac and it does the thing while talking back. featured FaceTimeOS in Hall of Hacks, a gallery of the best winning hackathon projects → https://hallofhackss.com/project/facetime-macos-ai-agent. would love if you shared it 🐊 (README badge too if you want one)
+> hey Calvin! wait, you can actually call your own Mac on FaceTime and have it do stuff for you? that's so cool. added FaceTimeOS to Hall of Hacks, a site I built rounding up the best winning hackathon projects → https://hallofhackss.com/project/facetime-macos-ai-agent. would be awesome if you shared it 🐊 (also made a readme badge if you want one)
 
-**LinkedIn connect note (197/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (244/300 chars — send the full DM once they accept):**
 
-> Hey Calvin! I featured FaceTimeOS (Cal Hacks 12.0 2025) in Hall of Hacks, a curated gallery of the best winning hackathon projects (hallofhackss.com). Would love to connect and share it with you 🐊
+> Hey Calvin — wait, you can actually call your own Mac on FaceTime and have it do stuff for you? that's so cool. Added FaceTimeOS to Hall of Hacks, my site collecting the best winning hackathon projects (hallofhackss.com). Would love to connect!
 
 ---
 
@@ -45,15 +45,15 @@ Grand Prize (378 teams) · Page: https://hallofhackss.com/project/raising-cane
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Tony — the cane physically nudging someone toward the safe path instead of just beeping is such a smart reframe of the whole problem. I put Shepherd in Hall of Hacks, a gallery I made of the best winning hackathon projects to inspire people at their first one. Here's your page: https://hallofhackss.com/project/raising-cane. Would mean a lot if you shared it with your circle — and there's a "Featured in Hall of Hacks" badge for your README if you want one. Either way, congrats on the win 🐊
+> Hey Tony — the cane that steers you toward the open path instead of just beeping at you is so clever. I added Shepherd to Hall of Hacks, a site I built that collects the best winning hackathon projects so people doing their first hackathon have stuff to get inspired by. Here's your page: https://hallofhackss.com/project/raising-cane. Would mean a lot if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Tony! the cane physically nudging someone toward the safe path instead of just beeping is such a smart reframe of the whole problem. featured Shepherd in Hall of Hacks, a gallery of the best winning hackathon projects → https://hallofhackss.com/project/raising-cane. would love if you shared it 🐊 (README badge too if you want one)
+> hey Tony! the cane that steers you toward the open path instead of just beeping at you is so clever. added Shepherd to Hall of Hacks, a site I built rounding up the best winning hackathon projects → https://hallofhackss.com/project/raising-cane. would be awesome if you shared it 🐊 (also made a readme badge if you want one)
 
-**LinkedIn connect note (188/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (232/300 chars — send the full DM once they accept):**
 
-> Hey Tony! I featured Shepherd (TreeHacks 2026) in Hall of Hacks, a curated gallery of the best winning hackathon projects (hallofhackss.com). Would love to connect and share it with you 🐊
+> Hey Tony — the cane that steers you toward the open path instead of just beeping at you is so clever. Added Shepherd to Hall of Hacks, my site collecting the best winning hackathon projects (hallofhackss.com). Would love to connect!
 
 ---
 
@@ -71,15 +71,15 @@ Grand Prize (378 teams) · Page: https://hallofhackss.com/project/raising-cane
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Alvina — the idea that your character keeps living and talking like you after you log off genuinely stuck with me. I put Identity Matrix in Hall of Hacks, a gallery I made of the best winning hackathon projects to inspire people at their first one. Here's your page: https://hallofhackss.com/project/temp-sqyptg. Would mean a lot if you shared it with your circle — and there's a "Featured in Hall of Hacks" badge for your README if you want one. Either way, congrats on the win 🐊
+> Hey Alvina — the part where your character keeps living and talking like you after you log off kinda blew my mind. I added Identity Matrix to Hall of Hacks, a site I built that collects the best winning hackathon projects so people doing their first hackathon have stuff to get inspired by. Here's your page: https://hallofhackss.com/project/temp-sqyptg. Would mean a lot if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Alvina! the idea that your character keeps living and talking like you after you log off genuinely stuck with me. featured Identity Matrix in Hall of Hacks, a gallery of the best winning hackathon projects → https://hallofhackss.com/project/temp-sqyptg. would love if you shared it 🐊 (README badge too if you want one)
+> hey Alvina! the part where your character keeps living and talking like you after you log off kinda blew my mind. added Identity Matrix to Hall of Hacks, a site I built rounding up the best winning hackathon projects → https://hallofhackss.com/project/temp-sqyptg. would be awesome if you shared it 🐊 (also made a readme badge if you want one)
 
-**LinkedIn connect note (197/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (252/300 chars — send the full DM once they accept):**
 
-> Hey Alvina! I featured Identity Matrix (UofTHacks 2026) in Hall of Hacks, a curated gallery of the best winning hackathon projects (hallofhackss.com). Would love to connect and share it with you 🐊
+> Hey Alvina — the part where your character keeps living and talking like you after you log off kinda blew my mind. Added Identity Matrix to Hall of Hacks, my site collecting the best winning hackathon projects (hallofhackss.com). Would love to connect!
 
 ---
 
@@ -97,15 +97,15 @@ Winner (699 teams) · Page: https://hallofhackss.com/project/dial-4rqzc3
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey John — the fact that you were actually stranded and your bots negotiated a real hotel room down to $158 is the best hackathon story I've read in a while. I put DIAL(*) in Hall of Hacks, a gallery I made of the best winning hackathon projects to inspire people at their first one. Here's your page: https://hallofhackss.com/project/dial-4rqzc3. Would mean a lot if you shared it with your circle — and there's a "Featured in Hall of Hacks" badge for your README if you want one. Either way, congrats on the win 🐊
+> Hey John — no way you were actually stranded and got the bots to talk a hotel down to $158, that's amazing. I added DIAL(*) to Hall of Hacks, a site I built that collects the best winning hackathon projects so people doing their first hackathon have stuff to get inspired by. Here's your page: https://hallofhackss.com/project/dial-4rqzc3. Would mean a lot if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey John! the fact that you were actually stranded and your bots negotiated a real hotel room down to $158 is the best hackathon story I've read in a while. featured DIAL(*) in Hall of Hacks, a gallery of the best winning hackathon projects → https://hallofhackss.com/project/dial-4rqzc3. would love if you shared it 🐊 (README badge too if you want one)
+> hey John! no way you were actually stranded and got the bots to talk a hotel down to $158, that's amazing. added DIAL(*) to Hall of Hacks, a site I built rounding up the best winning hackathon projects → https://hallofhackss.com/project/dial-4rqzc3. would be awesome if you shared it 🐊 (also made a readme badge if you want one)
 
-**LinkedIn connect note (192/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (237/300 chars — send the full DM once they accept):**
 
-> Hey John! I featured DIAL(*) (Cal Hacks 12.0 2025) in Hall of Hacks, a curated gallery of the best winning hackathon projects (hallofhackss.com). Would love to connect and share it with you 🐊
+> Hey John — no way you were actually stranded and got the bots to talk a hotel down to $158, that's amazing. Added DIAL(*) to Hall of Hacks, my site collecting the best winning hackathon projects (hallofhackss.com). Would love to connect!
 
 ---
 
@@ -123,15 +123,15 @@ Finalist (261 teams) · Page: https://hallofhackss.com/project/ross-42pnvi
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Jonathan — using warm and cold touch to let a blind person feel the colors of a painting is one of the most creative accessibility ideas I've seen. I put ROSS in Hall of Hacks, a gallery I made of the best winning hackathon projects to inspire people at their first one. Here's your page: https://hallofhackss.com/project/ross-42pnvi. Would mean a lot if you shared it with your circle — and there's a "Featured in Hall of Hacks" badge for your README if you want one. Either way, congrats on the win 🐊
+> Hey Jonathan — drawing a painting onto someone's palm with hot and cold so they can feel the colors is such a cool idea. I added ROSS to Hall of Hacks, a site I built that collects the best winning hackathon projects so people doing their first hackathon have stuff to get inspired by. Here's your page: https://hallofhackss.com/project/ross-42pnvi. Would mean a lot if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Jonathan! using warm and cold touch to let a blind person feel the colors of a painting is one of the most creative accessibility ideas I've seen. featured ROSS in Hall of Hacks, a gallery of the best winning hackathon projects → https://hallofhackss.com/project/ross-42pnvi. would love if you shared it 🐊 (README badge too if you want one)
+> hey Jonathan! drawing a painting onto someone's palm with hot and cold so they can feel the colors is such a cool idea. added ROSS to Hall of Hacks, a site I built rounding up the best winning hackathon projects → https://hallofhackss.com/project/ross-42pnvi. would be awesome if you shared it 🐊 (also made a readme badge if you want one)
 
-**LinkedIn connect note (193/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (247/300 chars — send the full DM once they accept):**
 
-> Hey Jonathan! I featured ROSS (Hack the North 2025) in Hall of Hacks, a curated gallery of the best winning hackathon projects (hallofhackss.com). Would love to connect and share it with you 🐊
+> Hey Jonathan — drawing a painting onto someone's palm with hot and cold so they can feel the colors is such a cool idea. Added ROSS to Hall of Hacks, my site collecting the best winning hackathon projects (hallofhackss.com). Would love to connect!
 
 ---
 
@@ -148,15 +148,15 @@ Finalist (261 teams) · Page: https://hallofhackss.com/project/ross-42pnvi
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Robert — turning a melody you just hum into an actual editable song is exactly the kind of magic I wanted in the archive. I put Orca in Hall of Hacks, a gallery I made of the best winning hackathon projects to inspire people at their first one. Here's your page: https://hallofhackss.com/project/orca-4po0nm. Would mean a lot if you shared it with your circle — and there's a "Featured in Hall of Hacks" badge for your README if you want one. Either way, congrats on the win 🐊
+> Hey Robert — being able to just hum something and have it turn into a real song is so cool. I added Orca to Hall of Hacks, a site I built that collects the best winning hackathon projects so people doing their first hackathon have stuff to get inspired by. Here's your page: https://hallofhackss.com/project/orca-4po0nm. Would mean a lot if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Robert! turning a melody you just hum into an actual editable song is exactly the kind of magic I wanted in the archive. featured Orca in Hall of Hacks, a gallery of the best winning hackathon projects → https://hallofhackss.com/project/orca-4po0nm. would love if you shared it 🐊 (README badge too if you want one)
+> hey Robert! being able to just hum something and have it turn into a real song is so cool. added Orca to Hall of Hacks, a site I built rounding up the best winning hackathon projects → https://hallofhackss.com/project/orca-4po0nm. would be awesome if you shared it 🐊 (also made a readme badge if you want one)
 
-**LinkedIn connect note (183/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (218/300 chars — send the full DM once they accept):**
 
-> Hey Robert! I featured Orca (QHacks 2026) in Hall of Hacks, a curated gallery of the best winning hackathon projects (hallofhackss.com). Would love to connect and share it with you 🐊
+> Hey Robert — being able to just hum something and have it turn into a real song is so cool. Added Orca to Hall of Hacks, my site collecting the best winning hackathon projects (hallofhackss.com). Would love to connect!
 
 ---
 
@@ -172,15 +172,15 @@ Best Game Project (169 teams) · Page: https://hallofhackss.com/project/dance-cv
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Joseph — Just Dance for any video on the internet, with a coach that tells you what to fix, is such a good idea. I put Dance CV in Hall of Hacks, a gallery I made of the best winning hackathon projects to inspire people at their first one. Here's your page: https://hallofhackss.com/project/dance-cv. Would mean a lot if you shared it with your circle — and there's a "Featured in Hall of Hacks" badge for your README if you want one. Either way, congrats on the win 🐊
+> Hey Joseph — it's basically Just Dance for any video online, except the coach actually tells you what you're getting wrong. love it. I added Dance CV to Hall of Hacks, a site I built that collects the best winning hackathon projects so people doing their first hackathon have stuff to get inspired by. Here's your page: https://hallofhackss.com/project/dance-cv. Would mean a lot if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Joseph! Just Dance for any video on the internet, with a coach that tells you what to fix, is such a good idea. featured Dance CV in Hall of Hacks, a gallery of the best winning hackathon projects → https://hallofhackss.com/project/dance-cv. would love if you shared it 🐊 (README badge too if you want one)
+> hey Joseph! it's basically Just Dance for any video online, except the coach actually tells you what you're getting wrong. love it. added Dance CV to Hall of Hacks, a site I built rounding up the best winning hackathon projects → https://hallofhackss.com/project/dance-cv. would be awesome if you shared it 🐊 (also made a readme badge if you want one)
 
-**LinkedIn connect note (188/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (263/300 chars — send the full DM once they accept):**
 
-> Hey Joseph! I featured Dance CV (nwHacks 2026) in Hall of Hacks, a curated gallery of the best winning hackathon projects (hallofhackss.com). Would love to connect and share it with you 🐊
+> Hey Joseph — it's basically Just Dance for any video online, except the coach actually tells you what you're getting wrong. love it. Added Dance CV to Hall of Hacks, my site collecting the best winning hackathon projects (hallofhackss.com). Would love to connect!
 
 ---
 
@@ -197,15 +197,15 @@ Winner (307 teams) · Page: https://hallofhackss.com/project/yes-or-yes
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Jason — letting three real fish make the decision and then having the computer actually go do it is gloriously unhinged. I put YES? or YES! in Hall of Hacks, a gallery I made of the best winning hackathon projects to inspire people at their first one. Here's your page: https://hallofhackss.com/project/yes-or-yes. Would mean a lot if you shared it with your circle — and there's a "Featured in Hall of Hacks" badge for your README if you want one. Either way, congrats on the win 🐊
+> Hey Jason — letting real fish pick your decisions and then having the computer just go do it is so unhinged lol. I added YES? or YES! to Hall of Hacks, a site I built that collects the best winning hackathon projects so people doing their first hackathon have stuff to get inspired by. Here's your page: https://hallofhackss.com/project/yes-or-yes. Would mean a lot if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Jason! letting three real fish make the decision and then having the computer actually go do it is gloriously unhinged. featured YES? or YES! in Hall of Hacks, a gallery of the best winning hackathon projects → https://hallofhackss.com/project/yes-or-yes. would love if you shared it 🐊 (README badge too if you want one)
+> hey Jason! letting real fish pick your decisions and then having the computer just go do it is so unhinged lol. added YES? or YES! to Hall of Hacks, a site I built rounding up the best winning hackathon projects → https://hallofhackss.com/project/yes-or-yes. would be awesome if you shared it 🐊 (also made a readme badge if you want one)
 
-**LinkedIn connect note (192/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (247/300 chars — send the full DM once they accept):**
 
-> Hey Jason! I featured YES? or YES! (LA Hacks 2026) in Hall of Hacks, a curated gallery of the best winning hackathon projects (hallofhackss.com). Would love to connect and share it with you 🐊
+> Hey Jason — letting real fish pick your decisions and then having the computer just go do it is so unhinged lol. Added YES? or YES! to Hall of Hacks, my site collecting the best winning hackathon projects (hallofhackss.com). Would love to connect!
 
 ---
 
@@ -222,15 +222,15 @@ Winner (160 teams) · Page: https://hallofhackss.com/project/screwyouikea
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Donara — watching an IKEA manual turn into a spinnable 3D build animation is the thing I didn't know I needed. I put ScrewYouIKEA.com in Hall of Hacks, a gallery I made of the best winning hackathon projects to inspire people at their first one. Here's your page: https://hallofhackss.com/project/screwyouikea. Would mean a lot if you shared it with your circle — and there's a "Featured in Hall of Hacks" badge for your README if you want one. Either way, congrats on the win 🐊
+> Hey Donara — turning an IKEA manual into a 3D thing you can spin around and follow is genuinely so smart. I added ScrewYouIKEA.com to Hall of Hacks, a site I built that collects the best winning hackathon projects so people doing their first hackathon have stuff to get inspired by. Here's your page: https://hallofhackss.com/project/screwyouikea. Would mean a lot if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Donara! watching an IKEA manual turn into a spinnable 3D build animation is the thing I didn't know I needed. featured ScrewYouIKEA.com in Hall of Hacks, a gallery of the best winning hackathon projects → https://hallofhackss.com/project/screwyouikea. would love if you shared it 🐊 (README badge too if you want one)
+> hey Donara! turning an IKEA manual into a 3D thing you can spin around and follow is genuinely so smart. added ScrewYouIKEA.com to Hall of Hacks, a site I built rounding up the best winning hackathon projects → https://hallofhackss.com/project/screwyouikea. would be awesome if you shared it 🐊 (also made a readme badge if you want one)
 
-**LinkedIn connect note (200/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (244/300 chars — send the full DM once they accept):**
 
-> Hey Donara! I featured ScrewYouIKEA.com (HackHarvard 2025) in Hall of Hacks, a curated gallery of the best winning hackathon projects (hallofhackss.com). Would love to connect and share it with you 🐊
+> Hey Donara — turning an IKEA manual into a 3D thing you can spin around and follow is genuinely so smart. Added ScrewYouIKEA.com to Hall of Hacks, my site collecting the best winning hackathon projects (hallofhackss.com). Would love to connect!
 
 ---
 
@@ -248,15 +248,15 @@ Modal Challenge Winner (378 teams) · Page: https://hallofhackss.com/project/lon
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Matthew — 200 agents rebuilding Minecraft overnight from one sentence is the kind of swing I love seeing at a hackathon. I put Longshot in Hall of Hacks, a gallery I made of the best winning hackathon projects to inspire people at their first one. Here's your page: https://hallofhackss.com/project/longshot. Would mean a lot if you shared it with your circle — and there's a "Featured in Hall of Hacks" badge for your README if you want one. Either way, congrats on the win 🐊
+> Hey Matthew — 200 agents rebuilding Minecraft overnight from a single prompt is wild. I added Longshot to Hall of Hacks, a site I built that collects the best winning hackathon projects so people doing their first hackathon have stuff to get inspired by. Here's your page: https://hallofhackss.com/project/longshot. Would mean a lot if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Matthew! 200 agents rebuilding Minecraft overnight from one sentence is the kind of swing I love seeing at a hackathon. featured Longshot in Hall of Hacks, a gallery of the best winning hackathon projects → https://hallofhackss.com/project/longshot. would love if you shared it 🐊 (README badge too if you want one)
+> hey Matthew! 200 agents rebuilding Minecraft overnight from a single prompt is wild. added Longshot to Hall of Hacks, a site I built rounding up the best winning hackathon projects → https://hallofhackss.com/project/longshot. would be awesome if you shared it 🐊 (also made a readme badge if you want one)
 
-**LinkedIn connect note (191/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (216/300 chars — send the full DM once they accept):**
 
-> Hey Matthew! I featured Longshot (TreeHacks 2026) in Hall of Hacks, a curated gallery of the best winning hackathon projects (hallofhackss.com). Would love to connect and share it with you 🐊
+> Hey Matthew — 200 agents rebuilding Minecraft overnight from a single prompt is wild. Added Longshot to Hall of Hacks, my site collecting the best winning hackathon projects (hallofhackss.com). Would love to connect!
 
 ---
 
@@ -273,15 +273,15 @@ Modal Challenge Winner (378 teams) · Page: https://hallofhackss.com/project/lon
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Claire — drawing the thing you want to buy instead of trying to describe it in words is such a clean fix to a real problem. I put Shop-A-Sketch in Hall of Hacks, a gallery I made of the best winning hackathon projects to inspire people at their first one. Here's your page: https://hallofhackss.com/project/shop-a-sketch. Would mean a lot if you shared it with your circle — and there's a "Featured in Hall of Hacks" badge for your README if you want one. Either way, congrats on the win 🐊
+> Hey Claire — letting people draw what they want to buy instead of trying to describe it is such a good idea. I added Shop-A-Sketch to Hall of Hacks, a site I built that collects the best winning hackathon projects so people doing their first hackathon have stuff to get inspired by. Here's your page: https://hallofhackss.com/project/shop-a-sketch. Would mean a lot if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Claire! drawing the thing you want to buy instead of trying to describe it in words is such a clean fix to a real problem. featured Shop-A-Sketch in Hall of Hacks, a gallery of the best winning hackathon projects → https://hallofhackss.com/project/shop-a-sketch. would love if you shared it 🐊 (README badge too if you want one)
+> hey Claire! letting people draw what they want to buy instead of trying to describe it is such a good idea. added Shop-A-Sketch to Hall of Hacks, a site I built rounding up the best winning hackathon projects → https://hallofhackss.com/project/shop-a-sketch. would be awesome if you shared it 🐊 (also made a readme badge if you want one)
 
-**LinkedIn connect note (195/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (244/300 chars — send the full DM once they accept):**
 
-> Hey Claire! I featured Shop-A-Sketch (UofTHacks 2026) in Hall of Hacks, a curated gallery of the best winning hackathon projects (hallofhackss.com). Would love to connect and share it with you 🐊
+> Hey Claire — letting people draw what they want to buy instead of trying to describe it is such a good idea. Added Shop-A-Sketch to Hall of Hacks, my site collecting the best winning hackathon projects (hallofhackss.com). Would love to connect!
 
 ---
 
@@ -298,15 +298,15 @@ Modal Challenge Winner (378 teams) · Page: https://hallofhackss.com/project/lon
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Caleb — building a quiet guardian that catches scam calls for someone's grandparent is the kind of project that actually matters. I put ScamShield in Hall of Hacks, a gallery I made of the best winning hackathon projects to inspire people at their first one. Here's your page: https://hallofhackss.com/project/scamshield-87rbxe. Would mean a lot if you shared it with your circle — and there's a "Featured in Hall of Hacks" badge for your README if you want one. Either way, congrats on the win 🐊
+> Hey Caleb — something that catches scam calls and warns your grandparents, then texts the family, is honestly so needed. I added ScamShield to Hall of Hacks, a site I built that collects the best winning hackathon projects so people doing their first hackathon have stuff to get inspired by. Here's your page: https://hallofhackss.com/project/scamshield-87rbxe. Would mean a lot if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Caleb! building a quiet guardian that catches scam calls for someone's grandparent is the kind of project that actually matters. featured ScamShield in Hall of Hacks, a gallery of the best winning hackathon projects → https://hallofhackss.com/project/scamshield-87rbxe. would love if you shared it 🐊 (README badge too if you want one)
+> hey Caleb! something that catches scam calls and warns your grandparents, then texts the family, is honestly so needed. added ScamShield to Hall of Hacks, a site I built rounding up the best winning hackathon projects → https://hallofhackss.com/project/scamshield-87rbxe. would be awesome if you shared it 🐊 (also made a readme badge if you want one)
 
-**LinkedIn connect note (190/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (253/300 chars — send the full DM once they accept):**
 
-> Hey Caleb! I featured ScamShield (HooHacks 2026) in Hall of Hacks, a curated gallery of the best winning hackathon projects (hallofhackss.com). Would love to connect and share it with you 🐊
+> Hey Caleb — something that catches scam calls and warns your grandparents, then texts the family, is honestly so needed. Added ScamShield to Hall of Hacks, my site collecting the best winning hackathon projects (hallofhackss.com). Would love to connect!
 
 ---
 
@@ -323,15 +323,15 @@ Modal Challenge Winner (378 teams) · Page: https://hallofhackss.com/project/lon
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Aidan — the snowplow re-routing idea is such a satisfying take on a problem everyone in a snowy city complains about. I put Snowy Day in Hall of Hacks, a gallery I made of the best winning hackathon projects to inspire people at their first one. Here's your page: https://hallofhackss.com/project/snowy-day-3nfbgm. Would mean a lot if you shared it with your circle — and there's a "Featured in Hall of Hacks" badge for your README if you want one. Either way, congrats on the win 🐊
+> Hey Aidan — rerouting snowplows so no street gets skipped is such a satisfying thing to actually solve. I added Snowy Day to Hall of Hacks, a site I built that collects the best winning hackathon projects so people doing their first hackathon have stuff to get inspired by. Here's your page: https://hallofhackss.com/project/snowy-day-3nfbgm. Would mean a lot if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Aidan! the snowplow re-routing idea is such a satisfying take on a problem everyone in a snowy city complains about. featured Snowy Day in Hall of Hacks, a gallery of the best winning hackathon projects → https://hallofhackss.com/project/snowy-day-3nfbgm. would love if you shared it 🐊 (README badge too if you want one)
+> hey Aidan! rerouting snowplows so no street gets skipped is such a satisfying thing to actually solve. added Snowy Day to Hall of Hacks, a site I built rounding up the best winning hackathon projects → https://hallofhackss.com/project/snowy-day-3nfbgm. would be awesome if you shared it 🐊 (also made a readme badge if you want one)
 
-**LinkedIn connect note (190/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (235/300 chars — send the full DM once they accept):**
 
-> Hey Aidan! I featured Snowy Day (uOttaHack 2026) in Hall of Hacks, a curated gallery of the best winning hackathon projects (hallofhackss.com). Would love to connect and share it with you 🐊
+> Hey Aidan — rerouting snowplows so no street gets skipped is such a satisfying thing to actually solve. Added Snowy Day to Hall of Hacks, my site collecting the best winning hackathon projects (hallofhackss.com). Would love to connect!
 
 ---
 
@@ -348,15 +348,15 @@ Best Use of MemryX Edge AI Accelerator (122 teams) · Page: https://hallofhackss
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Cindy — a robot with an actual finger swiping Word Hunt faster than any human is so dumb in the best possible way. I put Wordhawk in Hall of Hacks, a gallery I made of the best winning hackathon projects to inspire people at their first one. Here's your page: https://hallofhackss.com/project/wordhawk. Would mean a lot if you shared it with your circle — and there's a "Featured in Hall of Hacks" badge for your README if you want one. Either way, congrats on the win 🐊
+> Hey Cindy — a little robot finger that swipes Word Hunt faster than any human could is so dumb in the best way. I added Wordhawk to Hall of Hacks, a site I built that collects the best winning hackathon projects so people doing their first hackathon have stuff to get inspired by. Here's your page: https://hallofhackss.com/project/wordhawk. Would mean a lot if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Cindy! a robot with an actual finger swiping Word Hunt faster than any human is so dumb in the best possible way. featured Wordhawk in Hall of Hacks, a gallery of the best winning hackathon projects → https://hallofhackss.com/project/wordhawk. would love if you shared it 🐊 (README badge too if you want one)
+> hey Cindy! a little robot finger that swipes Word Hunt faster than any human could is so dumb in the best way. added Wordhawk to Hall of Hacks, a site I built rounding up the best winning hackathon projects → https://hallofhackss.com/project/wordhawk. would be awesome if you shared it 🐊 (also made a readme badge if you want one)
 
-**LinkedIn connect note (186/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (242/300 chars — send the full DM once they accept):**
 
-> Hey Cindy! I featured Wordhawk (MHacks 2025) in Hall of Hacks, a curated gallery of the best winning hackathon projects (hallofhackss.com). Would love to connect and share it with you 🐊
+> Hey Cindy — a little robot finger that swipes Word Hunt faster than any human could is so dumb in the best way. Added Wordhawk to Hall of Hacks, my site collecting the best winning hackathon projects (hallofhackss.com). Would love to connect!
 
 ---
 
@@ -374,15 +374,15 @@ Most Creative Hack (378 teams) · Page: https://hallofhackss.com/project/diffuji
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Alexander — an instant camera that prints dreamy repainted versions of your photos on receipt paper is such a vibe. I put diffuji in Hall of Hacks, a gallery I made of the best winning hackathon projects to inspire people at their first one. Here's your page: https://hallofhackss.com/project/diffuji. Would mean a lot if you shared it with your circle — and there's a "Featured in Hall of Hacks" badge for your README if you want one. Either way, congrats on the win 🐊
+> Hey Alexander — an instant camera that reprints your photos as these dreamy painted versions on receipt paper is such a vibe. I added diffuji to Hall of Hacks, a site I built that collects the best winning hackathon projects so people doing their first hackathon have stuff to get inspired by. Here's your page: https://hallofhackss.com/project/diffuji. Would mean a lot if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Alexander! an instant camera that prints dreamy repainted versions of your photos on receipt paper is such a vibe. featured diffuji in Hall of Hacks, a gallery of the best winning hackathon projects → https://hallofhackss.com/project/diffuji. would love if you shared it 🐊 (README badge too if you want one)
+> hey Alexander! an instant camera that reprints your photos as these dreamy painted versions on receipt paper is such a vibe. added diffuji to Hall of Hacks, a site I built rounding up the best winning hackathon projects → https://hallofhackss.com/project/diffuji. would be awesome if you shared it 🐊 (also made a readme badge if you want one)
 
-**LinkedIn connect note (192/300 chars — send the full DM once they accept):**
+**LinkedIn connect note (255/300 chars — send the full DM once they accept):**
 
-> Hey Alexander! I featured diffuji (TreeHacks 2026) in Hall of Hacks, a curated gallery of the best winning hackathon projects (hallofhackss.com). Would love to connect and share it with you 🐊
+> Hey Alexander — an instant camera that reprints your photos as these dreamy painted versions on receipt paper is such a vibe. Added diffuji to Hall of Hacks, my site collecting the best winning hackathon projects (hallofhackss.com). Would love to connect!
 
 ---
 

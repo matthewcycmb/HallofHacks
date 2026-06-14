@@ -17,21 +17,21 @@ const first = (n) => (n || "").trim().split(/\s+/)[0];
 // A specific, true detail per project — the "I actually looked at your project"
 // opener. Edit these freely; they carry the whole message.
 const OPENER = {
-  "facetime-macos-ai-agent": "I still can't get over that you can literally FaceTime your own Mac and it does the thing while talking back.",
-  "raising-cane": "the cane physically nudging someone toward the safe path instead of just beeping is such a smart reframe of the whole problem.",
-  "temp-sqyptg": "the idea that your character keeps living and talking like you after you log off genuinely stuck with me.",
-  "dial-4rqzc3": "the fact that you were actually stranded and your bots negotiated a real hotel room down to $158 is the best hackathon story I've read in a while.",
-  "ross-42pnvi": "using warm and cold touch to let a blind person feel the colors of a painting is one of the most creative accessibility ideas I've seen.",
-  "orca-4po0nm": "turning a melody you just hum into an actual editable song is exactly the kind of magic I wanted in the archive.",
-  "dance-cv": "Just Dance for any video on the internet, with a coach that tells you what to fix, is such a good idea.",
-  "yes-or-yes": "letting three real fish make the decision and then having the computer actually go do it is gloriously unhinged.",
-  screwyouikea: "watching an IKEA manual turn into a spinnable 3D build animation is the thing I didn't know I needed.",
-  longshot: "200 agents rebuilding Minecraft overnight from one sentence is the kind of swing I love seeing at a hackathon.",
-  "shop-a-sketch": "drawing the thing you want to buy instead of trying to describe it in words is such a clean fix to a real problem.",
-  "scamshield-87rbxe": "building a quiet guardian that catches scam calls for someone's grandparent is the kind of project that actually matters.",
-  "snowy-day-3nfbgm": "the snowplow re-routing idea is such a satisfying take on a problem everyone in a snowy city complains about.",
-  wordhawk: "a robot with an actual finger swiping Word Hunt faster than any human is so dumb in the best possible way.",
-  diffuji: "an instant camera that prints dreamy repainted versions of your photos on receipt paper is such a vibe.",
+  "facetime-macos-ai-agent": "wait, you can actually call your own Mac on FaceTime and have it do stuff for you? that's so cool.",
+  "raising-cane": "the cane that steers you toward the open path instead of just beeping at you is so clever.",
+  "temp-sqyptg": "the part where your character keeps living and talking like you after you log off kinda blew my mind.",
+  "dial-4rqzc3": "no way you were actually stranded and got the bots to talk a hotel down to $158, that's amazing.",
+  "ross-42pnvi": "drawing a painting onto someone's palm with hot and cold so they can feel the colors is such a cool idea.",
+  "orca-4po0nm": "being able to just hum something and have it turn into a real song is so cool.",
+  "dance-cv": "it's basically Just Dance for any video online, except the coach actually tells you what you're getting wrong. love it.",
+  "yes-or-yes": "letting real fish pick your decisions and then having the computer just go do it is so unhinged lol.",
+  screwyouikea: "turning an IKEA manual into a 3D thing you can spin around and follow is genuinely so smart.",
+  longshot: "200 agents rebuilding Minecraft overnight from a single prompt is wild.",
+  "shop-a-sketch": "letting people draw what they want to buy instead of trying to describe it is such a good idea.",
+  "scamshield-87rbxe": "something that catches scam calls and warns your grandparents, then texts the family, is honestly so needed.",
+  "snowy-day-3nfbgm": "rerouting snowplows so no street gets skipped is such a satisfying thing to actually solve.",
+  wordhawk: "a little robot finger that swipes Word Hunt faster than any human could is so dumb in the best way.",
+  diffuji: "an instant camera that reprints your photos as these dreamy painted versions on receipt paper is such a vibe.",
 };
 
 const channelOf = (t) =>
@@ -69,21 +69,20 @@ contacts.forEach((c, i) => {
   const fn = first(primary.name);
   const opener = OPENER[c.slug] || `loved ${c.project}.`;
   const dm =
-    `Hey ${fn} — ${opener} I put ${c.project} in Hall of Hacks, a gallery I made ` +
-    `of the best winning hackathon projects to inspire people at their first one. ` +
-    `Here's your page: ${SITE}/project/${c.slug}. Would mean a lot if you shared it ` +
-    `with your circle — and there's a "Featured in Hall of Hacks" badge for your ` +
-    `README if you want one. Either way, congrats on the win 🐊`;
+    `Hey ${fn} — ${opener} I added ${c.project} to Hall of Hacks, a site I built ` +
+    `that collects the best winning hackathon projects so people doing their first ` +
+    `hackathon have stuff to get inspired by. Here's your page: ${SITE}/project/${c.slug}. ` +
+    `Would mean a lot if you shared it, and I made a "Featured in Hall of Hacks" badge ` +
+    `you can throw on your README if you want. Congrats on the win 🐊`;
   const dmShort =
-    `hey ${fn}! ${opener} featured ${c.project} in Hall of Hacks, a gallery of the ` +
-    `best winning hackathon projects → ${SITE}/project/${c.slug}. would love if you ` +
-    `shared it 🐊 (README badge too if you want one)`;
-  // LinkedIn invitations cap the note at 300 chars, so this is a connect-first
-  // note (no long link); send the full DM above once they accept.
+    `hey ${fn}! ${opener} added ${c.project} to Hall of Hacks, a site I built ` +
+    `rounding up the best winning hackathon projects → ${SITE}/project/${c.slug}. ` +
+    `would be awesome if you shared it 🐊 (also made a readme badge if you want one)`;
+  // LinkedIn invitations cap the note at 300 chars; the opener is the hook, then
+  // send the full DM above once they accept.
   const note =
-    `Hey ${fn}! I featured ${c.project} (${c.hackathon}) in Hall of Hacks, a curated ` +
-    `gallery of the best winning hackathon projects (hallofhackss.com). Would love to ` +
-    `connect and share it with you 🐊`;
+    `Hey ${fn} — ${opener} Added ${c.project} to Hall of Hacks, my site collecting ` +
+    `the best winning hackathon projects (hallofhackss.com). Would love to connect!`;
   md += `\n**Short DM (Twitter / email / Devpost — full, with link):**\n\n> ${dm}\n\n`;
   md += `**Twitter DM (shorter):**\n\n> ${dmShort}\n\n`;
   md += `**LinkedIn connect note (${note.length}/300 chars — send the full DM once they accept):**\n\n> ${note}\n\n---\n\n`;
