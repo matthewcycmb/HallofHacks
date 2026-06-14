@@ -16,21 +16,21 @@ Open the profile, paste, send. If their DMs are closed, message them on LinkedIn
 **DM here**: https://twitter.com/TonyW__
 
 ```
-hey Tony! been going through winning hackathon projects and Shepherd stood out — a cane that steers you toward the clear path instead of just beeping at you is so clever. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/raising-cane. would be awesome if you shared it 🐊 (made a readme badge too if you want)
+Hey Tony! I featured Shepherd on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/raising-cane. thought you'd want to see it!
 ```
 
 ### [ ] 10. Longshot — Matthew Chow
 **DM here**: https://twitter.com/mattchowx
 
 ```
-hey Matthew! been going through winning hackathon projects and Longshot stood out — 200 AI coding agents working together overnight to rebuild Minecraft from a single prompt is wild. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/longshot. would be awesome if you shared it 🐊 (made a readme badge too if you want)
+Hey Matthew! I featured Longshot on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/longshot. thought you'd want to see it!
 ```
 
 ### [ ] 15. diffuji — Alexander Kranias
 **DM here**: https://twitter.com/alexkranias
 
 ```
-hey Alexander! been going through winning hackathon projects and diffuji stood out — an instant camera that reprints your photos as these dreamy painted versions on receipt paper is such a vibe. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/diffuji. would be awesome if you shared it 🐊 (made a readme badge too if you want)
+Hey Alexander! I featured diffuji on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/diffuji. thought you'd want to see it!
 ```
 
 ---

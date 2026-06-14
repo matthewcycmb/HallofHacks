@@ -71,9 +71,9 @@ function msgs(c) {
     `you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your ` +
     `README if you want. Congrats on the win 🐊`;
   const dmShort =
-    `hey ${fn}! been going through winning hackathon projects and ${c.project} stood out ` +
-    `— ${opener}. added it to Hall of Hacks, a site I built collecting the best ones → ` +
-    `${SITE}/project/${c.slug}. would be awesome if you shared it 🐊 (made a readme badge too if you want)`;
+    `Hey ${fn}! I featured ${c.project} on a site I built with the best winning ` +
+    `hackathon projects — here's your page: ${SITE}/project/${c.slug}. thought you'd ` +
+    `want to see it!`;
   // LinkedIn invitations cap the note at 300 chars. Lead with what's in it for
   // them (their project is featured + their page), not a "let's connect" ask.
   const note =
