@@ -6,6 +6,7 @@ import { getAllProjects } from "@/lib/projects";
 export const metadata: Metadata = {
   title: "Categories",
   description: "Pick the kind of winning projects you want to binge.",
+  alternates: { canonical: "/categories" },
 };
 
 export default function CategoriesPage() {

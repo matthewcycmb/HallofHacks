@@ -7,7 +7,9 @@ import HeaderSaves from "@/components/handoff/HeaderSaves";
 import HeaderSearch from "@/components/handoff/HeaderSearch";
 import SiteFooter from "@/components/SiteFooter";
 import Toaster from "@/components/Toaster";
+import JsonLd from "@/components/JsonLd";
 import { siteUrl } from "@/lib/site-url";
+import { siteJsonLd } from "@/lib/jsonld";
 import "./globals.css";
 
 const title = "Hall of Hacks — the permanent archive of winning hackathon projects";
@@ -21,6 +23,15 @@ export const metadata: Metadata = {
     template: "%s — Hall of Hacks",
   },
   description,
+  keywords: [
+    "winning hackathon projects",
+    "hackathon winners",
+    "hackathon project ideas",
+    "how to win a hackathon",
+    "best hackathon projects",
+    "Hall of Hacks",
+  ],
+  alternates: { canonical: "/" },
   openGraph: {
     title,
     description,
@@ -44,6 +55,7 @@ export default function RootLayout({
     <html lang="en" className="h-full antialiased">
       {/* data-v in the server HTML: the night theme exists before any JS runs */}
       <body data-v="harbor" className="flex h-full flex-col">
+        <JsonLd data={siteJsonLd()} />
         <Providers>
           <main className="flex min-h-0 flex-1 flex-col overflow-y-auto">
             {/* Luma-style top bar: one quiet row, borderless, scrolls with the page */}

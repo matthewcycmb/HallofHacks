@@ -86,7 +86,7 @@ export default function HarborView({ projects }: { projects: Project[] }) {
         {/* page intro — compact on phones so projects make the first screen */}
         <div className="mb-5 flex flex-col gap-2 border-b border-[var(--nf-nline)] px-0.5 pb-5 sm:mb-8 sm:pb-6">
           <h1 className="text-[28px] font-bold tracking-[-0.015em] sm:text-[40px]">
-            Hackathon Projects
+            Winning Hackathon Projects
           </h1>
           {/* Shorter on phones (fits two lines), fuller on desktop. */}
           <p className="max-w-[64ch] text-[14.5px] leading-[1.55] text-[var(--nf-muted)] sm:hidden">

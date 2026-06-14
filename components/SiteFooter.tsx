@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 /** The feed must never visibly end — the footer lives on every other page.
@@ -11,7 +12,12 @@ export default function SiteFooter() {
   return (
     <footer className="border-t border-line">
       <div className="mx-auto flex max-w-[1600px] flex-col gap-2 px-4 py-6 font-mono text-[10.5px] tracking-[0.04em] text-ink-soft sm:flex-row sm:items-center sm:justify-between sm:px-8">
-        <p>Hall of Hacks · winning projects, remembered. Data from public Devpost pages.</p>
+        <p>
+          Hall of Hacks · winning projects, remembered ·{" "}
+          <Link href="/guide" className="text-gold underline underline-offset-2">
+            How to win a hackathon
+          </Link>
+        </p>
         <p>
           On a team and want a project removed?{" "}
           <a

@@ -6,6 +6,7 @@ import eventSizes from "@/data/event-sizes.json";
 export const metadata: Metadata = {
   title: "Hackathons",
   description: "Every hackathon in the archive, and the winners that made the cut.",
+  alternates: { canonical: "/hackathons" },
 };
 
 export default function HackathonsPage() {
