@@ -1,6 +1,9 @@
 /**
- * Build marketing/top15-contacts.md: per top-15 team, the best contact + channel,
- * every member's verified handles, and short/humane personalized DMs.
+ * Build the top-15 outreach files:
+ *   marketing/top15-contacts.md — full reference: best contact + every member's
+ *     verified handles + all three message variants per team.
+ *   marketing/tomorrow.md — the copy-paste run sheet: link + exact paste + a
+ *     checkbox per person, ordered Twitter-first then LinkedIn.
  * Sources: marketing/contacts.json (Devpost + GitHub-API + personal-site mined),
  * data/projects.json (award/links). Regenerate after re-running the scrapers.
  *
@@ -54,23 +57,12 @@ md += `tell their teammates. Personalize line 1, it's already done for you here.
 md += `Channel priority: Twitter DM > LinkedIn > personal site contact > GitHub (profile `;
 md += `lists email/site) > Devpost message.\n\n---\n\n`;
 
-contacts.forEach((c, i) => {
-  const p = meta.get(c.slug);
+// All the per-team copy in one place, reused by both docs.
+function msgs(c) {
   const primary = [...c.team].sort((a, b) => rank(a) - rank(b))[0];
   const [pch, purl] = channelOf(primary);
-  md += `## ${i + 1}. ${c.project} — ${c.hackathon}\n`;
-  md += `${p.award} · Page: ${SITE}/project/${c.slug}\n\n`;
-  md += `**Primary contact: ${primary.name} → ${pch}** (${purl})\n\n`;
-  md += `| Member | Twitter | LinkedIn | GitHub | Site |\n|---|---|---|---|---|\n`;
-  for (const t of c.team) {
-    md += `| ${t.name} `;
-    md += `| ${t.twitter || "—"} `;
-    md += `| ${t.linkedin ? `[in](${t.linkedin})` : "—"} `;
-    md += `| ${t.github ? `[${t.github}](https://github.com/${t.github})` : "—"} `;
-    md += `| ${t.sites ? `[link](${t.sites[0]})` : "—"} |\n`;
-  }
   const fn = first(primary.name);
-  const opener = OPENER[c.slug] || `loved ${c.project}.`;
+  const opener = OPENER[c.slug] || `loved ${c.project}`;
   const dm =
     `Hey ${fn}! I've been going through a bunch of winning hackathon projects lately ` +
     `and ${c.project} stood out — ${opener}. I added it to Hall of Hacks, a site I built ` +
@@ -88,12 +80,66 @@ contacts.forEach((c, i) => {
     `Hey ${fn}! I featured ${c.project} on a site I built with the best winning ` +
     `hackathon projects — here's your page: ${SITE}/project/${c.slug}. thought you'd ` +
     `want to see it!`;
+  return { primary, pch, purl, dm, dmShort, note };
+}
+
+const enriched = contacts.map((c, i) => ({ c, n: i + 1, ...msgs(c) }));
+
+// ---- top15-contacts.md (the full reference) --------------------------------
+for (const { c, n, primary, pch, purl, dm, dmShort, note } of enriched) {
+  const p = meta.get(c.slug);
+  md += `## ${n}. ${c.project} — ${c.hackathon}\n`;
+  md += `${p.award} · Page: ${SITE}/project/${c.slug}\n\n`;
+  md += `**Primary contact: ${primary.name} → ${pch}** (${purl})\n\n`;
+  md += `| Member | Twitter | LinkedIn | GitHub | Site |\n|---|---|---|---|---|\n`;
+  for (const t of c.team) {
+    md += `| ${t.name} `;
+    md += `| ${t.twitter || "—"} `;
+    md += `| ${t.linkedin ? `[in](${t.linkedin})` : "—"} `;
+    md += `| ${t.github ? `[${t.github}](https://github.com/${t.github})` : "—"} `;
+    md += `| ${t.sites ? `[link](${t.sites[0]})` : "—"} |\n`;
+  }
   md += `\n**Short DM (Twitter / email / Devpost — full, with link):**\n\n> ${dm}\n\n`;
   md += `**Twitter DM (shorter):**\n\n> ${dmShort}\n\n`;
   md += `**LinkedIn connect note (${note.length}/300 chars — send the full DM once they accept):**\n\n> ${note}\n\n---\n\n`;
-});
-
+}
 writeFileSync("marketing/top15-contacts.md", md);
+
+// ---- tomorrow.md (the copy-paste run sheet) --------------------------------
+const tw = enriched.filter((e) => e.pch === "Twitter");
+const li = enriched.filter((e) => e.pch !== "Twitter"); // LinkedIn (+ any site fallback)
+const entry = (e, action, paste) =>
+  `### [ ] ${e.n}. ${e.c.project} — ${e.primary.name}\n${action}: ${e.purl}\n\n` +
+  "```\n" + paste + "\n```\n\n";
+
+let t = `# Tomorrow — outreach run sheet\n\n`;
+t += `Work top to bottom. Each block has the link and the exact text to paste — ` +
+  `tick the \`[ ]\` as you go.\n\n`;
+t += `**The one rule:** before you send each, add one line only you could write ` +
+  `(a specific thing you noticed in their demo). That single human line is what turns ` +
+  `a polite nod into a reshare.\n\n`;
+t += `First: open ${SITE}/featured-badge.svg once to confirm it loads (the README ` +
+  `badge offer depends on it).\n\n---\n\n`;
+
+t += `## Step 1 — Twitter DMs (${tw.length}) — do these first, they're instant\n\n`;
+t += `Open the profile, paste, send. If their DMs are closed, message them on LinkedIn instead (in \`top15-contacts.md\`).\n\n`;
+for (const e of tw) t += entry(e, "**DM here**", e.dmShort);
+
+t += `---\n\n## Step 2 — LinkedIn (${li.length}) — Connect → Add a note → paste\n\n`;
+t += `**Pace these** — don't fire them all in a couple minutes (LinkedIn flags bursts). ` +
+  `Heads up: free LinkedIn caps personalized-note invites (often ~5/month), so if it ` +
+  `stops letting you add a note, the same text works as an email/Devpost message ` +
+  `(channels in \`top15-contacts.md\`), or connect without a note and send it once they accept.\n\n`;
+for (const e of li) t += entry(e, "**Connect + add note**", e.note);
+
+t += `---\n\n## After\n\n`;
+t += `- Mark each person in \`outreach-tracker.csv\` as you send.\n`;
+t += `- Set a reminder ~4 days out: one light follow-up to non-responders, then move on.\n`;
+t += `- Once someone accepts/replies on LinkedIn, send the longer "Short DM" from ` +
+  `\`top15-contacts.md\` as the warm second touch (it has the badge offer).\n`;
+writeFileSync("marketing/tomorrow.md", t);
+
 const flat = contacts.flatMap((c) => c.team);
-console.log(`Wrote marketing/top15-contacts.md — ${contacts.length} teams, ${flat.length} builders`);
+console.log(`Wrote marketing/top15-contacts.md + marketing/tomorrow.md`);
+console.log(`Run sheet: ${tw.length} Twitter DMs, ${li.length} LinkedIn notes`);
 console.log(`Channel coverage: twitter ${flat.filter((t) => t.twitter).length} · linkedin ${flat.filter((t) => t.linkedin).length} · github ${flat.filter((t) => t.github).length} · site ${flat.filter((t) => t.sites).length}`);
