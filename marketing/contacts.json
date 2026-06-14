@@ -1,0 +1,467 @@
+[
+  {
+    "project": "FaceTimeOS",
+    "slug": "facetime-macos-ai-agent",
+    "hackathon": "Cal Hacks 12.0 2025",
+    "team": [
+      {
+        "name": "Dylan Lu",
+        "devpost": "https://devpost.com/dylanelu",
+        "github": "ThePickleGawd",
+        "sites": [
+          "https://dylanlu.com"
+        ]
+      },
+      {
+        "name": "Calvin Lu",
+        "devpost": "https://devpost.com/Cow-Van",
+        "github": "Cow-Van",
+        "linkedin": "https://www.linkedin.com/in/calvin-lu"
+      },
+      {
+        "name": "Davyn Paringkoan",
+        "devpost": "https://devpost.com/davyn-par"
+      }
+    ]
+  },
+  {
+    "project": "Shepherd",
+    "slug": "raising-cane",
+    "hackathon": "TreeHacks 2026",
+    "team": [
+      {
+        "name": "Tony Wang",
+        "devpost": "https://devpost.com/tony-wang",
+        "sites": [
+          "https://tonywang.xyz/",
+          "https://tonywang.xyz"
+        ],
+        "github": "tonywangs",
+        "twitter": "@TonyW__",
+        "linkedin": "https://www.linkedin.com/in/tony-wang-"
+      },
+      {
+        "name": "Arjun Oberoi",
+        "devpost": "https://devpost.com/Gymnast544",
+        "sites": [
+          "https://www.arjunoberoi.com/"
+        ],
+        "github": "Gymnast544",
+        "linkedin": "https://www.linkedin.com/in/arjun-oberoi"
+      },
+      {
+        "name": "Shane Mion",
+        "devpost": "https://devpost.com/shanemion",
+        "sites": [
+          "https://shanemion.me/"
+        ],
+        "github": "shanemion",
+        "linkedin": "https://www.linkedin.com/in/shanemion"
+      },
+      {
+        "name": "Anthony Chukhlov",
+        "devpost": "https://devpost.com/AnthChukh",
+        "github": "AnthChukh"
+      }
+    ]
+  },
+  {
+    "project": "Identity Matrix",
+    "slug": "temp-sqyptg",
+    "hackathon": "UofTHacks 2026",
+    "team": [
+      {
+        "name": "Alvina Yang",
+        "devpost": "https://devpost.com/alvina-yang",
+        "sites": [
+          "https://alvinayang.com/",
+          "https://www.alvinayang.com"
+        ],
+        "github": "alvina-yang",
+        "linkedin": "https://www.linkedin.com/in/alvina-yang"
+      },
+      {
+        "name": "Ethan Qiu",
+        "devpost": "https://devpost.com/ethanqiu",
+        "sites": [
+          "http://ethanqiu.ca",
+          "https://ethanqiu.ca"
+        ],
+        "github": "qiuethan",
+        "linkedin": "https://linkedin.com/in/qiu-ethan"
+      },
+      {
+        "name": "William Bo",
+        "devpost": "https://devpost.com/Williamzhibo",
+        "github": "Williamzhibo"
+      },
+      {
+        "name": "Zachary Tang",
+        "devpost": "https://devpost.com/e-ndorfin",
+        "github": "e-ndorfin",
+        "sites": [
+          "https://e-ndorfin.github.io"
+        ]
+      }
+    ]
+  },
+  {
+    "project": "DIAL(*)",
+    "slug": "dial-4rqzc3",
+    "hackathon": "Cal Hacks 12.0 2025",
+    "team": [
+      {
+        "name": "John Connell",
+        "devpost": "https://devpost.com/JohnConnellCS",
+        "sites": [
+          "https://johnconnell.org/"
+        ],
+        "github": "JohnConnellCS",
+        "linkedin": "https://www.linkedin.com/in/john-connell-cs"
+      },
+      {
+        "name": "Sophia Sharif",
+        "devpost": "https://devpost.com/sophiasharif146",
+        "sites": [
+          "http://sophiasharif.com"
+        ]
+      },
+      {
+        "name": "Tom Binford",
+        "devpost": "https://devpost.com/tombinford"
+      },
+      {
+        "name": "Shubham Kumar",
+        "devpost": "https://devpost.com/altruisticnarcissist",
+        "sites": [
+          "http://shubhamkumar.me"
+        ],
+        "github": "Shubham-SK"
+      }
+    ]
+  },
+  {
+    "project": "ROSS",
+    "slug": "ross-42pnvi",
+    "hackathon": "Hack the North 2025",
+    "team": [
+      {
+        "name": "Theodore Zhu",
+        "devpost": "https://devpost.com/theodorez888",
+        "github": "FowlFarmer",
+        "sites": [
+          "https://tzhu.dev"
+        ],
+        "ghName": "Jia Zhu"
+      },
+      {
+        "name": "TianYao12 Yao",
+        "devpost": "https://devpost.com/TianYao12",
+        "github": "TianYao12",
+        "sites": [
+          "https://tianyao.vercel.app/"
+        ],
+        "ghName": "Tian Yao"
+      },
+      {
+        "name": "Andre Ke",
+        "devpost": "https://devpost.com/nohyp3",
+        "github": "nohyp3"
+      },
+      {
+        "name": "Jonathan Shanmuganantham",
+        "devpost": "https://devpost.com/JonnyACCI",
+        "github": "jshan9078",
+        "linkedin": "https://www.linkedin.com/in/jonathanshan1",
+        "sites": [
+          "https://jshan9078.github.io/"
+        ]
+      }
+    ]
+  },
+  {
+    "project": "Orca",
+    "slug": "orca-4po0nm",
+    "hackathon": "QHacks 2026",
+    "team": [
+      {
+        "name": "Marshall Yao",
+        "devpost": "https://devpost.com/beebdoles132435"
+      },
+      {
+        "name": "Robert Yin",
+        "devpost": "https://devpost.com/RupertChin",
+        "github": "RupertChin",
+        "linkedin": "https://www.linkedin.com/in/yin-robert"
+      },
+      {
+        "name": "Chloe Houvardas",
+        "devpost": "https://devpost.com/ToastDuck",
+        "github": "ToastDuck",
+        "linkedin": "https://www.linkedin.com/in/chloe-houvardas"
+      }
+    ]
+  },
+  {
+    "project": "Dance CV",
+    "slug": "dance-cv",
+    "hackathon": "nwHacks 2026",
+    "team": [
+      {
+        "name": "Joseph Deng",
+        "devpost": "https://devpost.com/josephdeng317",
+        "sites": [
+          "https://josephdeng.ca/"
+        ],
+        "github": "JosephDeng317",
+        "linkedin": "https://www.linkedin.com/in/joseph-deng-786a0223a"
+      },
+      {
+        "name": "Douglas Chen",
+        "devpost": "https://devpost.com/douglas579",
+        "github": "douglasichen",
+        "ghName": "Douglas"
+      }
+    ]
+  },
+  {
+    "project": "YES? or YES!",
+    "slug": "yes-or-yes",
+    "hackathon": "LA Hacks 2026",
+    "team": [
+      {
+        "name": "lucas t",
+        "devpost": "https://devpost.com/lukietee",
+        "github": "lukietee",
+        "ghName": "lucas"
+      },
+      {
+        "name": "zig chen",
+        "devpost": "https://devpost.com/zigchen",
+        "github": "zigchen"
+      },
+      {
+        "name": "Jason Zeng",
+        "devpost": "https://devpost.com/jasonzzeng",
+        "sites": [
+          "https://jason-zeng.vercel.app/"
+        ],
+        "github": "jasonzzeng",
+        "linkedin": "https://www.linkedin.com/in/jasonzeng0"
+      }
+    ]
+  },
+  {
+    "project": "ScrewYouIKEA.com",
+    "slug": "screwyouikea",
+    "hackathon": "HackHarvard 2025",
+    "team": [
+      {
+        "name": "Senan Gaffori",
+        "devpost": "https://devpost.com/SenanG",
+        "github": "SenanG",
+        "ghName": "Senan"
+      },
+      {
+        "name": "Donara Galstyan",
+        "devpost": "https://devpost.com/donna-galstyan-31",
+        "github": "donaragalstyan",
+        "linkedin": "https://www.linkedin.com/in/donara-galstyan"
+      },
+      {
+        "name": "Liam Marcovitz",
+        "devpost": "https://devpost.com/liam-marcovitz",
+        "sites": [
+          "https://liammarcovitz.com/",
+          "https://liammarcovitz.com"
+        ],
+        "github": "liammarcovitz",
+        "linkedin": "https://www.linkedin.com/in/liam-marcovitz",
+        "ghName": "Liam M"
+      }
+    ]
+  },
+  {
+    "project": "Longshot",
+    "slug": "longshot",
+    "hackathon": "TreeHacks 2026",
+    "team": [
+      {
+        "name": "Legasse Remon",
+        "devpost": "https://devpost.com/legasseahs1"
+      },
+      {
+        "name": "Matthew Chow",
+        "devpost": "https://devpost.com/matthewchow03",
+        "twitter": "@mattchowx",
+        "linkedin": "https://www.linkedin.com/in/mdchow"
+      },
+      {
+        "name": "Andrew Cai",
+        "devpost": "https://devpost.com/andrewcai8",
+        "sites": [
+          "http://andrewcai8.com",
+          "https://andrewcai8.com/"
+        ],
+        "github": "andrewcai8",
+        "twitter": "@andrewcai8",
+        "linkedin": "https://www.linkedin.com/in/andrewcai8"
+      },
+      {
+        "name": "Rami Maalouf",
+        "devpost": "https://devpost.com/ramim66809",
+        "sites": [
+          "https://ramimaalouf.com"
+        ],
+        "github": "psycho-baller",
+        "twitter": "@rami__maalouf",
+        "linkedin": "https://www.linkedin.com/in/rami-m"
+      }
+    ]
+  },
+  {
+    "project": "Shop-A-Sketch",
+    "slug": "shop-a-sketch",
+    "hackathon": "UofTHacks 2026",
+    "team": [
+      {
+        "name": "Madeleine Alexander",
+        "devpost": "https://devpost.com/madeleinea",
+        "github": "madeleinea"
+      },
+      {
+        "name": "Claire Zhang",
+        "devpost": "https://devpost.com/clairezhang838",
+        "github": "clairez308",
+        "sites": [
+          "https://clairezhang.vercel.app/"
+        ],
+        "linkedin": "https://www.linkedin.com/in/claire-zhang-985410301"
+      },
+      {
+        "name": "Shen Lei",
+        "devpost": "https://devpost.com/shen-lei2021"
+      }
+    ]
+  },
+  {
+    "project": "ScamShield",
+    "slug": "scamshield-87rbxe",
+    "hackathon": "HooHacks 2026",
+    "team": [
+      {
+        "name": "Caleb Wiese",
+        "devpost": "https://devpost.com/calebwiese18",
+        "github": "calebwiese18",
+        "linkedin": "http://www.linkedin.com/in/caleb-wiese"
+      },
+      {
+        "name": "TristanGru Grubbs",
+        "devpost": "https://devpost.com/TristanGru",
+        "github": "TristanGru"
+      },
+      {
+        "name": "Alex Clunan",
+        "devpost": "https://devpost.com/alexclunan",
+        "github": "alexclunan"
+      }
+    ]
+  },
+  {
+    "project": "Snowy Day",
+    "slug": "snowy-day-3nfbgm",
+    "hackathon": "uOttaHack 2026",
+    "team": [
+      {
+        "name": "Stephen Mamosian",
+        "devpost": "https://devpost.com/TheSlenk",
+        "github": "TheSlenk",
+        "ghName": "Stephen"
+      },
+      {
+        "name": "Aidan Chow",
+        "devpost": "https://devpost.com/kachowchow",
+        "sites": [
+          "https://aidanchow.netlify.app",
+          "https://github.com/Cardbox-Solutions"
+        ],
+        "github": "kachowchow",
+        "linkedin": "https://www.linkedin.com/in/aidan-chow-7a8242202"
+      },
+      {
+        "name": "Ryushen Tan",
+        "devpost": "https://devpost.com/ryushen",
+        "github": "ryushen-tan",
+        "linkedin": "https://www.linkedin.com/in/ryushen"
+      }
+    ]
+  },
+  {
+    "project": "Wordhawk",
+    "slug": "wordhawk",
+    "hackathon": "MHacks 2025",
+    "team": [
+      {
+        "name": "Cindy Yang",
+        "devpost": "https://devpost.com/ElemelonWind",
+        "sites": [
+          "http://cwyang.dev",
+          "https://cwyang.dev"
+        ],
+        "github": "ElemelonWind",
+        "linkedin": "https://www.linkedin.com/in/2023cyang",
+        "ghName": "Cindy"
+      },
+      {
+        "name": "Abhineet Repala",
+        "devpost": "https://devpost.com/abhirepala"
+      },
+      {
+        "name": "Teja Koduru",
+        "devpost": "https://devpost.com/tkoduru"
+      }
+    ]
+  },
+  {
+    "project": "diffuji",
+    "slug": "diffuji",
+    "hackathon": "TreeHacks 2026",
+    "team": [
+      {
+        "name": "Pranav Tadepalli",
+        "devpost": "https://devpost.com/whackamadoodle3000",
+        "github": "whackamadoodle3000",
+        "sites": [
+          "https://pranav.cc"
+        ]
+      },
+      {
+        "name": "Lainey Leslie",
+        "devpost": "https://devpost.com/adelaine"
+      },
+      {
+        "name": "Alexander Kranias",
+        "devpost": "https://devpost.com/alexander-kranias",
+        "sites": [
+          "https://alexkranias.com/",
+          "https://alexkranias.com"
+        ],
+        "github": "alexkranias",
+        "linkedin": "https://www.linkedin.com/in/alexanderkranias",
+        "twitter": "@alexkranias",
+        "ghName": "Alex Kranias"
+      },
+      {
+        "name": "Nathan Barry",
+        "devpost": "https://devpost.com/nathanbarry474",
+        "sites": [
+          "http://nathan.rs",
+          "https://nathan.rs"
+        ],
+        "github": "nathan-barry",
+        "twitter": "@nathanrs",
+        "linkedin": "https://www.linkedin.com/in/nathanrs"
+      }
+    ]
+  }
+]

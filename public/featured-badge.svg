@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="32" viewBox="0 0 232 32" role="img" aria-label="Featured in Hall of Hacks">
+  <title>Featured in Hall of Hacks</title>
+  <defs>
+    <clipPath id="r"><rect width="232" height="32" rx="7"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="232" height="32" fill="#0d0d0d"/>
+    <rect x="104" width="128" height="32" fill="#e3b341"/>
+  </g>
+  <rect x="0.5" y="0.5" width="231" height="31" rx="6.5" fill="none" stroke="#e3b341" stroke-opacity="0.45"/>
+  <g font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11">
+    <text x="52" y="20.5" fill="#d8d8d8" text-anchor="middle" letter-spacing="0.6" textLength="74" lengthAdjust="spacingAndGlyphs">FEATURED IN</text>
+    <text x="168" y="20.5" fill="#111111" text-anchor="middle" font-weight="bold" letter-spacing="0.6" textLength="104" lengthAdjust="spacingAndGlyphs">HALL OF HACKS</text>
+  </g>
+</svg>
