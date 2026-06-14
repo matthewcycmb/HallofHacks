@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import type { Project } from "@/lib/types";
 import { toCard, type HandoffCard } from "@/lib/handoff";
 import { useCollections } from "@/lib/collections";
+import { useVisitOffset, rotateBy } from "@/lib/feed-rotation";
 import DetailConsole from "./DetailConsole";
 import NightCard, { GroupPill } from "./NightCard";
 
@@ -26,8 +27,19 @@ export default function HarborView({ projects }: { projects: Project[] }) {
   const wings = useMemo(() => groupByEvent(cards), [cards]);
   const { savedSlugs } = useCollections();
 
-  // Desktop: sticky aside, defaults to the first card so it's never empty.
-  const [selected, setSelected] = useState<HandoffCard | null>(cards[0] ?? null);
+  // Feed freshness: rotate which hackathon leads on each return visit. The hook
+  // returns 0 (the curated, featured-first order) during SSR + hydration so the
+  // server HTML always matches, then the resolved client offset — reordering the
+  // groups under returning visitors once. See lib/feed-rotation.
+  const visitOffset = useVisitOffset();
+  const wingsView = useMemo(() => rotateBy(wings, visitOffset), [wings, visitOffset]);
+
+  // Desktop: sticky aside. Defaults to the first card of the (rotated) feed until
+  // the visitor picks one — deriving it means rotation and filtering update the
+  // console for free, and it's never empty.
+  const [selected, setSelected] = useState<HandoffCard | null>(null);
+  const firstCard = wingsView[0]?.[1][0] ?? null;
+  const activeSelected = selected ?? firstCard;
   // Mobile: any number of cards can be expanded inline at once — tapping a new
   // one leaves the others open. Tracked by slug; collapsed until the first tap.
   const [expandedSlugs, setExpandedSlugs] = useState<Set<string>>(() => new Set());
@@ -58,12 +70,13 @@ export default function HarborView({ projects }: { projects: Project[] }) {
     });
   }
 
-  // Filtering (pool change) resets selection — render-time state
-  // adjustment, per React docs, not an effect.
+  // Filtering (pool change) clears the manual selection so the console falls
+  // back to the first card of the new results — render-time state adjustment,
+  // per React docs, not an effect.
   const [prevCards, setPrevCards] = useState(cards);
   if (prevCards !== cards) {
     setPrevCards(cards);
-    setSelected(cards[0] ?? null);
+    setSelected(null);
     setExpandedSlugs(new Set());
   }
 
@@ -89,8 +102,8 @@ export default function HarborView({ projects }: { projects: Project[] }) {
                 <path d="M6 9a6 6 0 0 0 12 0V3H6v6Z" />
                 <path d="M6 5H3v2a4 4 0 0 0 4 4M18 5h3v2a4 4 0 0 1-4 4M12 15v4M8 21h8" />
               </svg>
-              <span className="font-semibold text-[var(--nf-text)]">{projects.length}</span>{" "}
-              Winning {projects.length === 1 ? "Project" : "Projects"}
+              <span className="font-semibold text-[var(--nf-text)]">{projects.length}+</span>{" "}
+              Winning Projects
             </span>
             <span className="inline-flex items-center gap-1.5">
               <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -105,7 +118,7 @@ export default function HarborView({ projects }: { projects: Project[] }) {
         <div className="grid items-start gap-[clamp(26px,4vw,56px)] min-[901px]:grid-cols-[minmax(340px,430px)_1fr]">
           {/* feed */}
           <div>
-            {wings.map(([eventName, items]) => (
+            {wingsView.map(([eventName, items]) => (
               <section key={eventName} className="mb-[34px]">
                 <GroupPill event={eventName} count={items.length} />
                 {items.map((card) => (
@@ -114,7 +127,7 @@ export default function HarborView({ projects }: { projects: Project[] }) {
                       card={card}
                       compact
                       selected={
-                        isMobile ? expandedSlugs.has(card.slug) : selected?.slug === card.slug
+                        isMobile ? expandedSlugs.has(card.slug) : activeSelected?.slug === card.slug
                       }
                       onSelect={() => open(card)}
                     />
@@ -131,9 +144,9 @@ export default function HarborView({ projects }: { projects: Project[] }) {
           </div>
 
           {/* sticky detail console — desktop only, sized to fit one screen */}
-          {selected && (
+          {activeSelected && (
             <aside className="sticky top-8 mt-7 hidden flex-col items-start gap-3 rounded-[20px] border border-[var(--nf-nline)] bg-[var(--nf-card)] p-5 backdrop-blur-[14px] min-[901px]:flex">
-              <DetailConsole card={selected} saved={savedSlugs.has(selected.slug)} />
+              <DetailConsole card={activeSelected} saved={savedSlugs.has(activeSelected.slug)} />
             </aside>
           )}
         </div>

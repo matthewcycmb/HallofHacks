@@ -1,6 +1,9 @@
 "use client";
 
+import { useEffect } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useSession } from "next-auth/react";
 import ProjectImage from "@/components/ProjectImage";
 
 /**
@@ -95,6 +98,21 @@ function Trophy() {
 }
 
 export default function OnboardingFlow({ data }: { data: OnboardingData }) {
+  const { status } = useSession();
+  const router = useRouter();
+
+  // Authoritative backstop to the pre-paint redirect script on `/`: a signed-in
+  // member should never see the marketing page. This catches the case where the
+  // localStorage flag was unavailable (e.g. Safari private mode) — `useSession`
+  // resolves after hydration, so we hold a black screen and bounce to the feed.
+  useEffect(() => {
+    if (status === "authenticated") router.replace("/feed");
+  }, [status, router]);
+
+  if (status === "authenticated") {
+    return <div className="fixed inset-0 z-50 bg-black" aria-hidden />;
+  }
+
   return (
     // Full-screen over the site chrome: the onboarding flow brings its own nav.
     <div className="fixed inset-0 z-50 overflow-y-auto overflow-x-hidden bg-black text-ink">
@@ -167,7 +185,7 @@ function Landing({ data }: { data: OnboardingData }) {
           </div>
           {/* Specificity + freshness proof right at the decision point (desktop only). */}
           <div className="hidden text-[13px] text-ink-soft sm:block">
-            {data.stats.projects} winning projects · {data.stats.hackathons} hackathons ·
+            {data.stats.projects}+ winning projects · {data.stats.hackathons} hackathons ·
             updated daily · free forever
           </div>
         </div>
@@ -219,7 +237,7 @@ function AppShot({ data }: { data: OnboardingData }) {
           </div>
           <div className="mb-1.5 mt-1 flex gap-4 text-[11.5px] text-ink-soft">
             <span className="inline-flex items-center gap-1.5">
-              <Trophy /> <b className="font-bold text-ink">{stats.projects}</b> Winning Projects
+              <Trophy /> <b className="font-bold text-ink">{stats.projects}+</b> Winning Projects
             </span>
             <span>
               <b className="font-bold text-ink">{stats.hackathons}</b> Hackathons

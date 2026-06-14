@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { signOut, useSession } from "next-auth/react";
+import { MEMBER_FLAG_KEY } from "@/lib/auth/member-flag";
 
 /**
  * Header auth slot. Logged out (and during the initial session fetch) → a
@@ -97,7 +98,18 @@ export default function AccountWidget() {
           </Link>
           <button
             type="button"
-            onClick={() => signOut({ callbackUrl: "/" })}
+            onClick={() => {
+              // Clear the member flag synchronously so the `/` we land on after
+              // sign-out shows onboarding instead of bouncing back to /feed
+              // (CollectionsBridge clears it too, but only after hydration —
+              // later than the pre-paint redirect script runs).
+              try {
+                localStorage.removeItem(MEMBER_FLAG_KEY);
+              } catch {
+                /* ignore */
+              }
+              signOut({ callbackUrl: "/" });
+            }}
             className="flex w-full items-center gap-2 rounded-xl px-3 py-2 text-left text-sm font-medium text-ink-soft hover:bg-paper-2 hover:text-ink"
           >
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>

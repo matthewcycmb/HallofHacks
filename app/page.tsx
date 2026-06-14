@@ -1,5 +1,6 @@
 import OnboardingFlow, { type OnboardingData } from "@/components/handoff/OnboardingFlow";
 import { getAllProjects, getFeatured } from "@/lib/projects";
+import { MEMBER_FLAG_KEY } from "@/lib/auth/member-flag";
 import type { Project } from "@/lib/types";
 import { DOMAIN_TAGS } from "@/lib/types";
 
@@ -54,5 +55,23 @@ export default function Home() {
         },
   };
 
-  return <OnboardingFlow data={data} />;
+  return (
+    <>
+      {/*
+        Returning members skip the marketing page. This runs before the
+        onboarding below it paints, so there's no flash: the flag is set on
+        sign-in and cleared on sign-out. /feed is public, so redirecting is
+        always safe even if the flag is somehow stale. useSession in
+        OnboardingFlow is the authoritative backstop (Safari private mode).
+      */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `try{if(localStorage.getItem(${JSON.stringify(
+            MEMBER_FLAG_KEY,
+          )}))location.replace('/feed')}catch(e){}`,
+        }}
+      />
+      <OnboardingFlow data={data} />
+    </>
+  );
 }

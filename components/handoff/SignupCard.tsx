@@ -1,14 +1,28 @@
 "use client";
 
+import { useEffect } from "react";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
-import { signIn } from "next-auth/react";
+import { useRouter, useSearchParams } from "next/navigation";
+import { signIn, useSession } from "next-auth/react";
+import { pinCuratedNextVisit } from "@/lib/feed-rotation";
 import { BTN_GHOST } from "./OnboardingFlow";
 
 /**
  * /signup — Google + GitHub OAuth (email login intentionally out for launch).
  * Reads `?next=` (where to return after sign-in) and `?error=` (OAuth failure).
  */
+
+/**
+ * Only follow a same-origin relative path. Blocks `//evil.com` (protocol-
+ * relative) and `/\evil.com` (backslash) open-redirects, since `next` is used
+ * both as a redirect target here and as the OAuth callbackUrl. Keep in sync with
+ * the pre-paint script in app/signup/page.tsx.
+ */
+function safeNext(raw: string | null): string {
+  return raw && raw.charAt(0) === "/" && raw.charAt(1) !== "/" && raw.charAt(1) !== "\\"
+    ? raw
+    : "/feed";
+}
 
 function GoogleMark() {
   return (
@@ -35,11 +49,24 @@ const ERROR_COPY: Record<string, string> = {
 
 export default function SignupCard() {
   const params = useSearchParams();
-  const next = params.get("next") || "/feed";
+  const next = safeNext(params.get("next"));
   const errorKey = params.get("error");
   const errorMsg = errorKey
     ? ERROR_COPY[errorKey] ?? "Something went wrong signing in. Please try again."
     : null;
+
+  // Already signed in? Don't show the sign-in card — send them where they were
+  // headed (`next`, default /feed). Authoritative backstop to the pre-paint
+  // script on /signup, for when localStorage is unavailable (Safari private mode).
+  const { status } = useSession();
+  const router = useRouter();
+  useEffect(() => {
+    if (status === "authenticated") router.replace(next);
+  }, [status, router, next]);
+
+  if (status === "authenticated") {
+    return <div className="fixed inset-0 z-50 bg-black" aria-hidden />;
+  }
 
   return (
     // Full-screen over the site chrome, card centered with a slight downward bias.
@@ -69,14 +96,20 @@ export default function SignupCard() {
 
           <button
             type="button"
-            onClick={() => signIn("google", { callbackUrl: next })}
+            onClick={() => {
+              pinCuratedNextVisit();
+              signIn("google", { callbackUrl: next });
+            }}
             className={`${BTN_GHOST} w-full rounded-[13px] py-[13px] text-[15.5px]`}
           >
             <GoogleMark /> Continue with Google
           </button>
           <button
             type="button"
-            onClick={() => signIn("github", { callbackUrl: next })}
+            onClick={() => {
+              pinCuratedNextVisit();
+              signIn("github", { callbackUrl: next });
+            }}
             className={`${BTN_GHOST} w-full rounded-[13px] py-[13px] text-[15.5px]`}
           >
             <GitHubMark /> Continue with GitHub

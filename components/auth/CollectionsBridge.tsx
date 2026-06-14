@@ -10,6 +10,7 @@ import {
   registerAuthPrompt,
   runMigrationOnce,
 } from "@/lib/collections";
+import { MEMBER_FLAG_KEY } from "@/lib/auth/member-flag";
 
 /**
  * Drives the collections store from session state: server mode (synced) when
@@ -29,8 +30,20 @@ export default function CollectionsBridge() {
 
   useEffect(() => {
     if (status === "authenticated") {
+      // Remember this device is signed in so the static home page can skip
+      // onboarding on the next visit (read pre-paint by the inline script on `/`).
+      try {
+        localStorage.setItem(MEMBER_FLAG_KEY, "1");
+      } catch {
+        /* private mode — useSession backstop covers it */
+      }
       enterServerMode().then(runMigrationOnce);
     } else if (status === "unauthenticated") {
+      try {
+        localStorage.removeItem(MEMBER_FLAG_KEY);
+      } catch {
+        /* ignore */
+      }
       enterLocalMode();
     }
   }, [status]);
