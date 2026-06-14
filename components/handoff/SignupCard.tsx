@@ -1,10 +1,12 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { signIn, useSession } from "next-auth/react";
 import { pinCuratedNextVisit } from "@/lib/feed-rotation";
+import { detectInAppBrowser } from "@/lib/in-app-browser";
+import { useHydrated } from "@/lib/use-hydrated";
 import { BTN_GHOST } from "./OnboardingFlow";
 
 /**
@@ -64,6 +66,25 @@ export default function SignupCard() {
     if (status === "authenticated") router.replace(next);
   }, [status, router, next]);
 
+  // In-app browsers (Instagram, Facebook, TikTok, …) can't show Google's account
+  // chooser and Google often blocks OAuth in them. Derive this only after hydration
+  // (the page is statically prerendered, so there's no UA at render time) so the
+  // SSR markup and first client paint match, then nudge to open in Safari/Chrome.
+  const hydrated = useHydrated();
+  const inApp = hydrated
+    ? detectInAppBrowser(navigator.userAgent)
+    : { isInApp: false, appName: null };
+  const [copied, setCopied] = useState(false);
+  function copyLink() {
+    navigator.clipboard
+      ?.writeText(window.location.href)
+      .then(() => {
+        setCopied(true);
+        window.setTimeout(() => setCopied(false), 2000);
+      })
+      .catch(() => {});
+  }
+
   if (status === "authenticated") {
     return <div className="fixed inset-0 z-50 bg-black" aria-hidden />;
   }
@@ -87,6 +108,32 @@ export default function SignupCard() {
             Welcome to Hall of Hacks
           </h1>
           <p className="-mt-2 text-[15px] text-ink-soft">Please sign up or sign in below.</p>
+
+          {inApp.isInApp && (
+            <div className="w-full rounded-xl border border-gold/30 bg-gold/[0.07] px-3.5 py-3 text-[13px] leading-relaxed text-ink-soft">
+              <p className="flex items-center gap-1.5 font-semibold text-ink">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <path d="M15 3h6v6M10 14 21 3" />
+                </svg>
+                Open in Safari or Chrome to sign in
+              </p>
+              <p className="mt-1.5">
+                You&rsquo;re in {inApp.appName ?? "an in-app"}&rsquo;s built-in browser, which
+                can&rsquo;t show your Google accounts. Tap the{" "}
+                <b className="text-ink">&middot;&middot;&middot;</b> menu in the top corner and
+                choose <b className="text-ink">&ldquo;Open in browser,&rdquo;</b> then sign in
+                there.
+              </p>
+              <button
+                type="button"
+                onClick={copyLink}
+                className="mt-2.5 inline-flex items-center gap-1.5 rounded-lg border border-white/15 px-3 py-1.5 text-[12.5px] font-medium text-ink transition-colors hover:bg-white/10"
+              >
+                {copied ? "Link copied ✓" : "Copy link"}
+              </button>
+            </div>
+          )}
 
           {errorMsg && (
             <p className="w-full rounded-xl border border-red-500/30 bg-red-500/10 px-3.5 py-2.5 text-[13px] text-red-200">
