@@ -71,11 +71,11 @@ Grand Prize (378 teams) · Page: https://hallofhackss.com/project/raising-cane
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Alvina! I've been going through a bunch of winning hackathon projects lately and Identity Matrix stood out — your character living on and talking like you after you log off is such a cool idea. I added it to Hall of Hacks, a site I built collecting the best ones so people doing their first hackathon have something to get inspired by. Here's your page: https://hallofhackss.com/project/temp-sqyptg. Would be awesome if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
+> Hey Alvina! I've been going through a bunch of winning hackathon projects lately and Identity Matrix stood out — the idea that your character stays online after you log off, so your friends can still hang out with an AI version of you that talks like you, is such a cool concept. I added it to Hall of Hacks, a site I built collecting the best ones so people doing their first hackathon have something to get inspired by. Here's your page: https://hallofhackss.com/project/temp-sqyptg. Would be awesome if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Alvina! been going through winning hackathon projects and Identity Matrix stood out — your character living on and talking like you after you log off is such a cool idea. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/temp-sqyptg. would be awesome if you shared it 🐊 (made a readme badge too if you want)
+> hey Alvina! been going through winning hackathon projects and Identity Matrix stood out — the idea that your character stays online after you log off, so your friends can still hang out with an AI version of you that talks like you, is such a cool concept. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/temp-sqyptg. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
 **LinkedIn connect note (197/300 chars — send the full DM once they accept):**
 
@@ -97,11 +97,11 @@ Winner (699 teams) · Page: https://hallofhackss.com/project/dial-4rqzc3
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey John! I've been going through a bunch of winning hackathon projects lately and DIAL(*) stood out — the fact that you were actually stranded and got the bots to talk a hotel down to $158 is hilarious. I added it to Hall of Hacks, a site I built collecting the best ones so people doing their first hackathon have something to get inspired by. Here's your page: https://hallofhackss.com/project/dial-4rqzc3. Would be awesome if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
+> Hey John! I've been going through a bunch of winning hackathon projects lately and DIAL(*) stood out — the fact that you were actually stranded and built AI phone bots to call real hotels and haggle one down to $158 is hilarious. I added it to Hall of Hacks, a site I built collecting the best ones so people doing their first hackathon have something to get inspired by. Here's your page: https://hallofhackss.com/project/dial-4rqzc3. Would be awesome if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey John! been going through winning hackathon projects and DIAL(*) stood out — the fact that you were actually stranded and got the bots to talk a hotel down to $158 is hilarious. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/dial-4rqzc3. would be awesome if you shared it 🐊 (made a readme badge too if you want)
+> hey John! been going through winning hackathon projects and DIAL(*) stood out — the fact that you were actually stranded and built AI phone bots to call real hotels and haggle one down to $158 is hilarious. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/dial-4rqzc3. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
 **LinkedIn connect note (187/300 chars — send the full DM once they accept):**
 
@@ -197,11 +197,11 @@ Winner (307 teams) · Page: https://hallofhackss.com/project/yes-or-yes
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Jason! I've been going through a bunch of winning hackathon projects lately and YES? or YES! stood out — letting actual fish make your decisions and having the computer just go do it is so funny. I added it to Hall of Hacks, a site I built collecting the best ones so people doing their first hackathon have something to get inspired by. Here's your page: https://hallofhackss.com/project/yes-or-yes. Would be awesome if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
+> Hey Jason! I've been going through a bunch of winning hackathon projects lately and YES? or YES! stood out — letting real pet fish pick your decisions by which side of the tank they swim to, then having the computer actually do it, is so funny. I added it to Hall of Hacks, a site I built collecting the best ones so people doing their first hackathon have something to get inspired by. Here's your page: https://hallofhackss.com/project/yes-or-yes. Would be awesome if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Jason! been going through winning hackathon projects and YES? or YES! stood out — letting actual fish make your decisions and having the computer just go do it is so funny. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/yes-or-yes. would be awesome if you shared it 🐊 (made a readme badge too if you want)
+> hey Jason! been going through winning hackathon projects and YES? or YES! stood out — letting real pet fish pick your decisions by which side of the tank they swim to, then having the computer actually do it, is so funny. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/yes-or-yes. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
 **LinkedIn connect note (193/300 chars — send the full DM once they accept):**
 
@@ -248,11 +248,11 @@ Modal Challenge Winner (378 teams) · Page: https://hallofhackss.com/project/lon
 
 **Short DM (Twitter / email / Devpost — full, with link):**
 
-> Hey Matthew! I've been going through a bunch of winning hackathon projects lately and Longshot stood out — 200 agents rebuilding Minecraft overnight from one prompt is wild. I added it to Hall of Hacks, a site I built collecting the best ones so people doing their first hackathon have something to get inspired by. Here's your page: https://hallofhackss.com/project/longshot. Would be awesome if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
+> Hey Matthew! I've been going through a bunch of winning hackathon projects lately and Longshot stood out — 200 AI coding agents working together overnight to rebuild Minecraft from a single prompt is wild. I added it to Hall of Hacks, a site I built collecting the best ones so people doing their first hackathon have something to get inspired by. Here's your page: https://hallofhackss.com/project/longshot. Would be awesome if you shared it, and I made a "Featured in Hall of Hacks" badge you can throw on your README if you want. Congrats on the win 🐊
 
 **Twitter DM (shorter):**
 
-> hey Matthew! been going through winning hackathon projects and Longshot stood out — 200 agents rebuilding Minecraft overnight from one prompt is wild. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/longshot. would be awesome if you shared it 🐊 (made a readme badge too if you want)
+> hey Matthew! been going through winning hackathon projects and Longshot stood out — 200 AI coding agents working together overnight to rebuild Minecraft from a single prompt is wild. added it to Hall of Hacks, a site I built collecting the best ones → https://hallofhackss.com/project/longshot. would be awesome if you shared it 🐊 (made a readme badge too if you want)
 
 **LinkedIn connect note (191/300 chars — send the full DM once they accept):**
 
