@@ -34,8 +34,8 @@ export default function PrivacyPage() {
             educational archive as the basis for doing so. We do not add private contact
             details, and we do not track or profile the people featured. If you are featured and
             would like your name, image, or project removed, email{" "}
-            <a href="mailto:jchanh@gmail.com?subject=Hall%20of%20Hacks%20removal%20request">
-              jchanh@gmail.com
+            <a href="mailto:matthewashere0@gmail.com?subject=Hall%20of%20Hacks%20removal%20request">
+              matthewashere0@gmail.com
             </a>{" "}
             and we&rsquo;ll remove it promptly &mdash; you don&rsquo;t need to give a reason.
           </p>
@@ -92,7 +92,7 @@ export default function PrivacyPage() {
           <h2>Contact</h2>
           <p>
             Questions about this policy? Email{" "}
-            <a href="mailto:jchanh@gmail.com">jchanh@gmail.com</a>.
+            <a href="mailto:matthewashere0@gmail.com">matthewashere0@gmail.com</a>.
           </p>
         </section>
       </div>

@@ -15,7 +15,7 @@ export default function SiteFooter() {
         <p>
           On a team and want a project removed?{" "}
           <a
-            href="mailto:jchanh@gmail.com?subject=Hall%20of%20Hacks%20removal%20request"
+            href="mailto:matthewashere0@gmail.com?subject=Hall%20of%20Hacks%20removal%20request"
             className="text-gold underline underline-offset-2"
           >
             Request removal

@@ -56,8 +56,8 @@ export default function TermsPage() {
             If you are a project creator, team member, event organizer, or rights holder and
             you&rsquo;d like a listing corrected, your name or image removed, or your project
             taken down, email{" "}
-            <a href="mailto:jchanh@gmail.com?subject=Hall%20of%20Hacks%20removal%20request">
-              jchanh@gmail.com
+            <a href="mailto:matthewashere0@gmail.com?subject=Hall%20of%20Hacks%20removal%20request">
+              matthewashere0@gmail.com
             </a>{" "}
             and we will honor reasonable requests promptly, normally within a few days. You
             don&rsquo;t need to give a reason to have your own project or personal information
@@ -123,7 +123,7 @@ export default function TermsPage() {
         <section className="flex flex-col gap-2">
           <h2>Contact</h2>
           <p>
-            Questions? Email <a href="mailto:jchanh@gmail.com">jchanh@gmail.com</a>.
+            Questions? Email <a href="mailto:matthewashere0@gmail.com">matthewashere0@gmail.com</a>.
           </p>
         </section>
       </div>
