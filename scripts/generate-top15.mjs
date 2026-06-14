@@ -82,12 +82,12 @@ contacts.forEach((c, i) => {
     `hey ${fn}! been going through winning hackathon projects and ${c.project} stood out ` +
     `— ${opener}. added it to Hall of Hacks, a site I built collecting the best ones → ` +
     `${SITE}/project/${c.slug}. would be awesome if you shared it 🐊 (made a readme badge too if you want)`;
-  // LinkedIn invitations cap the note at 300 chars, so this just opens the door
-  // (the reaction lands in the full DM once they accept).
+  // LinkedIn invitations cap the note at 300 chars. Lead with what's in it for
+  // them (their project made the cut + their page), not a "let's connect" ask.
   const note =
-    `Hey ${fn}! been going through winning hackathon projects and ${c.project} stood out, ` +
-    `so I added it to Hall of Hacks — my site collecting the best ones (hallofhackss.com). ` +
-    `would love to connect!`;
+    `Hey ${fn}! I built a site rounding up the best winning hackathon projects and ` +
+    `${c.project} made the cut — here's your page: ${SITE}/project/${c.slug}. thought ` +
+    `you'd want to see it!`;
   md += `\n**Short DM (Twitter / email / Devpost — full, with link):**\n\n> ${dm}\n\n`;
   md += `**Twitter DM (shorter):**\n\n> ${dmShort}\n\n`;
   md += `**LinkedIn connect note (${note.length}/300 chars — send the full DM once they accept):**\n\n> ${note}\n\n---\n\n`;
