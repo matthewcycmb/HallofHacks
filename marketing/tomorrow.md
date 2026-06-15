@@ -16,7 +16,7 @@ Open the profile, paste, send. If their DMs are closed, message them on LinkedIn
 **DM here**: https://twitter.com/TonyW__
 
 ```
-Hey Tony! I featured Shepherd on a site I built with the best winning hackathon projects — here's your page: https://hallofhackss.com/project/raising-cane. thought you'd want to see it!
+Hey Tony! I featured Shepherd on a site I built with the best winning hackathon projects, here's your page: https://hallofhackss.com/project/raising-cane. thought you'd want to see it!
 ```
 
 ### [ ] 10. Longshot — Matthew Chow
