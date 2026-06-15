@@ -10,8 +10,9 @@ export default function ProjectDetail({ project }: { project: Project }) {
 
   return (
     <div className="flex flex-col">
-      {/* Media pane — big video on top, mobile-style stacked layout */}
-      <div className="flex items-center justify-center rounded-t-[26px] bg-paper-2 p-3 sm:p-4">
+      {/* Media pane — big video on top, mobile-style stacked layout.
+          No fill: the video sits on the card's black so the top isn't a grey frame. */}
+      <div className="flex items-center justify-center rounded-t-[26px] p-3 sm:p-4">
         {showVideo ? (
           <div className="w-full">
             <div className="aspect-video w-full overflow-hidden rounded-2xl shadow-sm">

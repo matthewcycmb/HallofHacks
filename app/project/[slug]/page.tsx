@@ -56,7 +56,7 @@ export default async function ProjectPage({
       >
         ← Back to the feed
       </Link>
-      <div className="mt-3 overflow-hidden rounded-[26px] border border-line bg-paper shadow-[0_18px_40px_-20px_rgba(20,15,2,0.45)]">
+      <div className="mt-3 overflow-hidden rounded-[26px] border border-line bg-[#0f0f0f] shadow-[0_18px_40px_-20px_rgba(0,0,0,0.6)]">
         <ProjectDetail project={project} />
       </div>
     </div>
