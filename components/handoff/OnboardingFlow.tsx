@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useSession } from "next-auth/react";
 import ProjectImage from "@/components/ProjectImage";
+import { track } from "@/lib/analytics";
 
 /**
  * Onboarding landing (design_handoff_landing "Window" design): hero +
@@ -145,12 +146,14 @@ function Landing({ data }: { data: OnboardingData }) {
           <div className="flex items-center gap-4">
             <Link
               href="/signup"
+              onClick={() => track("landing_cta_clicked", { cta: "sign_in" })}
               className="whitespace-nowrap text-[14px] text-ink-soft transition-colors hover:text-ink"
             >
               Sign in
             </Link>
             <Link
               href="/signup"
+              onClick={() => track("landing_cta_clicked", { cta: "get_started" })}
               className={`${BTN_PRIMARY} max-sm:hidden px-[18px] py-[9px] text-[13.5px]`}
             >
               Get started <Arrow />
@@ -175,11 +178,19 @@ function Landing({ data }: { data: OnboardingData }) {
           style={{ animationDelay: "0.13s" }}
         >
           <div className="flex gap-3">
-            <Link href="/signup" className={`${BTN_PRIMARY} px-6 py-3 text-[15px]`}>
+            <Link
+              href="/signup"
+              onClick={() => track("landing_cta_clicked", { cta: "get_started" })}
+              className={`${BTN_PRIMARY} px-6 py-3 text-[15px]`}
+            >
               Get started <Arrow />
             </Link>
             {/* Deliberately ungated: browsing is the value taste, signup gates saves later. */}
-            <Link href="/feed" className={`${BTN_GHOST} px-6 py-3 text-[15px]`}>
+            <Link
+              href="/feed"
+              onClick={() => track("landing_cta_clicked", { cta: "browse_projects" })}
+              className={`${BTN_GHOST} px-6 py-3 text-[15px]`}
+            >
               Browse projects
             </Link>
           </div>

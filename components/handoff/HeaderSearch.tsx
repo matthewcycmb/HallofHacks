@@ -2,6 +2,7 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useEffect, useRef, useState } from "react";
+import { track } from "@/lib/analytics";
 
 function SearchInner() {
   const router = useRouter();
@@ -15,9 +16,14 @@ function SearchInner() {
   }, [open]);
 
   function commit(value: string) {
+    const trimmed = value.trim();
     const next = new URLSearchParams(params.toString());
-    if (value.trim()) next.set("q", value.trim());
-    else next.delete("q");
+    if (trimmed) {
+      next.set("q", trimmed);
+      track("search_submitted", { query_length: trimmed.length });
+    } else {
+      next.delete("q");
+    }
     router.replace(`/feed?${next.toString()}`);
   }
 
@@ -25,7 +31,7 @@ function SearchInner() {
     return (
       <button
         type="button"
-        onClick={() => setOpen(true)}
+        onClick={() => { setOpen(true); track("search_opened"); }}
         className="inline-flex items-center gap-2 rounded-full py-2 text-[15px] font-medium text-ink-soft transition-colors hover:text-ink"
       >
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>

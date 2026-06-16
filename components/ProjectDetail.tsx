@@ -1,6 +1,9 @@
+"use client";
+
 import type { Project } from "@/lib/types";
 import { DOMAIN_TAGS, FORMS } from "@/lib/types";
 import { isAllowedVideoEmbedUrl, watchUrlFromEmbed } from "@/lib/allowlist";
+import { track } from "@/lib/analytics";
 import SaveStar from "./handoff/SaveStar";
 import ProjectImage from "./ProjectImage";
 import TrackProjectOpen from "./analytics/TrackProjectOpen";
@@ -54,6 +57,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
               href={project.devpostUrl}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => track("project_link_opened", { slug: project.slug, destination: "devpost" })}
               className="rounded-full px-3 py-2 font-mono text-[10.5px] uppercase tracking-[0.1em] text-ink-soft transition-colors hover:bg-paper-2 hover:text-ink"
             >
               Devpost ↗
@@ -63,6 +67,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
                 href={project.githubUrl}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => track("project_link_opened", { slug: project.slug, destination: "github" })}
                 className="rounded-full px-3 py-2 font-mono text-[10.5px] uppercase tracking-[0.1em] text-ink-soft transition-colors hover:bg-paper-2 hover:text-ink"
               >
                 GitHub ↗

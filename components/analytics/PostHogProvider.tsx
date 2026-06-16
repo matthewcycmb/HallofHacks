@@ -6,7 +6,6 @@ import posthog from "posthog-js";
 import { PostHogProvider as PHProvider, usePostHog } from "posthog-js/react";
 
 const KEY = process.env.NEXT_PUBLIC_POSTHOG_KEY;
-const HOST = process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://us.i.posthog.com";
 
 /**
  * Client-side PostHog (session replay, funnels, heatmaps, autocapture).
@@ -20,10 +19,14 @@ export default function PostHogProvider({ children }: { children: React.ReactNod
   useEffect(() => {
     if (!KEY || posthog.__loaded) return;
     posthog.init(KEY, {
-      api_host: HOST,
+      api_host: "/ingest",
+      ui_host: "https://us.posthog.com",
+      defaults: "2026-01-30",
       capture_pageview: false, // captured manually below for the App Router
       capture_pageleave: true, // time-on-page / drop-off signal
+      capture_exceptions: true,
       person_profiles: "identified_only",
+      debug: process.env.NODE_ENV === "development",
     });
   }, []);
 

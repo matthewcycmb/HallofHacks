@@ -4,6 +4,7 @@ import { and, eq, inArray } from "drizzle-orm";
 import { db } from "@/lib/db/client";
 import { collections, collectionItems } from "@/lib/db/schema";
 import { getUserId } from "@/lib/auth/dal";
+import { getPostHogClient } from "@/lib/posthog-server";
 import type { Collection, CollectionsResult } from "./types";
 
 // Project slugs are kebab-case. Reject anything else so a direct POST can't
@@ -82,6 +83,7 @@ export async function quickSaveToggleAction(slug: string): Promise<CollectionsRe
     .where(and(eq(collectionItems.collectionId, def.id), eq(collectionItems.slug, slug)))
     .limit(1);
 
+  const action = existing[0] ? "unsave" : "save";
   if (existing[0]) {
     await db
       .delete(collectionItems)
@@ -89,6 +91,9 @@ export async function quickSaveToggleAction(slug: string): Promise<CollectionsRe
   } else {
     await db.insert(collectionItems).values({ collectionId: def.id, slug }).onConflictDoNothing();
   }
+
+  const ph = getPostHogClient();
+  ph.capture({ distinctId: userId, event: "project_saved", properties: { slug, action } });
 
   return { collections: await listCollections(userId) };
 }
@@ -98,6 +103,8 @@ export async function createCollectionAction(name: string): Promise<CollectionsR
   if (!userId) return { error: "UNAUTHENTICATED" };
   const clean = name.trim().slice(0, 60) || "Untitled";
   await db.insert(collections).values({ userId, name: clean });
+  const ph = getPostHogClient();
+  ph.capture({ distinctId: userId, event: "collection_created" });
   return { collections: await listCollections(userId) };
 }
 

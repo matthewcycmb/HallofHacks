@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { useSession } from "next-auth/react";
+import posthog from "posthog-js";
 import {
   enterLocalMode,
   enterServerMode,
@@ -11,6 +12,7 @@ import {
   runMigrationOnce,
 } from "@/lib/collections";
 import { MEMBER_FLAG_KEY } from "@/lib/auth/member-flag";
+import { track } from "@/lib/analytics";
 
 /**
  * Drives the collections store from session state: server mode (synced) when
@@ -19,9 +21,10 @@ import { MEMBER_FLAG_KEY } from "@/lib/auth/member-flag";
  * made on another device show up.
  */
 export default function CollectionsBridge() {
-  const { status } = useSession();
+  const { status, data: session } = useSession();
   const router = useRouter();
   const pathname = usePathname();
+  const prevStatus = useRef<string | null>(null);
 
   useEffect(() => {
     registerAuthPrompt(() => router.push(`/signup?next=${encodeURIComponent(pathname)}`));
@@ -38,6 +41,18 @@ export default function CollectionsBridge() {
         /* private mode — useSession backstop covers it */
       }
       enterServerMode().then(runMigrationOnce);
+
+      // Identify the user in PostHog and fire user_signed_in only on the
+      // transition from loading/unauthenticated → authenticated (not on every render).
+      if (prevStatus.current !== "authenticated" && session?.user?.id) {
+        posthog.identify(session.user.id, {
+          email: session.user.email ?? undefined,
+          name: session.user.name ?? undefined,
+        });
+        if (prevStatus.current === "unauthenticated") {
+          track("user_signed_in");
+        }
+      }
     } else if (status === "unauthenticated") {
       try {
         localStorage.removeItem(MEMBER_FLAG_KEY);
@@ -46,7 +61,8 @@ export default function CollectionsBridge() {
       }
       enterLocalMode();
     }
-  }, [status]);
+    prevStatus.current = status;
+  }, [status, session]);
 
   useEffect(() => {
     if (status !== "authenticated") return;

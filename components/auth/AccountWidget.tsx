@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { signOut, useSession } from "next-auth/react";
+import posthog from "posthog-js";
 import { MEMBER_FLAG_KEY } from "@/lib/auth/member-flag";
+import { track } from "@/lib/analytics";
 
 /**
  * Header auth slot. Logged out (and during the initial session fetch) → a
@@ -108,6 +110,8 @@ export default function AccountWidget() {
               } catch {
                 /* ignore */
               }
+              track("user_signed_out");
+              posthog.reset();
               signOut({ callbackUrl: "/" });
             }}
             className="flex w-full items-center gap-2 rounded-xl px-3 py-2 text-left text-sm font-medium text-ink-soft hover:bg-paper-2 hover:text-ink"
