@@ -59,9 +59,15 @@ export function GroupPill({ event, count }: { event: string; count: number }) {
   useEffect(() => {
     const el = sentinelRef.current;
     if (!el) return;
+    // Observe against the real scroll container (<main overflow-y-auto>), not the
+    // viewport — on mobile the viewport resizes with the browser toolbar, which
+    // desyncs a viewport-rooted observer and makes the pill flicker. The -8px
+    // rootMargin matches the sticky `top-2` so the floating style flips exactly
+    // when the pill pins, not 8px later.
+    const root = el.closest("main");
     const io = new IntersectionObserver(
-      ([entry]) => setStuck(!entry.isIntersecting && entry.boundingClientRect.top < 0),
-      { threshold: 0 },
+      ([entry]) => setStuck(!entry.isIntersecting && entry.boundingClientRect.top < 8),
+      { root, rootMargin: "-8px 0px 0px 0px", threshold: 0 },
     );
     io.observe(el);
     return () => io.disconnect();

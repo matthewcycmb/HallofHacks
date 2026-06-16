@@ -20,12 +20,13 @@ const STORAGE_KEY = "hall-of-hacks:v1:collections";
 const MIGRATED_KEY = "hall-of-hacks:v1:migrated";
 
 /**
- * Session-aware collections store.
- *  - Logged OUT ("local"): reads the legacy localStorage collections read-only;
- *    any save calls the registered auth prompt (→ /signup) instead of writing.
+ * Session-aware collections store (save-first).
+ *  - Logged OUT ("local"): mutations write to localStorage, so anyone can save
+ *    without an account. Those saves migrate into the account on first sign-in
+ *    (runMigrationOnce). No wall — we nudge sign-in to *keep* what they saved.
  *  - Logged IN ("server"): mutations update the snapshot optimistically and call
  *    server actions, then reconcile with the authoritative list they return.
- * The auth bridge (components/auth/CollectionsBridge) drives the mode + prompt.
+ * The auth bridge (components/auth/CollectionsBridge) drives the mode.
  */
 
 let snapshot: Collection[] = [];
@@ -175,37 +176,44 @@ function optimisticToggleSaved(slug: string): boolean {
   return !has;
 }
 
-// ---------- public mutations (gated when logged out) ----------
-export function quickSaveToggle(slug: string): boolean {
-  track("save_clicked", { slug, signedIn: mode === "server" });
-  if (mode !== "server") {
-    // Logged-out save = the moment they hit the signup wall.
-    track("signup_wall_triggered", { slug, source: "save" });
-    authPrompt?.();
-    return false;
+// ---------- local persistence ----------
+function saveLocal() {
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
+  } catch {
+    /* quota / private mode — the in-memory snapshot still works this session */
   }
+}
+
+// ---------- public mutations (save-first: local when logged out, synced when in) ----------
+export function quickSaveToggle(slug: string): boolean {
   const willSave = optimisticToggleSaved(slug);
-  toast(willSave ? "Saved to collection" : "Removed from collection");
-  quickSaveToggleAction(slug).then(applyResult).catch(safeRefetch);
+  track("save_clicked", { slug, signedIn: mode === "server" });
+  if (mode === "server") {
+    toast(willSave ? "Saved to collection" : "Removed from collection");
+    quickSaveToggleAction(slug).then(applyResult).catch(safeRefetch);
+  } else {
+    saveLocal();
+    toast(willSave ? "Saved — sign in to keep it" : "Removed from collection");
+    if (willSave) track("local_save", { slug });
+  }
   return willSave;
 }
 
 export function quickSave(slug: string): boolean {
-  if (mode !== "server") {
-    authPrompt?.();
-    return false;
-  }
   if (savedSet().has(slug)) return false;
   optimisticToggleSaved(slug);
-  quickSaveToggleAction(slug).then(applyResult).catch(safeRefetch);
+  if (mode === "server") {
+    quickSaveToggleAction(slug).then(applyResult).catch(safeRefetch);
+  } else {
+    saveLocal();
+    track("local_save", { slug });
+  }
   return true;
 }
 
 export function toggleInCollection(id: string, slug: string) {
-  if (mode !== "server") {
-    authPrompt?.();
-    return;
-  }
   snapshot = snapshot.map((c) =>
     c.id === id
       ? {
@@ -215,17 +223,15 @@ export function toggleInCollection(id: string, slug: string) {
       : c,
   );
   notify();
-  toggleItemAction(id, slug).then(applyResult).catch(safeRefetch);
+  if (mode === "server") toggleItemAction(id, slug).then(applyResult).catch(safeRefetch);
+  else saveLocal();
 }
 
 export function deleteCollection(id: string) {
-  if (mode !== "server") {
-    authPrompt?.();
-    return;
-  }
   snapshot = snapshot.filter((c) => c.id !== id);
   notify();
-  deleteCollectionAction(id).then(applyResult).catch(safeRefetch);
+  if (mode === "server") deleteCollectionAction(id).then(applyResult).catch(safeRefetch);
+  else saveLocal();
 }
 
 /** Create a collection (SaveMenu "New collection" without an immediate slug). */
@@ -236,22 +242,15 @@ export function createCollection(name: string): Collection {
     slugs: [],
     createdAt: Date.now(),
   };
-  if (mode !== "server") {
-    authPrompt?.();
-    return optimistic;
-  }
   snapshot = [...snapshot, optimistic];
   notify();
-  createCollectionAction(name).then(applyResult).catch(safeRefetch);
+  if (mode === "server") createCollectionAction(name).then(applyResult).catch(safeRefetch);
+  else saveLocal();
   return optimistic;
 }
 
 /** Create a collection and add a slug in one go (SaveMenu primary action). */
 export function createCollectionAndAdd(name: string, slug: string) {
-  if (mode !== "server") {
-    authPrompt?.();
-    return;
-  }
   const optimistic: Collection = {
     id: "pending-" + Date.now(),
     name: name.trim().slice(0, 60) || "Untitled",
@@ -260,5 +259,6 @@ export function createCollectionAndAdd(name: string, slug: string) {
   };
   snapshot = [...snapshot, optimistic];
   notify();
-  createCollectionWithSlugAction(name, slug).then(applyResult).catch(safeRefetch);
+  if (mode === "server") createCollectionWithSlugAction(name, slug).then(applyResult).catch(safeRefetch);
+  else saveLocal();
 }

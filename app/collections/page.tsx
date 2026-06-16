@@ -21,21 +21,21 @@ export default function CollectionsPage() {
     <div className="mx-auto w-full max-w-[1040px] px-[clamp(20px,4vw,48px)] pb-[140px] pt-12">
       <h2 className="text-[26px] font-bold tracking-[-0.01em]">My collections</h2>
       <p className="mt-1 text-sm text-ink-soft">
-        {signedIn ? "Synced to your account across devices." : "Sign in to save and sync."}
+        {signedIn
+          ? "Synced to your account across devices."
+          : "Saved on this device — sign in to keep them everywhere."}
       </p>
 
-      {!signedIn && (
-        <div className="mt-4 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-line bg-paper-2 px-4 py-3">
+      {!signedIn && collections.length > 0 && (
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-gold/30 bg-gold/[0.06] px-4 py-3">
           <p className="text-sm text-ink-soft">
-            {collections.length > 0
-              ? "These are saved on this device. Sign in to sync them across devices."
-              : "Sign in to start saving projects to your account."}
+            These are saved on this device. Sign in free to keep them across devices.
           </p>
           <Link
             href="/signup?next=/collections"
             className="shrink-0 rounded-full bg-ink px-4 py-2 text-[13px] font-bold text-paper transition-colors hover:bg-gold"
           >
-            Sign in →
+            Keep them →
           </Link>
         </div>
       )}
