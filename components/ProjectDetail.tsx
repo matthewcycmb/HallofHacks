@@ -3,6 +3,7 @@ import { DOMAIN_TAGS, FORMS } from "@/lib/types";
 import { isAllowedVideoEmbedUrl, watchUrlFromEmbed } from "@/lib/allowlist";
 import SaveStar from "./handoff/SaveStar";
 import ProjectImage from "./ProjectImage";
+import TrackProjectOpen from "./analytics/TrackProjectOpen";
 
 export default function ProjectDetail({ project }: { project: Project }) {
   const showVideo = project.demoVideoUrl && isAllowedVideoEmbedUrl(project.demoVideoUrl);
@@ -10,6 +11,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
 
   return (
     <div className="flex flex-col">
+      <TrackProjectOpen slug={project.slug} name={project.name} hackathon={project.hackathon} />
       {/* Media pane — big video on top, mobile-style stacked layout.
           No fill: the video sits on the card's black so the top isn't a grey frame. */}
       <div className="flex items-center justify-center rounded-t-[26px] p-3 sm:p-4">

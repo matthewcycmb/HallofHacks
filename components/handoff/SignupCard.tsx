@@ -7,6 +7,7 @@ import { signIn, useSession } from "next-auth/react";
 import { pinCuratedNextVisit } from "@/lib/feed-rotation";
 import { detectInAppBrowser } from "@/lib/in-app-browser";
 import { useHydrated } from "@/lib/use-hydrated";
+import { track } from "@/lib/analytics";
 import { BTN_GHOST } from "./OnboardingFlow";
 
 /**
@@ -65,6 +66,12 @@ export default function SignupCard() {
   useEffect(() => {
     if (status === "authenticated") router.replace(next);
   }, [status, router, next]);
+
+  // Reached the sign-in screen. `next` !== /feed means they were gated here by an
+  // action (e.g. a save), which pairs with the signup_wall_triggered event.
+  useEffect(() => {
+    track("signup_viewed", { next, gated: next !== "/feed" });
+  }, [next]);
 
   // In-app browsers (Instagram, Facebook, TikTok, …) can't show Google's account
   // chooser and Google often blocks OAuth in them. Derive this only after hydration
@@ -144,6 +151,7 @@ export default function SignupCard() {
           <button
             type="button"
             onClick={() => {
+              track("signup_started", { provider: "google" });
               pinCuratedNextVisit();
               signIn("google", { callbackUrl: next });
             }}
@@ -154,6 +162,7 @@ export default function SignupCard() {
           <button
             type="button"
             onClick={() => {
+              track("signup_started", { provider: "github" });
               pinCuratedNextVisit();
               signIn("github", { callbackUrl: next });
             }}

@@ -12,6 +12,7 @@ import {
   migrateCollectionsAction,
 } from "./collections/actions";
 import { toast } from "./toast";
+import { track } from "./analytics";
 
 export type { Collection };
 
@@ -176,7 +177,10 @@ function optimisticToggleSaved(slug: string): boolean {
 
 // ---------- public mutations (gated when logged out) ----------
 export function quickSaveToggle(slug: string): boolean {
+  track("save_clicked", { slug, signedIn: mode === "server" });
   if (mode !== "server") {
+    // Logged-out save = the moment they hit the signup wall.
+    track("signup_wall_triggered", { slug, source: "save" });
     authPrompt?.();
     return false;
   }
