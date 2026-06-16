@@ -70,10 +70,21 @@ export default function PrivacyPage() {
         </section>
 
         <section className="flex flex-col gap-2">
+          <h2>Analytics</h2>
+          <p>
+            To understand how the site is used and improve it, we use Vercel Web Analytics and
+            PostHog. PostHog may record anonymized usage such as page views, clicks, and session
+            replays of how people navigate the site. We use this only to make Hall of Hacks
+            better, and we never sell it.
+          </p>
+        </section>
+
+        <section className="flex flex-col gap-2">
           <h2>Cookies</h2>
           <p>
-            We use a single, secure, http-only session cookie to keep you signed in. We do
-            not use third-party tracking or advertising cookies.
+            We use a secure, http-only session cookie to keep you signed in. Our analytics tools
+            (above) may also set cookies or local storage to measure how the site is used. We do
+            not use advertising cookies or sell your data.
           </p>
         </section>
 
