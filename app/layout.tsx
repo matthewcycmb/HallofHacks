@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import Link from "next/link";
 import { Analytics } from "@vercel/analytics/next";
+
+// Self-hosted so every platform renders the same type. Mac/iPhone showed
+// Helvetica, Windows showed Arial, Android showed Roboto — Inter unifies them.
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 import Providers from "@/components/auth/Providers";
 import AccountWidget from "@/components/auth/AccountWidget";
 import HeaderSaves from "@/components/handoff/HeaderSaves";
@@ -52,7 +57,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full antialiased">
+    <html lang="en" className={`h-full antialiased ${inter.variable}`}>
       {/* data-v in the server HTML: the night theme exists before any JS runs */}
       <body data-v="harbor" className="flex h-full flex-col">
         <JsonLd data={siteJsonLd()} />
