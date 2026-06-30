@@ -839,10 +839,6 @@
     "form": "software",
     "team": [
       {
-        "name": "Gaston Nils Marie de Baudry d&#39;Asson",
-        "devpostProfileUrl": "https://devpost.com/gba"
-      },
-      {
         "name": "Gaston Nils Marie de Baudry d'Asson",
         "devpostProfileUrl": "https://devpost.com/gba"
       },
@@ -917,7 +913,7 @@
       "health",
       "sustainability"
     ],
-    "form": "software",
+    "form": "both",
     "team": [
       {
         "name": "Eugene Lee",
@@ -1219,7 +1215,7 @@
     "domainTags": [
       "ai-ml"
     ],
-    "form": "both",
+    "form": "software",
     "team": [
       {
         "name": "Kai Zhang",

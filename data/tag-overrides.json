@@ -610,5 +610,11 @@
       "ai-ml"
     ],
     "form": "software"
+  },
+  "reeljobs": {
+    "form": "software"
+  },
+  "plant-hopper": {
+    "form": "both"
   }
 }

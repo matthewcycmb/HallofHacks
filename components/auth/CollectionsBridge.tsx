@@ -16,9 +16,10 @@ import { track } from "@/lib/analytics";
 
 /**
  * Drives the collections store from session state: server mode (synced) when
- * signed in, local mode (read-only, saves gated) when not. Registers the
- * sign-in prompt (→ /signup with a return path) and refetches on focus so saves
- * made on another device show up.
+ * signed in, local mode (saved to localStorage with a "sign in to keep it"
+ * toast — not gated) when not. Registers the sign-in prompt (→ /signup with a
+ * return path) used when a session expires mid-use, and refetches on focus so
+ * saves made on another device show up.
  */
 export default function CollectionsBridge() {
   const { status, data: session } = useSession();

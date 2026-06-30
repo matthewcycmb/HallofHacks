@@ -2011,7 +2011,7 @@
       "health",
       "sustainability"
     ],
-    "form": "software",
+    "form": "both",
     "team": [
       {
         "name": "Eugene Lee",
@@ -2188,7 +2188,7 @@
     "domainTags": [
       "ai-ml"
     ],
-    "form": "both",
+    "form": "software",
     "team": [
       {
         "name": "Kai Zhang",

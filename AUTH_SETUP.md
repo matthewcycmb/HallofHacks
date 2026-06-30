@@ -69,6 +69,8 @@ npm run build && npm run start     # kill :3000 first
 - The archive stays **static**: auth state is client-side via `SessionProvider`
   (`components/auth/Providers.tsx`) + `useSession`, so `/`, `/project/[slug]`, etc.
   remain SSG. Only `/api/auth/*` is dynamic.
-- `lib/collections.ts` is session-aware: localStorage (read-only, gated) when
-  logged out, optimistic + server-synced when logged in. `CollectionsBridge`
-  drives the mode and runs a one-time localStorage→account migration on first login.
+- `lib/collections.ts` is session-aware: logged-out saves write to localStorage
+  (with a "Saved — sign in to keep it" toast — **not** gated), optimistic +
+  server-synced when logged in. `CollectionsBridge` drives the mode and runs a
+  one-time localStorage→account migration on first login. The `/signup?next=`
+  prompt only fires if a server action reports the session expired mid-use.

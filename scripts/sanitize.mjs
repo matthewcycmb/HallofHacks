@@ -28,14 +28,51 @@ function isAllowedHost(url, allowlist) {
   );
 }
 
+// Decode the HTML entities Devpost leaves in text (e.g. d&#39;Asson -> d'Asson).
+// Runs before tag-stripping so a decoded "<...>" is still removed; &amp; is
+// decoded last so &amp;#39; resolves to the literal "&#39;", not an apostrophe.
+function decodeEntities(value) {
+  return value
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => fromCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, d) => fromCodePoint(parseInt(d, 10)))
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&");
+}
+
+function fromCodePoint(cp) {
+  try {
+    return Number.isFinite(cp) && cp >= 0 && cp <= 0x10ffff ? String.fromCodePoint(cp) : "";
+  } catch {
+    return "";
+  }
+}
+
 function cleanText(value, max) {
   if (typeof value !== "string") return "";
-  return value
+  return decodeEntities(value)
     .replace(/<[^>]*>/g, " ") // any HTML that survived the scrape
     .replace(/[\u0000-\u001f\u007f]/g, " ")
     .replace(/\s+/g, " ")
     .trim()
     .slice(0, max);
+}
+
+// Drop duplicate teammates (Devpost sometimes lists the same person twice, e.g.
+// once with an undecoded entity in the name). Keyed on the cleaned name.
+function dedupeTeam(members) {
+  const seen = new Set();
+  const out = [];
+  for (const m of members) {
+    const key = m.name.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(m);
+  }
+  return out;
 }
 
 const input = process.argv[2] ?? "data/raw-projects.json";
@@ -79,14 +116,16 @@ for (const p of raw) {
     domainTags: Array.isArray(p.domainTags) ? p.domainTags.map((t) => cleanText(t, 30)).filter(Boolean) : [],
     form: ["software", "hardware", "both"].includes(p.form) ? p.form : "software",
     team: Array.isArray(p.team)
-      ? p.team
-          .map((m) => ({
-            name: cleanText(m.name, 60),
-            ...(m.devpostProfileUrl && isAllowedHost(m.devpostProfileUrl, ["devpost.com", "*.devpost.com"])
-              ? { devpostProfileUrl: m.devpostProfileUrl }
-              : {}),
-          }))
-          .filter((m) => m.name)
+      ? dedupeTeam(
+          p.team
+            .map((m) => ({
+              name: cleanText(m.name, 60),
+              ...(m.devpostProfileUrl && isAllowedHost(m.devpostProfileUrl, ["devpost.com", "*.devpost.com"])
+                ? { devpostProfileUrl: m.devpostProfileUrl }
+                : {}),
+            }))
+            .filter((m) => m.name),
+        )
       : [],
     ...(Number.isInteger(p.featuredRank) ? { featuredRank: p.featuredRank } : {}),
     ...(typeof p.dominantColor === "string" && /^#[0-9a-f]{6}$/i.test(p.dominantColor)
