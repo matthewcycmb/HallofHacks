@@ -111,11 +111,22 @@ export async function enterServerMode() {
 
 export async function refetch() {
   if (mode !== "server") return;
-  applyResult(await getCollectionsAction());
+  try {
+    applyResult(await getCollectionsAction());
+  } catch {
+    // Server action unreachable: a network blip, or deploy skew where this
+    // client's bundle calls a server-action id the newest deployment no longer
+    // exposes (Next's UnrecognizedActionError, seen after a push to main). The
+    // optimistic snapshot stands and the next focus/refetch reconciles — never
+    // let it bubble up as an unhandled rejection (it spams error tracking and
+    // does nothing for the user). Direct callers (CollectionsBridge focus +
+    // sign-in) rely on this not throwing.
+  }
 }
 
-// `.catch(safeRefetch)` — refetch is async, so swallow its own rejection to
-// avoid an unhandled promise rejection when the network is down.
+// Mutation `.catch` handler: a failed optimistic write reconciles by pulling the
+// authoritative list. refetch() already swallows its own errors, so the trailing
+// .catch is just belt-and-suspenders against a future change.
 function safeRefetch() {
   refetch().catch(() => {});
 }
@@ -132,7 +143,15 @@ export async function runMigrationOnce() {
   // Only mark migrated on success — the server merge is idempotent (ON CONFLICT
   // DO NOTHING), so a double-mount running it twice is safe; a failed run must
   // be retried, not silently lost.
-  const res = await migrateCollectionsAction(local);
+  let res: CollectionsResult;
+  try {
+    res = await migrateCollectionsAction(local);
+  } catch {
+    // Network / deploy skew — leave unmigrated (don't set MIGRATED_KEY) so the
+    // next sign-in retries instead of silently dropping the local saves, and
+    // don't let this reject the `enterServerMode().then(runMigrationOnce)` chain.
+    return;
+  }
   if ("collections" in res) {
     window.localStorage.setItem(MIGRATED_KEY, "1");
     // Clear the local copy so it can't bleed into another account on a shared
